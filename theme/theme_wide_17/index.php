@@ -61,24 +61,38 @@ http://ety.kr/board/qa
 	</ol>
 	<div class="carousel-inner" role="listbox">
 	  <!-- Slide One - Set the background image for this slide in the line below -->
-	  <div class="carousel-item active" style="background-image: url('https://via.placeholder.com/2560x550')">
+	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/img/main1.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">에티와이드테마</h3>
-		  <p class="ks4 f20">전체페이지를 와이드 형태로만 제작하였습니다.</p>
+		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
 		</div>
 	  </div>
 	  <!-- Slide Two - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('https://via.placeholder.com/2560x550')">
+	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main2.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">반응형 비즈니스 테마</h3>
-		  <p class="ks4 f20">CMS 인 그누보드 5.4 와 연동되어 사용가능한 테마 입니다.</p>
+		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
 		</div>
 	  </div>
 	  <!-- Slide Three - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('https://via.placeholder.com/2560x550')">
+	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main3.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">테마몰 오픈</h3>
-		  <p class="ks4 f20">테마몰을 오픈하였습니다.</p>
+		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
+		</div>
+	  </div>
+	  <!-- Slide Three - Set the background image for this slide in the line below -->
+	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main4.jpg')">
+		<div class="carousel-caption d-md-block">
+		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
+		</div>
+	  </div>
+	  <!-- Slide Three - Set the background image for this slide in the line below -->
+	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main5.jpg')">
+		<div class="carousel-caption d-md-block">
+		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
 		</div>
 	  </div>
 	</div>
@@ -95,334 +109,10 @@ http://ety.kr/board/qa
 <!-------------------------- ./슬라이드 -------------------------->
 
 
-
-
-
-
-<?php
-/*
-
-https://fonts.google.com/icons?selected=Material+Icons
-위 주소에서 아이콘을 변경할 수 있습니다.
-
-
-*/
-
-?>
-
-
-
-
-<!-------------------------- 아이콘박스 -------------------------->
-<div class="container margin-top-60">
-	<div class="center-heading ks4">
-		<h2>WIDE FREE <strong>THEME</strong> </h2>
-		<span class="center-line"></span>
-		<p class="sub-text margin-bottom-80 ks5 f19">
-		구글 아이콘으로 변경하였습니다.
-		</p>
-	</div>
-
-	<div class="row padding-top-20">
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info-pink-3">
-						<span class="material-icons">search</span>
-						<p class="ks4 f14 h75">
-							애플사의 IOS 부터 안드로이드 운영체제까지 모두 지원되는 무료 비즈니스 반응형 홈페이지 입니다.
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info-pink">
-						<span class="material-icons">logout</span>
-						<p class="ks4 f14 h75">
-							갤럭시 시리즈의 모든 기종에서도 문제 없이 최적화된 사이트로 적용됩니다.
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info-pink-2">
-						<span class="material-icons">schedule</span>
-						<p class="ks4 f14 h75">
-							갤럭시 시리즈의 모든 기종에서도 문제 없이 최적화된 사이트로 적용됩니다.
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					
-					<div class="info">
-						<span class="material-icons">help_outline</span>
-						<p class="ks4 f14 h75">
-							문의사항은 질문게시판에 글 남겨주세요.
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-	</div><!-- /row -->
-
-	<div class="d-none d-sm-block margin-top-30"></div><!-- pc 만 적용 -->
-
-	<!-------------------------- 두번째줄 -------------------------->
-	<div class="row">
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons">lock_open</span>
-						<p class="ks4 f14 h75">
-							애플사의 IOS 부터 안드로이드 운영체제까지 모두 지원되는 무료 비즈니스 반응형 홈페이지 입니다.
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- /col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons">alarm</span>
-						<p class="ks4 f14 h75">
-							갤럭시 시리즈의 모든 기종에서도 문제 없이 최적화된 사이트로 적용됩니다.
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- /col -->
-
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons">sticky_note_2</span>
-						<p class="ks4 f14 h75">
-							갤럭시 시리즈의 모든 기종에서도 문제 없이 최적화된 사이트로 적용됩니다.
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- /col -->
-
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					
-					<div class="info">
-						<span class="material-icons">swap_vert</span>
-						<p class="ks4 f14 h75">
-							문의사항은 질문게시판에 글 남겨주세요.
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- /col -->
-	</div><!-- /row -->
-	<div class="margin-bottom-40"></div>
-</div><!-- /container -->
-
-
-
-
-
-
-
-
-
-
-<!-------------------------- pallax box -------------------------->
-<style>
-.para-box{
-    height: 350px; display: grid; align-items: center;
-}
-</style>
-<div class="parallax-window" data-parallax="scroll" data-image-src="https://via.placeholder.com/2560x1080"><!-- 이미지 주소 -->
+<!-------------------------- parallax 박스 및 countdown -------------------------->
+<div class="parallax-window" data-parallax="scroll" style="background: #979B0B;">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12 para-box text-center">
-				
-				<div class="">
-					<h2 class='text-light ks5'>반응형 커뮤니티 , 반응형 와이드 에티테마 무료 다운로드 바로가기</h2>
-					<br />
-					<button type="button" class="btn btn-outline-light ks4" onclick='window.open("about:blank").location.href="http://ety.kr/board/theme_update"'>바로가기</button> 
-					<button type="button" class="btn btn-outline-light ks4" onclick='window.open("about:blank").location.href="http://ety.kr/shop/item/1623421493"'>7페이지</button>
-				</div>
-			</div>
-
-		</div>
-	</div>
-</div><!-- /parallax -->
-
-
-<!-------------------------- 테마소개 + 유튜브영상 -------------------------->
-
-<div class="padding-top-60 padding-bottom-60" style="background:#f2f2f2;">
-	<div class="container">
-	<div class="center-heading">
-		<h2 class="en1">USE A <strong>LIBRARY</strong> </h2>
-		<span class="center-line"></span>
-	</div>
-	  <div class="row">
-		<div class="col-lg-6">
-		  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PF0BcfP9pkc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-		<div class="col-lg-6">
-		  <h2 class="en1">SERVICE</h2>
-		  <p class="ks4"><strong>새롭게 7개의 페이지가 업로드 되었습니다.</strong></p>
-		  <p class="ks4"><a href="http://ety.kr/shop/item/1623421493" target="_blank">http://ety.kr/shop/item/1623421493</a></p>
-		  <p class="ks4">배포는 소프트존만 가능하며 배포처는 에티테마,SIR 만 제한하고 있습니다.</p>
-		  <p class="ks4">설치방법안내 <strong><a href="http://ety.kr/board/ety_theme_free_movie" target="_blank">http://ety.kr/board/ety_theme_free_movie</a></strong> 에서 진행하고 있으므로 궁금점이나 문의사항이 있으시면 해당 게시판을 이용해주세요.</p>
-		</div>
-	  </div>
-	</div>
-</div>
-
-
-
-
-<!-------------------------- 제품안내 갤러리 -------------------------->
-<div class="container margin-top-60 margin-bottom-60">
-	<div class="center-heading margin-top-40">
-		<h2 class="ks4">제품안내</h2>
-		<span class="center-line"></span>
-		<p class="sub-text margin-bottom-80 ks5 f19">
-		해당 제품에 대한 소개내용 입니다.
-		</p>
-	</div>
-	<!-- LATEST : pic_basic_company -->
-	<?php echo latest('theme/pic_basic_company', 'gallery', 6, 24); ?>
-</div>
-
-
-
-
-<!-------------------------- USE A LIBRARY -------------------------->
-<div class="padding-top-60 padding-bottom-60" style="background:#f2f2f2;">
-	<div class="container">
-		<div class="center-heading">
-			<h2 class="en1">USE A <strong>LIBRARY</strong> </h2>
-			<span class="center-line"></span>
-		</div>
-	  <div class="row f16">
-
-		<div class="col-lg-6 text-left">
-			<img class="img-fluid rounded" src="<?php echo G5_THEME_URL?>/img/s-4.png" alt="">
-		</div>
-
-		<div class="col-lg-6">
-		  <h2 class="en1">JavaScript Library</h2>
-		  <p class="ks4 f20">테마폴더내 라이선스 문서 확인</p>
-		  <ul class="en2">
-		  	<li><strong>GNUboard5</strong></li>
-			<li><strong>Bootstrap4</strong></li>
-			<li>jQuery</li>
-			<li>Font Awesome5</li>
-			<li>Working contact form with validation</li>
-			<li>Unstyled page elements for easy customization</li>
-			<li>Parallax</li>
-			<li>Owl</li>
-			
-		  </ul>
-		  <p class="ks5">
-		  현제 제작되는 모든 테마 및 템플릿은 에티테마 에서 제작되고 있으며 무료 테마 및 템플릿의 경우에는 이미지가 포함 되어 있지 않습니다. 또한 에티테마로 오시면 추가적인 업데이트된 파일을 다운로드 하실 수 있습니다.</p>
-		</div>
-
-	  </div>
-	  <!-- /.row -->
-	</div>
-</div>
-
-
-
-
-
-<!-------------------------- USE A LIBRARY -------------------------->
-<div class="padding-top-60 padding-bottom-60">
-	<div class="container">
-		<div class="center-heading">
-			<h2 class="en1">USE A <strong>LIBRARY</strong> </h2>
-			<span class="center-line"></span>
-		</div>
-		  <div class="row f16">
-
-			<div class="col-lg-6">
-			  <h2 class="en1">JavaScript Library</h2>
-			  <p class="ks4 f20">테마폴더내 라이선스 문서 확인</p>
-			  <ul class="en2">
-				<li><strong>GNUboard5</strong></li>
-				<li><strong>Bootstrap4</strong></li>
-				<li>jQuery</li>
-				<li>Font Awesome5</li>
-				<li>Working contact form with validation</li>
-				<li>Unstyled page elements for easy customization</li>
-				<li>Parallax</li>
-				<li>Owl</li>
-			  </ul>
-			  <p class="ks5">
-			  현제 제작되는 모든 테마는 에티테마 에서 제작되고 있으며 무료 테마 및 템플릿의 경우에는 이미지가 포함 되어 있지 않습니다. 또한 에티테마로 오시면 추가적인 업데이트된 파일을 다운로드 하실 수 있습니다.</p>
-			</div>
-
-			<div class="col-lg-6 text-right">
-				<img class="img-fluid rounded" src="<?php echo G5_THEME_URL?>/img/s-3.png" alt="">
-			</div>
-
-		  </div>
-	  <!-- /.row -->
-	</div>
-</div>
-
-
-
-
-<!-------------------------- parallax 박스 및 countdown -------------------------->
-<div class="parallax-window" data-parallax="scroll" data-image-src="https://via.placeholder.com/2560x1080">
-	<div class="container">
-		<div class="row padding-top-60 padding-bottom-60">
 			<div class="col-md-3 col-6 margin-top-20 margin-bottom-20">
 				<a href="#none">
 					<div class="cbox text-center">
@@ -461,21 +151,274 @@ https://fonts.google.com/icons?selected=Material+Icons
 
 
 
-
-
 <!-------------------------- 게시판 -------------------------->
 <div class="padding-top-60">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 				<?php echo latest('theme/basic_main_one', 'notice', 5, 40);?>
 			</div>
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<?php echo latest('theme/basic_main_one', 'free', 5, 40);?>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 center_contact" style="float: left;text-align: left;margin-top: 10px;">
+				<div style="display: flex;justify-content: center;">
+					<dl style="padding-top: 10px;padding-right: 30px;">
+						<dt style="font-size: 20px;font-weight: bold;margin-bottom: 10px;color: #525252;">고객센터</dt>
+						<dd style="color: #6D6D6D;font-size: 12px;font-weight: 600;">전화상담 가능시간 : 오전 09시 ~ 오후 06시</dd>
+						<dd>
+							<i class="fa fa-phone fa-2x"></i>
+							<span class="phone_no" style="font-size: 29px;color: #525252;font-weight: 700;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">070-000-0000</span>
+						</dd>
+						<dd>
+							<span class="bank_no" style="font-size: 16px;font-weight: 500;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">농협 000-0000-00000-00 000</span>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<?php echo latest('theme/basic_main_one', 'qa', 5, 40);?>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+<?php
+/*
+
+https://fonts.google.com/icons?selected=Material+Icons
+위 주소에서 아이콘을 변경할 수 있습니다.
+
+
+*/
+
+?>
+
+
+
+
+<!-------------------------- 아이콘박스 -------------------------->
+<div class="container margin-top-60">
+	<div class="center-heading ks4">
+		<h2>남원온 <strong>말자람마음자람</strong> </h2>
+		<span class="center-line"></span>
+		<p class="sub-text margin-bottom-80 ks5 f19">
+		부가텍스트
+		</p>
+	</div>
+
+	<div class="row padding-top-20">
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<div class="box">							
+				<div class="icon">
+					<div class="info-pink-3">
+						<span class="material-icons">search</span>
+						<p class="ks4 f14 h75">
+							A 갤러리
+						</p>
+						<div class="margin-top-20 margin-bottom-20">
+							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div><!-- ./col -->
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<div class="box">							
+				<div class="icon">
+					<div class="info-pink">
+						<span class="material-icons">logout</span>
+						<p class="ks4 f14 h75">
+							B 갤러리
+						</p>
+						<div class="margin-top-20 margin-bottom-20">
+							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div><!-- ./col -->
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<div class="box">							
+				<div class="icon">
+					<div class="info-pink-2">
+						<span class="material-icons">schedule</span>
+						<p class="ks4 f14 h75">
+							C 갤러리
+						</p>
+						<div class="margin-top-20 margin-bottom-20">
+							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div><!-- ./col -->
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<div class="box">							
+				<div class="icon">
+					
+					<div class="info">
+						<span class="material-icons">help_outline</span>
+						<p class="ks4 f14 h75">
+							D 갤러리
+						</p>
+						<div class="margin-top-20 margin-bottom-20">
+							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div><!-- ./col -->
+	</div><!-- /row -->
+
+	<div class="d-none d-sm-block margin-top-30"></div><!-- pc 만 적용 -->
+
+	<!-------------------------- 두번째줄 -------------------------->
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<div class="box">							
+				<div class="icon">
+					<div class="info">
+						<span class="material-icons">lock_open</span>
+						<p class="ks4 f14 h75">
+							E 갤러리
+						</p>
+						<div class="margin-top-20 margin-bottom-20">
+							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div><!-- /col -->
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<div class="box">							
+				<div class="icon">
+					<div class="info">
+						<span class="material-icons">alarm</span>
+						<p class="ks4 f14 h75">
+							F 갤러리
+						</p>
+						<div class="margin-top-20 margin-bottom-20">
+							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div><!-- /col -->
+
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<div class="box">							
+				<div class="icon">
+					<div class="info">
+						<span class="material-icons">sticky_note_2</span>
+						<p class="ks4 f14 h75">
+							G 갤러리
+						</p>
+						<div class="margin-top-20 margin-bottom-20">
+							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div><!-- /col -->
+
+		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+			<div class="box">							
+				<div class="icon">
+					
+					<div class="info">
+						<span class="material-icons">swap_vert</span>
+						<p class="ks4 f14 h75">
+							H 갤러리
+						</p>
+						<div class="margin-top-20 margin-bottom-20">
+							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
+						</div>
+					</div>
+				</div>
+				<div class="space"></div>
+			</div> 
+		</div><!-- /col -->
+	</div><!-- /row -->
+	<div class="margin-bottom-40"></div>
+</div><!-- /container -->
+
+
+
+
+
+
+
+
+
+
+<!-------------------------- pallax box -------------------------->
+<!--<style>
+.para-box{
+    height: 350px; display: grid; align-items: center;
+}
+</style>
+<div class="parallax-window" data-parallax="scroll" data-image-src="https://via.placeholder.com/2560x1080">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 para-box text-center">
+				
+				<div class="">
+					<h2 class='text-light ks5'>반응형 커뮤니티 , 반응형 와이드 에티테마 무료 다운로드 바로가기</h2>
+					<br />
+					<button type="button" class="btn btn-outline-light ks4" onclick='window.open("about:blank").location.href="http://ety.kr/board/theme_update"'>바로가기</button> 
+					<button type="button" class="btn btn-outline-light ks4" onclick='window.open("about:blank").location.href="http://ety.kr/shop/item/1623421493"'>7페이지</button>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>--><!-- /parallax -->
+
+
+<!-------------------------- 테마소개 + 유튜브영상 -------------------------->
+<!--
+<div class="padding-top-60 padding-bottom-60" style="background:#f2f2f2;">
+	<div class="container">
+	<div class="center-heading">
+		<h2 class="en1">USE A <strong>LIBRARY</strong> </h2>
+		<span class="center-line"></span>
+	</div>
+	  <div class="row">
+		<div class="col-lg-6">
+		  <iframe width="100%" height="315" src="https://www.youtube.com/embed/PF0BcfP9pkc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="col-lg-6">
+		  <h2 class="en1">SERVICE</h2>
+		  <p class="ks4"><strong>새롭게 7개의 페이지가 업로드 되었습니다.</strong></p>
+		  <p class="ks4"><a href="http://ety.kr/shop/item/1623421493" target="_blank">http://ety.kr/shop/item/1623421493</a></p>
+		  <p class="ks4">배포는 소프트존만 가능하며 배포처는 에티테마,SIR 만 제한하고 있습니다.</p>
+		  <p class="ks4">설치방법안내 <strong><a href="http://ety.kr/board/ety_theme_free_movie" target="_blank">http://ety.kr/board/ety_theme_free_movie</a></strong> 에서 진행하고 있으므로 궁금점이나 문의사항이 있으시면 해당 게시판을 이용해주세요.</p>
+		</div>
+	  </div>
+	</div>
+</div>-->
+
+
+
+
+<!-------------------------- 제품안내 갤러리 -------------------------->
+<!--<div class="container margin-top-60 margin-bottom-60">
+	<div class="center-heading margin-top-40">
+		<h2 class="ks4">제품안내</h2>
+		<span class="center-line"></span>
+		<p class="sub-text margin-bottom-80 ks5 f19">
+		해당 제품에 대한 소개내용 입니다.
+		</p>
+	</div>
+	<?php echo latest('theme/pic_basic_company', 'gallery', 6, 24); ?>
+</div>
+ LATEST : pic_basic_company -->
 
 
 

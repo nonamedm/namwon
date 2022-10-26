@@ -25,11 +25,11 @@
 						<li><a href="<?php echo G5_BBS_URL; ?>/register.php"><i class="fa fa-user-plus" aria-hidden="true"></i> 회원가입</a></li>
 						<li><a href="<?php echo G5_BBS_URL; ?>/login.php"><i class="fas fa-sign-in-alt"></i> 로그인</a></li>
 					<?php }?>
-						<li><a href="<?php echo G5_BBS_URL; ?>/faq.php"><i class="fa fa-question" aria-hidden="true"></i> <span>FAQ</span></a></li>
+						<!-- <li><a href="<?php echo G5_BBS_URL; ?>/faq.php"><i class="fa fa-question" aria-hidden="true"></i> <span>FAQ</span></a></li>
 						<li><a href="<?php echo G5_BBS_URL; ?>/qalist.php"><i class="fa fa-comments" aria-hidden="true"></i> <span>1:1문의</span></a></li>
 						<li><a href="<?php echo G5_BBS_URL; ?>/current_connect.php" class="visit"><i class="fa fa-users" aria-hidden="true"></i> <span>접속자</span><strong class="visit-num">
 						1</strong></a></li>
-						<li><a href="<?php echo G5_BBS_URL; ?>/new.php"><i class="fa fa-history" aria-hidden="true"></i> <span>새글</span></a></li>
+						<li><a href="<?php echo G5_BBS_URL; ?>/new.php"><i class="fa fa-history" aria-hidden="true"></i> <span>새글</span></a></li> -->
 						<?php if($is_admin) { ?>
 						<li><a href="<?php echo G5_URL?>/adm">관리자</a></li>
 						<?php } ?>
@@ -47,9 +47,9 @@
 }
 </style>
 <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white fixed-top">
-  <div class="container whipcontainer">
+  <div class="container whipcontainer" style="text-align:center;">
 	<a class="navbar-brand" href="<?php echo G5_URL?>" class="logo"><img src="<?php echo G5_THEME_URL?>/img/logo.png"></a>
-	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="position: absolute; right: 5px;">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarResponsive" data-hover="dropdown" data-animations="fadeIn fadeIn fadeInUp fadeInRight">
@@ -126,8 +126,8 @@
 		  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
 			
 			<?php if($is_admin) { ?><a class="dropdown-item" href="<?php echo G5_URL?>/adm">관리자</a><?php } ?>
-			<a class="dropdown-item" href="<?php echo G5_BBS_URL; ?>/new.php">새글</a>
-			<a class="dropdown-item" href="<?php echo G5_BBS_URL; ?>/qalist.php">1:1문의</a>
+			<!-- <a class="dropdown-item" href="<?php echo G5_BBS_URL; ?>/new.php">새글</a>
+			<a class="dropdown-item" href="<?php echo G5_BBS_URL; ?>/qalist.php">1:1문의</a> -->
 			<?php if($is_member) { ?>
 			<a class="dropdown-item" href="<?php echo G5_BBS_URL; ?>/member_confirm.php?url=<?php echo G5_BBS_URL; ?>/register_form.php">정보수정</a>
 			<a class="dropdown-item" href="<?php echo G5_BBS_URL; ?>/logout.php">로그아웃</a>

@@ -4321,8 +4321,8 @@ input[type=submit].btn-block {
     justify-content: space-between;
     padding: .5rem 1rem
 }
-
-.navbar>.container,
+/* 
+.navbar>.container, */
 .navbar>.container-fluid {
     display: -ms-flexbox;
     display: flex;
@@ -4342,9 +4342,9 @@ input[type=submit].btn-block {
 
 .navbar-brand {
     display: inline-block;
-    padding-top: .3125rem;
+    /* padding-top: .3125rem;
     padding-bottom: .3125rem;
-    margin-right: 1rem;
+    margin-right: 1rem; */
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap
@@ -4523,6 +4523,10 @@ input[type=submit].btn-block {
         padding-right: 0;
         padding-left: 0
     }
+    .center_contact {
+        background-color:#dbdbdb;
+    }
+
 }
 
 @media (min-width:992px) {
