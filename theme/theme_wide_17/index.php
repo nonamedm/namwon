@@ -58,6 +58,8 @@ http://ety.kr/board/qa
 	  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 	  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 	  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 	</ol>
 	<div class="carousel-inner" role="listbox">
 	  <!-- Slide One - Set the background image for this slide in the line below -->
@@ -404,21 +406,6 @@ https://fonts.google.com/icons?selected=Material+Icons
 	</div>
 </div>-->
 
-
-
-
-<!-------------------------- 제품안내 갤러리 -------------------------->
-<!--<div class="container margin-top-60 margin-bottom-60">
-	<div class="center-heading margin-top-40">
-		<h2 class="ks4">제품안내</h2>
-		<span class="center-line"></span>
-		<p class="sub-text margin-bottom-80 ks5 f19">
-		해당 제품에 대한 소개내용 입니다.
-		</p>
-	</div>
-	<?php echo latest('theme/pic_basic_company', 'gallery', 6, 24); ?>
-</div>
- LATEST : pic_basic_company -->
 
 
 

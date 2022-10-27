@@ -62,14 +62,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			.home{display:inline; width:140px; padding:17px 45px 17px 15px; border-left:1px solid #e1e1e1;}
 			.menu{display:inline;}
 		}
-
-
-
-		@media (min-width: 992px) {
-			article#sub_contents {
-				margin-left:20%;
-			}
-		}
+		
 		article#sub_contents p{
 			color:#5F5F5F;
 			font-family:'Noto Sans KR', '나눔고딕',Nanum Gothic,NanumGothic,"돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif;
@@ -133,51 +126,43 @@ include_once(G5_THEME_PATH.'/head.php');
 				border-top:1px solid #C9C9C9;
 			}
 		}
+		@media (min-width: 992px) {
+			.location {
+				margin-left:15%;
+			}
+		}
 	</style>
 
 
 
 
 	<div class="center-heading en1 margin-top-40">
-		<h2 class="font-weight-bold" style="color:#696969;">사업소개</h2>
+		<h2 class="font-weight-bold" style="color:#696969;">오시는길</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80">
-		<article id="sub_contents" class="cont s_body">
-			<ul>
-				<li><span class="year">2009</span>
-			<ul>
-				<li>- <span class="month">12월</span>남원아동발달센터 개소</li>
-			</ul>
-			</li>
-				<li><span class="year">2010</span>
-			<ul>
-				<li>- <span class="month">2월</span>발달재활서비스 제공기관 지정</li>
-			</ul>
-			</li>
-				<li><span class="year">2020</span>
-			<ul>
-				<li>- <span class="month">12월</span>유한회사 남원아동발달센터 전환</li>
-			</ul>
-			</li>
-			<li><span class="year">2021</span>
-			<ul>
-				<li>- <span class="month">1월</span>보건복지부 지역사회서비스투자사업 등록<br>
-					  <span class="month">　　</span>(아동청소년심리지원서비스/성인심리지원서비스/보완대체의사소통기기활용중재서비스)</li>
-				<li>- <span class="month">　 </span>보건복지부 장애아동발달재활서비스 등록</li>
-				<li>- <span class="month">　 </span>보건복지부 언어발달지원서비스 등록 </li>
-				<li>- <span class="month">4월</span>사회적기업가 육성사업 선정(한국사회적기업진흥원)</li>
-				<li>- <span class="month">5월</span>발달재활서비스 자문기관 선정(한국사회보장정보원)</li>
-				<li>- <span class="month">9월</span>지역형 예비사회적기업 지정(전북)</li>
-			</ul>
-			</li>
-				<li><span class="year">2022</span>
-			<ul>
-				<li>- <span class="month">3월</span>청년마음건강 바우처 등록</li>
-				<li>- <span class="month">7월</span>사회적기업가 육성사업 우수상 수상</li>
-			</ul>
-			</li>
-			</ul>  
+	<div class="container margin-bottom-80">
+		<article id="sub_contents" class="cont s_body" style="text-align:center;">
+			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12">
+				<div class="center-heading en1">
+					<h2 class="font-weight-bold" style="color:#696969;">남원아동발달센터</h2>
+					<span class="center-line"></span>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.8712817288642!2d127.6344159516823!3d37.298184379750005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635d8af4a6c211%3A0x9b0b7257a5a5a5cc!2z7Jes7KO87Iuc7LKt!5e0!3m2!1sko!2skr!4v1654254206256!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+			</div>
+			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12">
+				<div class="center-heading en1">
+					<h2 class="font-weight-bold" style="color:#696969;">남원시 발달장애인 주간활동서비스</h2>
+					<span class="center-line"></span>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.8712817288642!2d127.6344159516823!3d37.298184379750005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635d8af4a6c211%3A0x9b0b7257a5a5a5cc!2z7Jes7KO87Iuc7LKt!5e0!3m2!1sko!2skr!4v1654254206256!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+			</div>
+			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12">
+				<div class="center-heading en1">
+					<h2 class="font-weight-bold" style="color:#696969;">산내지부</h2>
+					<span class="center-line"></span>
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.8712817288642!2d127.6344159516823!3d37.298184379750005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635d8af4a6c211%3A0x9b0b7257a5a5a5cc!2z7Jes7KO87Iuc7LKt!5e0!3m2!1sko!2skr!4v1654254206256!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+			</div>
 		</article>		
 	</div>
 

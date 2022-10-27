@@ -62,14 +62,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			.home{display:inline; width:140px; padding:17px 45px 17px 15px; border-left:1px solid #e1e1e1;}
 			.menu{display:inline;}
 		}
-
-
-
-		@media (min-width: 992px) {
-			article#sub_contents {
-				margin-left:20%;
-			}
-		}
+		
 		article#sub_contents p{
 			color:#5F5F5F;
 			font-family:'Noto Sans KR', '나눔고딕',Nanum Gothic,NanumGothic,"돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif;
@@ -139,45 +132,12 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 	<div class="center-heading en1 margin-top-40">
-		<h2 class="font-weight-bold" style="color:#696969;">사업소개</h2>
+		<h2 class="font-weight-bold" style="color:#696969;">조직도</h2>
 		<span class="center-line"></span>
 	</div>
 	<div class="container margin-top-80 margin-bottom-80">
-		<article id="sub_contents" class="cont s_body">
-			<ul>
-				<li><span class="year">2009</span>
-			<ul>
-				<li>- <span class="month">12월</span>남원아동발달센터 개소</li>
-			</ul>
-			</li>
-				<li><span class="year">2010</span>
-			<ul>
-				<li>- <span class="month">2월</span>발달재활서비스 제공기관 지정</li>
-			</ul>
-			</li>
-				<li><span class="year">2020</span>
-			<ul>
-				<li>- <span class="month">12월</span>유한회사 남원아동발달센터 전환</li>
-			</ul>
-			</li>
-			<li><span class="year">2021</span>
-			<ul>
-				<li>- <span class="month">1월</span>보건복지부 지역사회서비스투자사업 등록<br>
-					  <span class="month">　　</span>(아동청소년심리지원서비스/성인심리지원서비스/보완대체의사소통기기활용중재서비스)</li>
-				<li>- <span class="month">　 </span>보건복지부 장애아동발달재활서비스 등록</li>
-				<li>- <span class="month">　 </span>보건복지부 언어발달지원서비스 등록 </li>
-				<li>- <span class="month">4월</span>사회적기업가 육성사업 선정(한국사회적기업진흥원)</li>
-				<li>- <span class="month">5월</span>발달재활서비스 자문기관 선정(한국사회보장정보원)</li>
-				<li>- <span class="month">9월</span>지역형 예비사회적기업 지정(전북)</li>
-			</ul>
-			</li>
-				<li><span class="year">2022</span>
-			<ul>
-				<li>- <span class="month">3월</span>청년마음건강 바우처 등록</li>
-				<li>- <span class="month">7월</span>사회적기업가 육성사업 우수상 수상</li>
-			</ul>
-			</li>
-			</ul>  
+		<article id="sub_contents" class="cont s_body" style="text-align:center;">
+			<img src="<?php echo G5_URL?>/pages/img/organization.png" class="img-fluid">
 		</article>		
 	</div>
 

@@ -3,8 +3,6 @@ include_once('./_common.php');
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 
-
-
 	<!-------------------------- 상단배경 수정 -------------------------->
 	<?php
 	$background_images = G5_URL.'/pages/img/1.jpg';
@@ -19,7 +17,11 @@ include_once(G5_THEME_PATH.'/head.php');
 		.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:400px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
 	}
 
-
+	.ks5 {
+		font-size: 20px;
+		line-height: 40px;
+		font-weight: 600;
+	}
 
 	</style>
 
@@ -69,45 +71,121 @@ include_once(G5_THEME_PATH.'/head.php');
 		}
 	</style>
 
+
+
 	<div class="center-heading en1 margin-top-40">
-		<h2 class="font-weight-bold" style="color:#696969;">센터장 인사말</h2>
+		<h2 class="font-weight-bold" style="color:#696969;">협력기관 및 업체</h2>
 		<span class="center-line"></span>
 	</div>
+	<div class="container">
+		<div class="row content-boxes-v2 margin-bottom-30" style="text-align:center;">
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<img src="<?php echo G5_URL?>/pages/img/osun.png" class="img-fluid">
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<img src="<?php echo G5_URL?>/pages/img/rodem.png" class="img-fluid">
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<img src="<?php echo G5_URL?>/pages/img/goodneighbor.png" class="img-fluid">
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3">
+				<h2 class="heading">
+					<a href="#">
+						<span class="ks5">쿠미</span>
+					</a>
+				</h2>
+			</div><!-- ./col -->
 
-	<div class="container margin-top-80 margin-bottom-80">
-      <div class="row">
-        <div class="col-lg-6">
-			<img src="<?php echo G5_URL?>/pages/img/about_01.png" class="img-fluid">
-        </div>
-        <div class="col-lg-6 ks4">
-			<ul class="list-unstyle">
-			<li class="media">
-				<div class="media-body">
-					<p class="ks3">
-					안녕하십니까?</p>
-					<p class="ks3">
-					이렇게 만나뵙게 되어 반갑습니다. </p>
-					<p class="ks3">
-					2009년 말 언어발달지체 아동에 대한 중재를 목표로 남원시청 앞 작은 공간을 임대하여 리모델링을 하던 기억이 떠오릅니다. 언어치료 과정에서 정서적 어려움을 동반하는 아동이 많음을 알게 되며 놀이치료, 미술치료, 음악치료, 상담 등 정서적 영역을 확장해왔습니다.
-					</p>
-					<p class="ks3">
-					서비스 대상 또한 초기에는 아동과 청소년 위주로 진행하던 것이 지금은 영유아부터 성인까지 다양한 연령대의 이용자에게 서비스를 제공하고 있습니다.
-					</p>
-					<p class="ks3">
-					짧지 않은 기간동안 함께했던 아동청소년이 어려움을 딛고 사회에 첫발을 내딛는 모습을 보게 될 때 기쁜 눈물이 흐르는 경험을 할 때마다 하고 있는 일의 가치를 깨닫곤 합니다. 
-					</p>
-					<p class="ks3">
-					혹여 말이나 소통에 어려움이 있다면, </p>
-					<p class="ks3">일상에 지쳐 힘드시다면,</p>
-					<p class="ks3">따뜻한 마음과 감동이 흐르는 곳,  남원아동발달센터에 다녀가시지 않겠어요? </p>
-					<p class="ks3">이곳에서 새로운 인연을 기다리겠습니다. </p>
-					<h5 class="mt-0 mb-1" style="font-weight:600;">남원아동발달센터 대표 윤수민</h5>
-				</div>
-			</li>
-			</ul>
-        </div>
-      </div>
-    </div>
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<span class="ks5">더이룸</span>
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<span class="ks5">함께크는나무</span>
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<img src="<?php echo G5_URL?>/pages/img/daegucyber.png" class="img-fluid">
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3">
+				<h2 class="heading">
+					<a href="#">
+						<span class="ks5">농업회사법인 주식회사 레드</span>
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<img src="<?php echo G5_URL?>/pages/img/forestbowling.png" class="img-fluid">
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<span class="ks5">지리산숲으로 협동조합</span>
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<span class="ks5">미미카페공방</span>
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3">
+				<h2 class="heading">
+					<a href="#">
+						<span class="ks5">원주군평생교육아카데미</span>
+					</a>
+				</h2>
+			</div><!-- ./col -->
+			<div class="col-md-3 margin-bottom-30">
+				<h2 class="heading">
+					<a href="#">
+						<span class="ks5">남원시 사회적경제협의회</span>
+					</a>
+				</h2>
+			</div><!-- ./col -->
+		</div><!-- ./row -->
+	</div><!-- /container -->
+
+
+
+    <!-- Page Content -->
+	<style>
+	table td {
+		color: #666;
+		font-size: 15px;
+	}
+	</style>
+
+
+
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
 ?>
