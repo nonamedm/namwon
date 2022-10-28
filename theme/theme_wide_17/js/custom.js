@@ -45,6 +45,7 @@ $(".sendmail").click(function(){
 	var ety_phone = $("input[name=ety_phone]").val();
 	var ety_email = $("input[name=ety_email]").val();
 	var ety_content = $("#ety_content").val();
+	var ety_program = $("input[name=ety_program]").val();
 
 	if(ety_name == '')
 	{
@@ -74,7 +75,7 @@ $(".sendmail").click(function(){
 	}
 
 	var url = surl + "/contact.php";
-	var params = "ety_name=" + ety_name + "&ety_phone=" + ety_phone + "&ety_email=" + ety_email + "&ety_content=" + ety_content;
+	var params = "ety_name=" + ety_name + "&ety_phone=" + ety_phone + "&ety_email=" + ety_email + "&ety_content=" + ety_content+ "&ety_program=" + ety_program;
 
 	$.ajax({      
 		type:"POST",  
