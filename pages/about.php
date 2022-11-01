@@ -29,7 +29,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	  <div class="col-md-5 p-lg-5 mx-auto my-5">
 		<h1 class="display-4 font-weight-bold" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">기관소개</h1>
 		<p class="lead font-weight-bold ko1" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">
-			남원아동발달센터는 행복한 변화를 지원합니다.
+		남원윤수민언어심리상담센터는 행복한 변화를 지원합니다.
 		</p>
 	  </div>
 	  <div class="product-device shadow-sm d-none d-md-block"></div>
@@ -99,9 +99,9 @@ include_once(G5_THEME_PATH.'/head.php');
 					<p class="ks3">
 					혹여 말이나 소통에 어려움이 있다면, </p>
 					<p class="ks3">일상에 지쳐 힘드시다면,</p>
-					<p class="ks3">따뜻한 마음과 감동이 흐르는 곳,  남원아동발달센터에 다녀가시지 않겠어요? </p>
+					<p class="ks3">따뜻한 마음과 감동이 흐르는 곳,  남원윤수민언어심리상담센터에 다녀가시지 않겠어요? </p>
 					<p class="ks3">이곳에서 새로운 인연을 기다리겠습니다. </p>
-					<h5 class="mt-0 mb-1" style="font-weight:600;">남원아동발달센터 대표 윤수민</h5>
+					<h5 class="mt-0 mb-1" style="font-weight:600;">남원윤수민언어심리상담센터 대표 윤수민</h5>
 				</div>
 			</li>
 			</ul>

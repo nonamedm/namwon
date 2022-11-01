@@ -31,7 +31,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	  <div class="col-md-5 p-lg-5 mx-auto my-5">
 		<h1 class="display-4 font-weight-bold" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">기관소개</h1>
 		<p class="lead font-weight-bold ko1" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">
-			남원아동발달센터는 행복한 변화를 지원합니다.
+			남원윤수민언어심리상담센터는 행복한 변화를 지원합니다.
 		</p>
 	  </div>
 	  <div class="product-device shadow-sm d-none d-md-block"></div>

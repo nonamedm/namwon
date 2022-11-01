@@ -24,7 +24,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		<div class="col-md-5 p-lg-5 mx-auto my-5">
 			<h1 class="display-4 font-weight-bold" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">기관소개</h1>
 			<p class="lead font-weight-bold ko1" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">
-				남원아동발달센터는 행복한 변화를 지원합니다.
+			남원윤수민언어심리상담센터는 행복한 변화를 지원합니다.
 			</p>
 		</div>
 		<div class="product-device shadow-sm d-none d-md-block"></div>
@@ -144,7 +144,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		<article id="sub_contents" class="cont s_body" style="text-align:center;">
 			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12">
 				<div class="center-heading en1">
-					<h2 class="font-weight-bold" style="color:#696969;">남원아동발달센터</h2>
+					<h2 class="font-weight-bold" style="color:#696969;">남원윤수민언어심리상담센터</h2>
 					<span class="center-line"></span>
 				</div>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.8712817288642!2d127.6344159516823!3d37.298184379750005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635d8af4a6c211%3A0x9b0b7257a5a5a5cc!2z7Jes7KO87Iuc7LKt!5e0!3m2!1sko!2skr!4v1654254206256!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
