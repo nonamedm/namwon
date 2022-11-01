@@ -9,8 +9,9 @@ $name = $_POST['ety_name'];
 $email = $_POST['ety_phone'];
 $tel = $_POST['ety_email'];
 $con = $_POST['ety_content'];
+$program = $_POST['ety_program'];
 
-if($name && $email && $tel && $con)
+if($name && $email && $tel && $con && $program)
 {
 	$subject = '홈페이지에 문의가 등록되었습니다.';
 	$cf_name = $config['cf_admin_email_name'];
@@ -21,6 +22,7 @@ if($name && $email && $tel && $con)
 	담당자 이메일 : $email
 	전화번호 : $tel
 	문의내용 : $con
+	문의프로그램 : $program
 	".G5_TIME_YMDHIS;
 	mailer($cf_name, $config['cf_admin_email'], $to, $subject, $content);
 }

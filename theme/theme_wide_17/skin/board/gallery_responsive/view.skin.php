@@ -29,7 +29,18 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 		.gall_date { font-size:11px; }
 		.gall_name { font-size:11px; }
-
+		.li-title {
+			text-align:center;
+		}
+		.li-content {
+			font-size:12px;
+		}
+		li {
+			list-style-type : none;
+		}
+		ul {
+			
+		}
 		/* 페이지 selec 박스 */
 		/* mobile */
 		@media (min-width: 1px) and (max-width: 1089px) {
@@ -103,7 +114,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 						 ?>
 
 						<!-- 본문 내용 시작 { -->
-						<div id="bo_v_con"><?php echo get_view_thumbnail($view['content']); ?></div>
+						<div id="bo_v_con" style="text-align:center;"><?php echo get_view_thumbnail($view['content']); ?></div>
 						<?php //echo $view['rich_content']; // {이미지:0} 과 같은 코드를 사용할 경우 ?>
 						<!-- } 본문 내용 끝 -->
 

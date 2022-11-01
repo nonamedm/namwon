@@ -50,7 +50,11 @@ function editor_html($id, $content, $is_dhtml_editor=true)
     }
 
     $smarteditor_class = $is_dhtml_editor ? "smarteditor2" : "";
-    $html .= "\n<textarea id=\"$id\" name=\"$id\" class=\"$smarteditor_class\" maxlength=\"65536\" style=\"width:100%;height:300px\">$content</textarea>";
+    if($content) {
+        $html .= "\n<textarea id=\"$id\" name=\"$id\" class=\"$smarteditor_class\" maxlength=\"65536\" style=\"width:100%;height:300px\">$content</textarea>";
+    } else {
+        $html .= "\n<textarea id=\"$id\" name=\"$id\" class=\"$smarteditor_class\" maxlength=\"65536\" style=\"width:100%;height:300px\">\n<ul>\n<li class=\"li-title\"><strong>약력타이틀 입력(ex:학력)</strong></li>\n<li class=\"li-content\">약력내용 입력(ex:서울불교대학원 상담심리 석사)</li>\n<li class=\"li-content\">추가 필요 시 해당 행을 복사 후 내용 입력</li>\n</ul></textarea>";
+    }
     $html .= "\n<span class=\"sound_only\">웹 에디터 끝</span>";
     return $html;
 }

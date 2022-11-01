@@ -45,7 +45,7 @@ $(".sendmail").click(function(){
 	var ety_phone = $("input[name=ety_phone]").val();
 	var ety_email = $("input[name=ety_email]").val();
 	var ety_content = $("#ety_content").val();
-	var ety_program = $("input[name=ety_program]").val();
+	var ety_program = $("input[name=ety_program]:checked").val();
 
 	if(ety_name == '')
 	{

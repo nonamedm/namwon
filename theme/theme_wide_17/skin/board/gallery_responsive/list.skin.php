@@ -8,6 +8,19 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 	<style>
 		.gall_date { font-size:11px; }
 		.gall_name { font-size:11px; }
+		.li-title {
+			text-align:center;
+		}
+		.li-content {
+			list-style-type : disc;
+			list-style-position : inside;
+			text-indent: -15px;
+    		padding-left: 10px;
+			font-size:12px;
+		}
+		ul {
+			
+		}
 
 	</style>
 
@@ -86,7 +99,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 									 ?>
 										<div class="col-xs-12 col-sm-6 <?php echo $cols;?> card-position">
 											<!-- 체크박스 -->
-											<div class="gall_chk">
+											<!--<div class="gall_chk">
 											<?php if ($is_checkbox) { ?>
 											<label for="chk_wr_id_<?php echo $i ?>" class="sound_only"><?php echo $list[$i]['subject'] ?></label>
 											<input type="checkbox" name="chk_wr_id[]" value="<?php echo $list[$i]['wr_id'] ?>" id="chk_wr_id_<?php echo $i ?>">
@@ -99,7 +112,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 													echo $list[$i]['num'];
 												 ?>
 											</span>
-											</div>
+											</div>-->
 											<!-- /체크박스 -->
 											<div class="card">
 												<a class='img-card' href="<?php echo $list[$i]['href'] ?>">
@@ -130,7 +143,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 												 ?>
 												</a>
 												<div class="card-content">
-													<h4 class="card-title">
+													<h4 class="card-title" style="text-align:center;">
 					 
 														<?php
 														// echo $list[$i]['icon_reply']; 갤러리는 reply 를 사용 안 할 것 같습니다. - 지운아빠 2013-03-04
@@ -139,13 +152,13 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 														<a href="<?php echo $list[$i]['ca_name_href'] ?>" class="bo_cate_link ks3">[<?php echo $list[$i]['ca_name'] ?>]</a>
 														<?php } ?>
 														<a href="<?php echo $list[$i]['href'] ?>" class="bo_tit">
-															<span class="ks4" style="font-size:16px;"><?php echo $list[$i]['subject'] ?></span>
+															<span class="ks4" style="font-size:20px;"><?php echo $list[$i]['subject'] ?></span>
 															<?php if ($list[$i]['comment_cnt']) { ?><span class="sound_only">댓글</span><span class="cnt_cmt">+ <?php echo $list[$i]['wr_comment']; ?></span><span class="sound_only">개</span><?php } ?>
 															<?php
 															// if ($list[$i]['link']['count']) { echo '['.$list[$i]['link']['count']}.']'; }
 															// if ($list[$i]['file']['count']) { echo '<'.$list[$i]['file']['count'].'>'; }
-															if (isset($list[$i]['icon_new'])) echo rtrim($list[$i]['icon_new']);
-															if (isset($list[$i]['icon_hot'])) echo rtrim($list[$i]['icon_hot']);
+															// if (isset($list[$i]['icon_new'])) echo rtrim($list[$i]['icon_new']);
+															// if (isset($list[$i]['icon_hot'])) echo rtrim($list[$i]['icon_hot']);
 															//if (isset($list[$i]['icon_file'])) echo rtrim($list[$i]['icon_file']);
 															//if (isset($list[$i]['icon_link'])) echo rtrim($list[$i]['icon_link']);
 															if (isset($list[$i]['icon_secret'])) echo rtrim($list[$i]['icon_secret']);
@@ -154,25 +167,27 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 
 													</h4>
-													<p class="">
+													<p class=""  style="text-align:center;">
 														<strong><span class="sound_only">작성자 </span><?php echo $list[$i]['name'] ?></strong>
 													</p>
-												</div>
-
-												<div class="card-read-more">
-												<div class="row card-padding">
-
-													<div class="col-md-7 text-left">
-														<span class="sound_only">조회 </span><i class="fa fa-eye" aria-hidden="true"></i> <?php echo "<span class='gall_name' style='margin:2px;'>".$list[$i]['wr_hit']."</span>" ?>
-														<?php if ($is_good) { ?><span class="sound_only">추천</span><strong><i class="far fa-thumbs-up"></i> <?php echo $list[$i]['wr_good'] ?></strong><?php } ?>
-														<?php if ($is_nogood) { ?><span class="sound_only">비추천</span><strong><i class="far fa-thumbs-down"></i> <?php echo $list[$i]['wr_nogood'] ?></strong><?php } ?>
-													</div>
-													<div class="col-md-5 text-right">
-														<span class="gall_date"><span class="sound_only">작성일 </span><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo $list[$i]['datetime'] ?></span>
+													<div class="">
+														<?php echo $list[$i]['wr_content'] ?>
 													</div>
 												</div>
 
-												</div>
+												<!--<div class="card-read-more">
+													<div class="row card-padding">
+
+														<div class="col-md-7 text-left">
+															<span class="sound_only">조회 </span><i class="fa fa-eye" aria-hidden="true"></i> <?php echo "<span class='gall_name' style='margin:2px;'>".$list[$i]['wr_hit']."</span>" ?>
+															<?php if ($is_good) { ?><span class="sound_only">추천</span><strong><i class="far fa-thumbs-up"></i> <?php echo $list[$i]['wr_good'] ?></strong><?php } ?>
+															<?php if ($is_nogood) { ?><span class="sound_only">비추천</span><strong><i class="far fa-thumbs-down"></i> <?php echo $list[$i]['wr_nogood'] ?></strong><?php } ?>
+														</div>
+														<div class="col-md-5 text-right">
+															<span class="gall_date"><span class="sound_only">작성일 </span><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo $list[$i]['datetime'] ?></span>
+														</div>
+													</div>
+												</div>-->
 											</div>
 										</div>
 

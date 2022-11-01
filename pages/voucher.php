@@ -430,12 +430,12 @@ include_once(G5_THEME_PATH.'/head.php');
 						</div>
 					</div>
 					<div class="col-md-12 margin-bottom-20" style="text-align:left;">
-						<div style="display:block;"><input type="radio" name="ety_program" checked>아동청소년심리지원바우처</input></div>
-						<div style="display:block;"><input type="radio" name="ety_program" checked>보완대체의사소통(AAC)기기 활용 중재서비스</input></div>
-						<div style="display:block;"><input type="radio" name="ety_program" checked>발달재활서비스</input></div>
-						<div style="display:block;"><input type="radio" name="ety_program" checked>언어발달지원</input></div>
-						<div style="display:block;"><input type="radio" name="ety_program" checked>성인심리지원서비스</input></div>
-						<div style="display:block;"><input type="radio" name="ety_program" checked>청년마음건강</input></div>
+						<div style="display:block;"><input type="radio" name="ety_program" value="아동청소년심리지원바우처" checked>아동청소년심리지원바우처</input></div>
+						<div style="display:block;"><input type="radio" name="ety_program" value="보완대체의사소통(AAC)기기 활용 중재서비스">보완대체의사소통(AAC)기기 활용 중재서비스</input></div>
+						<div style="display:block;"><input type="radio" name="ety_program" value="발달재활서비스">발달재활서비스</input></div>
+						<div style="display:block;"><input type="radio" name="ety_program" value="언어발달지원">언어발달지원</input></div>
+						<div style="display:block;"><input type="radio" name="ety_program" value="성인심리지원서비스">성인심리지원서비스</input></div>
+						<div style="display:block;"><input type="radio" name="ety_program" value="청년마음건강">청년마음건강</input></div>
 					</div><!-- /col -->
 					<div class="col-md-12 margin-bottom-20">
 						<div class="form-check">
