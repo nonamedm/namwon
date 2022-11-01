@@ -13,7 +13,7 @@ if(!defined('_INDEX_')) { // index에서만 실행
 
 $board_notice =		G5_URL.'/pages/img/1.jpg'; // 공지사항 서브배경 이미지 주소
 $board_free =		G5_URL.'/pages/img/2.jpg';  // 자유게시판 서브배경 이미지 주소
-$board_gallery =	G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
+$board_gallery =	G5_URL.'/pages/img/2.jpg'; // 갤러리 서브배경 이미지 주소
 $board_qa =			G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
 $board_default =	G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
 
@@ -30,6 +30,8 @@ if($bo_table == 'free'){
 // gallery 게시판
 if($bo_table == 'gallery'){
 	$background_images = $board_gallery;
+	$title = '남원윤수민언어심리상담센터';
+	$title_sub = '남원윤수민언어심리상담센터는 행복한 변화를 지원합니다.';
 }
 
 // QA 게시판
@@ -53,7 +55,7 @@ if($bo_table == 'board01'){
 }
 /* desktop */
 @media (min-width: 1090px) {
-	.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:300px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
+	.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:400px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
 }
 </style>
 
@@ -61,8 +63,8 @@ if($bo_table == 'board01'){
 <div class="position-relative overflow-hidden p-md-5 text-center bg-dark bg-sub-1 ety-mt-main about-bg">
 
   <div class="col-md-5 p-lg-5 mx-auto my-5">
-	<h1 class="display-4 font-weight-normal"><?php echo $title?></h1>
-	<p class="lead font-weight-normal ko1">
+	<h1 class="display-4 font-weight-bold " style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;"><?php echo $title?></h1>
+	<p class="lead font-weight-bold ko1" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">
 		<?php echo $title_sub?>
 	</p>
   </div>

@@ -11,6 +11,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 		.li-title {
 			text-align:center;
 		}
+		.b-position {
+			text-align:center;
+		}
 		.li-content {
 			list-style-type : disc;
 			list-style-position : inside;
@@ -115,7 +118,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 											</div>-->
 											<!-- /체크박스 -->
 											<div class="card">
-												<a class='img-card' href="<?php echo $list[$i]['href'] ?>">
+												<a class='img-card' href="<?php echo $list[$i]['href'] ?>"   style="background-color:#b7c1bc;">
 												<?php
 												if ($list[$i]['is_notice']) { // 공지사항  ?>
 													<!--span class="is_notice">공지</span-->
@@ -124,9 +127,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 													// notice
 													$thumb = get_list_thumbnail($board['bo_table'], $list[$i]['wr_id'], $board['bo_gallery_width'], $board['bo_gallery_height'], false, true);
 													if($thumb['src']) {
-														$img_content = '<img src="'.$thumb['src'].'" alt="'.$thumb['alt'].'" >';
+														$img_content = '<img src="'.$thumb['src'].'" alt="'.$thumb['alt'].'">';
 													} else {
-														$img_content = '<span class="no_image">no image</span>';
+														$img_content = '<span class="no_image"></span>';
 													}
 													echo $img_content;
 												?>
@@ -134,9 +137,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 													$thumb = get_list_thumbnail($board['bo_table'], $list[$i]['wr_id'], $board['bo_gallery_width'], $board['bo_gallery_height'], false, true);
 
 													if($thumb['src']) {
-														$img_content = '<img src="'.$thumb['src'].'" alt="'.$thumb['alt'].'" >';
+														$img_content = '<img src="'.$thumb['src'].'" alt="'.$thumb['alt'].'">';
 													} else {
-														$img_content = '<span class="no_image">no image</span>';
+														$img_content = '<span class="no_image"></span>';
 													}
 													echo $img_content;
 												}
@@ -168,7 +171,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 													</h4>
 													<p class=""  style="text-align:center;">
-														<strong><span class="sound_only">작성자 </span><?php echo $list[$i]['name'] ?></strong>
+														<!-- <strong><span class="sound_only">작성자 </span><?php echo $list[$i]['name'] ?></strong> -->
 													</p>
 													<div class="">
 														<?php echo $list[$i]['wr_content'] ?>
