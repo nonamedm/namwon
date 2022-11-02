@@ -343,15 +343,7 @@ jQuery(function($){
 
 <script>
 $(document).ready(function(){
-	$('.breadcrumb-wrap').backstretch([
-	  "<?php echo G5_THEME_URL?>/img/etc/sub-1.png",
-	  "<?php echo G5_THEME_URL?>/img/etc/sub-2.png",
-	  "<?php echo G5_THEME_URL?>/img/etc/sub-3.png",
-	  "<?php echo G5_THEME_URL?>/img/etc/sub-5.png",
-	  "<?php echo G5_THEME_URL?>/img/etc/sub-6.png"
-	], {
-		fade: 750,
-		duration: 4000
-	});
+	//스크립트 실행
+
 });
 </script>
