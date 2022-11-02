@@ -197,166 +197,6 @@ https://fonts.google.com/icons?selected=Material+Icons
 
 
 
-<!-------------------------- 아이콘박스 -------------------------->
-<div class="container margin-top-60">
-	<div class="center-heading ks4">
-		<h2>남원온 <strong>말자람마음자람</strong> </h2>
-		<span class="center-line"></span>
-		<p class="sub-text margin-bottom-80 ks5 f19">
-		부가텍스트
-		</p>
-	</div>
-
-	<div class="row padding-top-20">
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info-pink-3">
-						<span class="material-icons">search</span>
-						<p class="ks4 f14 h75">
-							A 갤러리
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info-pink">
-						<span class="material-icons">logout</span>
-						<p class="ks4 f14 h75">
-							B 갤러리
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info-pink-2">
-						<span class="material-icons">schedule</span>
-						<p class="ks4 f14 h75">
-							C 갤러리
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					
-					<div class="info">
-						<span class="material-icons">help_outline</span>
-						<p class="ks4 f14 h75">
-							D 갤러리
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- ./col -->
-	</div><!-- /row -->
-
-	<div class="d-none d-sm-block margin-top-30"></div><!-- pc 만 적용 -->
-
-	<!-------------------------- 두번째줄 -------------------------->
-	<div class="row">
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons">lock_open</span>
-						<p class="ks4 f14 h75">
-							E 갤러리
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- /col -->
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons">alarm</span>
-						<p class="ks4 f14 h75">
-							F 갤러리
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- /col -->
-
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					<div class="info">
-						<span class="material-icons">sticky_note_2</span>
-						<p class="ks4 f14 h75">
-							G 갤러리
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- /col -->
-
-		<div class="col-lg-3 col-md-3 col-sm-12 col-12">
-			<div class="box">							
-				<div class="icon">
-					
-					<div class="info">
-						<span class="material-icons">swap_vert</span>
-						<p class="ks4 f14 h75">
-							H 갤러리
-						</p>
-						<div class="margin-top-20 margin-bottom-20">
-							<button type="button" class="btn btn-secondary btn-sm ks4" onclick="location.href='#'">바로가기</button>
-						</div>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div><!-- /col -->
-	</div><!-- /row -->
-	<div class="margin-bottom-40"></div>
-</div><!-- /container -->
-
-
-
-
-
-
-
-
 
 
 <!-------------------------- pallax box -------------------------->
@@ -419,10 +259,10 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 
 
 -->
-
+<!-- 
 <div class="container margin-bottom-60">
 	<?php echo latest('theme/pic_basic_owl', 'gallery', 9, 24); ?>
-</div>
+</div> -->
 
 
 
@@ -437,10 +277,23 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 -------------------------->
 <div class="container-fluid">
 	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
-	<div class="row">
-		<div class="col-md-6" style="padding:0px;">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.8712817288642!2d127.6344159516823!3d37.298184379750005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635d8af4a6c211%3A0x9b0b7257a5a5a5cc!2z7Jes7KO87Iuc7LKt!5e0!3m2!1sko!2skr!4v1654254206256!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+	<div class="row" style="justify-content: center;">
+		<div class="col-md-4" style="padding:0px;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.430858410807!2d127.39172170580684!3d35.41935541904724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2f48801d4c51%3A0xb5a7afbf5d59974f!2z64Ko7JuQ7JWE64-Z67Cc64us7IS87YSw!5e0!3m2!1sko!2skr!4v1667371520989!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
 		</div>
+		<div class="col-md-4" style="padding:0px;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6503.069807237711!2d127.38122552633288!3d35.41677726091071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2eb1b9b5e20f%3A0x2516be92368e140b!2z7KCE652867aB64-EIOuCqOybkOyLnCDsi5zssq3rtoHroZwgOQ!5e0!3m2!1sko!2skr!4v1667371790075!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</div>
+</div>
+<!-------------------------- 
+
+지도 : 구글지도로 주소를 검색하신 다음에 공유버튼을 클릭하여 iframe 형식으로 가져오시면 됩니다.
+
+-------------------------->
+<div class="container-fluid">
+	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
+	<div class="row" style="justify-content: center;">
 		<div class="col-md-6 text-left" style="padding:30px; background:#f5f5f5;">
 			<!-- 타이틀 -->
 			<div class="margin-bottom-40">

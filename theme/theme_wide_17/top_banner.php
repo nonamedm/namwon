@@ -16,6 +16,14 @@ $board_free =		G5_URL.'/pages/img/2.jpg';  // 자유게시판 서브배경 이�
 $board_gallery =	G5_URL.'/pages/img/2.jpg'; // 갤러리 서브배경 이미지 주소
 $board_qa =			G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
 $board_default =	G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
+$board_schedule =	G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
+
+// schedule 게시판
+if($bo_table == 'schedule'){
+	$background_images = $board_schedule;
+	$title = '발달장애인 주간활동 센터';
+	$title_sub = '주변 좋은 이웃은 발달장애인의 행복한 변화를 지원합니다.';
+}
 
 // notice 게시판
 if($bo_table == 'notice'){
@@ -60,7 +68,7 @@ if($bo_table == 'board01'){
 </style>
 
 
-<div class="position-relative overflow-hidden p-md-5 text-center bg-dark bg-sub-1 ety-mt-main about-bg">
+<div class="position-relative overflow-hidden p-md-5 text-center bg-white bg-sub-1 ety-mt-main about-bg">
 
   <div class="col-md-5 p-lg-5 mx-auto my-5">
 	<h1 class="display-4 font-weight-bold " style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;"><?php echo $title?></h1>

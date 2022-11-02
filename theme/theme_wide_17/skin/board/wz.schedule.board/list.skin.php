@@ -5,7 +5,14 @@ unset($list);
 
 add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191112">', 0);
 ?>
+<style>
+    @media (max-width: 1089px) {
+        #calendar {
+            width:100% !important;
+        }
 
+    }
+</style>
 <div id="bo_list" style="width:<?php echo $width; ?>">
 
     <div id="bo_btn_top">

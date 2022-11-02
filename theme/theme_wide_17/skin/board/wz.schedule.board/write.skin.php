@@ -14,7 +14,8 @@ if ($res) sql_free_result($res);
 
 $is_time_use = false;
 $wr_5_1 = $wr_5_2 = '00'; // 시작시간
-$wr_6_1 = $wr_6_2 = '00'; // 종료시간
+$wr_6_1 = '23'; // 종료시간
+$wr_6_2 = '59';
 if ($wscb['wrc_display_types']) {
     $arr_display_types = unserialize($wscb['wrc_display_types']);
     if (in_array('timeGridWeek', $arr_display_types) || in_array('timeGridDay', $arr_display_types)) {
@@ -182,7 +183,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
                 <?php
                 for ($z=0; $z<=23; $z++) {
                     $str = sprintf('%02d', $z);
-                    $selected = ($wr_6_1 == $str ? 'selected=selected' : '');
+                    $selected = ($str == '23' ? 'selected=selected' : '');
                     echo '<option value="'.$str.'" '.$selected.'>'.$str.'</option>'.PHP_EOL;
                 }
                 ?>
@@ -191,7 +192,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
                 <?php
                 for ($z=0; $z<=59; $z++) {
                     $str = sprintf('%02d', $z);
-                    $selected = ($wr_6_2 == $str ? 'selected=selected' : '');
+                    $selected = ($str == '59' ? 'selected=selected' : '');
                     echo '<option value="'.$str.'" '.$selected.'>'.$str.'</option>'.PHP_EOL;
                 }
                 ?>
