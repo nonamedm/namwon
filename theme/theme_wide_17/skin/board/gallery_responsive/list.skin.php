@@ -24,6 +24,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 		ul {
 			
 		}
+		.card {
+			border:none !important;
+		}
 
 	</style>
 
@@ -49,8 +52,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 						<!-- 게시판 페이지 정보 및 버튼 시작 { -->
 						<div id="bo_btn_top">
 							<div id="bo_list_total">
-								<span>Total <?php echo number_format($total_count) ?>건</span>
-								<?php echo $page ?> 페이지
+								<!-- <span>Total <?php echo number_format($total_count) ?>건</span>
+								<?php echo $page ?> 페이지 -->
 							</div>
 
 							<?php if ($rss_href || $write_href) { ?>
@@ -218,7 +221,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 								</form>
 								 
 								   <!-- 게시판 검색 시작 { -->
-								<fieldset id="bo_sch">
+								<!-- <fieldset id="bo_sch">
 									<form name="fsearch" method="get">
 									<input type="hidden" name="bo_table" value="<?php echo $bo_table ?>">
 									<input type="hidden" name="sca" value="<?php echo $sca ?>">
@@ -237,7 +240,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 									<input type="text" name="stx" value="<?php echo stripslashes($stx) ?>" required id="stx" class="sch_input" size="25" maxlength="20" placeholder="검색어를 입력해주세요">
 									<input type="submit" value="검색" class="sch_btn">
 									</form>
-								</fieldset>
+								</fieldset> -->
 								<!-- } 게시판 검색 끝 --> 
 							</section>
 						</form>

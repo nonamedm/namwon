@@ -59,6 +59,7 @@ while($row = sql_fetch_array($res)) {
     }
     $rows = array();
     $rows['title']  = $row['wr_subject'];
+    $rows['cont']  = $row['wr_content'];
     if ($wscb['wrc_display_name']) {
         $rows['title'] = '['.$row['wr_name'].'] '.$rows['title'];
     }

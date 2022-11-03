@@ -81,11 +81,16 @@ a:hover { color:#32c5d2; text-decoration: none; }
     background-color: rgba(255, 255, 255, 0.98);
 }
 
-.ks2{font-family: 'S-CoreDream-2ExtraLight';}
+.ks2{font-family: 'NanumSquareRound';}
+.ks3{font-family: 'NanumSquareRound';}
+.ks4{font-family: 'NanumSquareRound';}
+.ks5{font-family: 'NanumSquareRound';}
+.ks9{font-family: 'NanumSquareRound';}
+/* .ks2{font-family: 'S-CoreDream-2ExtraLight';}
 .ks3{font-family: 'S-CoreDream-3Light';}
 .ks4{font-family: 'S-CoreDream-4Regular';}
 .ks5{font-family: 'S-CoreDream-5Medium';}
-.ks9{font-family: 'S-CoreDream-9Black';}
+.ks9{font-family: 'S-CoreDream-9Black';} */
 .na{font-family: 'NanumSquareRound';}
 .na2{font-family: 'Nanum Gothic', sans-serif;}
 

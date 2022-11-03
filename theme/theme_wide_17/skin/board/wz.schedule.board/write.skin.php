@@ -158,6 +158,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
             <input type="text" name="wr_1" value="<?php echo $write['wr_1']; ?>" readonly id="wr_1" required class="frm_input required" size="8" maxlength="8">
             <?php if ($is_time_use) {?>
             <select name="wr_5_1" id="wr_5_1">
+                <option value="">종일</option>
                 <?php
                 for ($z=0; $z<=23; $z++) {
                     $str = sprintf('%02d', $z);
@@ -167,6 +168,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
                 ?>
             </select>
             <select name="wr_5_2" id="wr_5_2">
+                <option value="">종일</option>
                 <?php
                 for ($z=0; $z<=59; $z++) {
                     $str = sprintf('%02d', $z);
@@ -180,6 +182,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
             <input type="text" name="wr_2" value="<?php echo $write['wr_2']; ?>" readonly id="wr_2" required class="frm_input required" size="8" maxlength="8">
             <?php if ($is_time_use) {?>
             <select name="wr_6_1" id="wr_6_1">
+                <option value="">종일</option>
                 <?php
                 for ($z=0; $z<=23; $z++) {
                     $str = sprintf('%02d', $z);
@@ -189,6 +192,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
                 ?>
             </select>
             <select name="wr_6_2" id="wr_6_2">
+                <option value="">종일</option>
                 <?php
                 for ($z=0; $z<=59; $z++) {
                     $str = sprintf('%02d', $z);
