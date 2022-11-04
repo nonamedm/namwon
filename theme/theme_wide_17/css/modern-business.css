@@ -207,11 +207,11 @@ h3 {
 
 #tnb_index {background:#fff;}
 #tnb_index h3 {position:absolute;font-size:0;line-height:0;overflow:hidden}
-#tnb_index ul {margin:0 auto;width: 1120px;background:#333333;zoom:1}
+#tnb_index ul {margin:0 auto;width: 1120px;background:#fff;zoom:1}
 #tnb_index ul:after {display:block;visibility:hidden;clear:both;content:""}
-#tnb_index li:first-child {border-right:1px solid #444444}
-#tnb_index li {float:right;border-left:1px solid #444444;margin-bottom:-1px;}
-#tnb_index a {display:inline-block;padding:0 10px;color:#eee;line-height:35px;}
+/* #tnb_index li:first-child {border-right:1px solid #444444} */
+#tnb_index li {float:right;margin-bottom:-1px;}
+#tnb_index a {display:inline-block;padding:0 10px;color:#444444;line-height:35px;}
 #tnb_index a:focus, #tnb_index a:hover {color:#4ea1d3;background:#fafafa;font-family:'Gulim'; font-size:12px}
 #tnb_index .tnb_index_admin a{color:#ff0000;}
 #tnb_index .tnb_index_left{float:left}

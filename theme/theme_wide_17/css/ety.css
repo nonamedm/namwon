@@ -24,7 +24,7 @@
 		left: 0;
 		z-index: 1030;
 	}
-	.top-line { background:#333333; }
+	.top-line { background:#fff; }
 	.fixed-top {
 		position: fixed;
 		top: 34px;
