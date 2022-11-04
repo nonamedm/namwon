@@ -3,10 +3,92 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
 // add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
 add_stylesheet('<link rel="stylesheet" href="'.$faq_skin_url.'/style.css">', 0);
+
+
+
 ?>
 
+	<!-------------------------- 상단배경 수정 -------------------------->
+	<?php
+	$background_images = 'https://via.placeholder.com/1920x300';
+	?>
+	<style>
+	/* mobile */
+	@media (min-width: 1px) and (max-width: 1089px) {
+			.about-bg{background-image:url('<?php echo $background_images?>');width:100%;-webkit-background-size:100% auto;-moz-background-size:100% auto;-o-background-size:100% auto;background-position:center; background-size: cover; background-repeat:no-repeat;color:#fff;height:100%;padding-top: 70px;}.ml-auto,.mx-auto{padding-top:10px;padding-bottom:10px}.lead{font-size:12px;font-weight:300}.display-4{ font-size:1.5rem;font-weight:300;}.btn,a.btn{line-height:20px!important;height:20px!important;padding:0 5px;text-align:center;font-weight:700;border:0;-webkit-transition:background-color .3s ease-out;-moz-transition:background-color .3s ease-out;-o-transition:background-color .3s ease-out;transition:background-color .3s ease-out}.btn-outline-secondary{font-size:11px;padding:0 5px}
+	}
+	/* desktop */
+	@media (min-width: 1090px) {
+		.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:300px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
+	}
+	p{margin:0px;padding:0px;}
+	</style>
+
+
+	<div class="position-relative overflow-hidden p-md-5 text-center bg-dark bg-sub-1 ety-mt-main about-bg">
+
+	  <div class="col-md-5 p-lg-5 mx-auto my-5">
+		<h1 class="display-4 font-weight-normal"><?php echo $title?></h1>
+		<p class="lead font-weight-normal ko1">
+			<?php echo $title_sub?>
+		</p>
+	  </div>
+	  <div class="product-device shadow-sm d-none d-md-block"></div>
+	  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+	</div>
+	<!-------------------------- ./상단배경 수정 -------------------------->
+
+
+
+		<style>
+		@media only screen and (max-width: 320px) {
+			.SF_board{
+				overflow-x: auto;white-space: nowrap;
+			}
+		}
+
+		@media only screen and (min-width: 321px) and (max-width: 768px){
+			.SF_board{
+				overflow-x: auto;white-space: nowrap;
+			}
+		}
+
+		/* 페이지 selec 박스 */
+		/* mobile */
+		@media (min-width: 1px) and (max-width: 1089px) {
+			.mb-5, .my-5 {
+				margin-bottom: 0rem!important;
+			}
+			.select-menu{width:190px; height:58px; padding:17px 70px 17px 5px; border-top:none; border-bottom:1px solid #fff; border-left: 1px solid #e1e1e1;border-right: 1px solid #f2f2f2;}
+			.home{display:inline; width:140px; padding:17px 45px 17px 15px; border-left:1px solid #e1e1e1;}
+			.menu{display:inline;}
+		}
+		/* desktop */
+		@media (min-width: 1090px) {
+			.select-menu{width:190px; height:58px; padding:17px 70px 17px 5px; border-top:none; border-bottom:1px solid #fff; border-left: 1px solid #e1e1e1;border-right: 1px solid #f2f2f2;}
+			.home{display:inline; width:140px; padding:17px 45px 17px 15px; border-left:1px solid #e1e1e1;}
+			.menu{display:inline;}
+            .center-heading {
+                margin-top:110px !important;
+            }
+		}
+        .center-heading {
+            margin-top:70px !important;
+        }
+	</style>
+
+
+
 <!-- FAQ 시작 { -->
+<div class="container ety-mt margin-bottom-80 ks4">
+
+
 <?php
+
+if ($admin_href)
+    echo '<div class="faq_admin"><a href="'.$admin_href.'" class="btn_admin btn">FAQ 수정</a></div>';
+
+
 if ($himg_src)
     echo '<div id="faq_himg" class="faq_img"><img src="'.$himg_src.'" alt=""></div>';
 
@@ -14,21 +96,30 @@ if ($himg_src)
 echo '<div id="faq_hhtml">'.conv_content($fm['fm_head_html'], 1).'</div>';
 ?>
 
-<fieldset id="faq_sch">
-    <legend>FAQ 검색</legend>
+
+<div class="row">
+		<div class="col-md-12">
+			<div class="center-heading">
+				<h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">자주하는 질문</h2>
+				<span class="center-line"></span>
+			</div><!--center-heading-->
+		</div>
+	</div>
+
+<fieldset id="faq_sch" style="display:none;">
     <form name="faq_search_form" method="get">
-    <span class="sch_tit">FAQ 검색</span>
     <input type="hidden" name="fm_id" value="<?php echo $fm_id;?>">
     <label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
-    <input type="text" name="stx" value="<?php echo $stx;?>" required id="stx" class="frm_input" size="15" maxlength="15">
+    <input type="text" name="stx" value="<?php echo $stx;?>" required id="stx" class="faq-input" maxlength="15">
     <button type="submit" value="검색" class="btn_submit"><i class="fa fa-search" aria-hidden="true"></i> 검색</button>
     </form>
 </fieldset>
 
+
 <?php
 if( count($faq_master_list) ){
 ?>
-<nav id="bo_cate">
+<!-- <nav id="bo_cate">
     <h2>자주하시는질문 분류</h2>
     <ul id="bo_cate_ul">
         <?php
@@ -45,7 +136,7 @@ if( count($faq_master_list) ){
         }
         ?>
     </ul>
-</nav>
+</nav> -->
 <?php } ?>
 
 <div id="faq_wrap" class="faq_<?php echo $fm_id; ?>">
@@ -61,13 +152,11 @@ if( count($faq_master_list) ){
                     continue;
             ?>
             <li>
-                <h3>
-                	<span class="tit_bg">Q</span><a href="#none" onclick="return faq_open(this);"><?php echo conv_content($v['fa_subject'], 1); ?></a>
-                	<button class="tit_btn" onclick="return faq_open(this);"><i class="fa fa-plus" aria-hidden="true"></i><span class="sound_only">열기</span></button>
-                </h3>
+                <h3><span class="tit_bg" style="font-size:1rem;">Q</span><a href="#none" onclick="return faq_open(this);"><?php echo conv_content($v['fa_subject'], 1); ?></a></h3>
                 <div class="con_inner">
+                    <span class="tit_bg">A</span>
                     <?php echo conv_content($v['fa_content'], 1); ?>
-                    <button type="button" class="closer_btn"><i class="fa fa-minus" aria-hidden="true"></i><span class="sound_only">닫기</span></button>
+                    <div class="con_closer"><button type="button" class="closer_btn btn_b03">닫기</button></div>
                 </div>
             </li>
             <?php
@@ -100,37 +189,26 @@ if ($timg_src)
     echo '<div id="faq_timg" class="faq_img"><img src="'.$timg_src.'" alt=""></div>';
 ?>
 
-
+</div><!-- /container -->
 <!-- } FAQ 끝 -->
 
-<?php
-if ($admin_href)
-    echo '<div class="faq_admin"><a href="'.$admin_href.'" class="btn_admin btn" title="FAQ 수정"><i class="fa fa-cog fa-spin fa-fw"></i><span class="sound_only">FAQ 수정</span></a></div>';
-?>
+
 
 <script src="<?php echo G5_JS_URL; ?>/viewimageresize.js"></script>
 <script>
-jQuery(function() {
+$(function() {
     $(".closer_btn").on("click", function() {
-        $(this).closest(".con_inner").slideToggle('slow', function() {
-			var $h3 = $(this).closest("li").find("h3");
-
-			$("#faq_con li h3").removeClass("faq_li_open");
-			if($(this).is(":visible")) {
-				$h3.addClass("faq_li_open");
-			}
-		});
+        $(this).closest(".con_inner").slideToggle();
     });
 });
 
 function faq_open(el)
-{	
-    var $con = $(el).closest("li").find(".con_inner"),
-		$h3 = $(el).closest("li").find("h3");
+{
+    var $con = $(el).closest("li").find(".con_inner");
 
     if($con.is(":visible")) {
         $con.slideUp();
-		$h3.removeClass("faq_li_open");
+
     } else {
         $("#faq_con .con_inner:visible").css("display", "none");
 
@@ -138,9 +216,6 @@ function faq_open(el)
             function() {
                 // 이미지 리사이즈
                 $con.viewimageresize2();
-				$("#faq_con li h3").removeClass("faq_li_open");
-
-				$h3.addClass("faq_li_open");
             }
         );
     }

@@ -144,24 +144,28 @@ include_once(G5_THEME_PATH.'/head.php');
 		<article id="sub_contents" class="cont s_body" style="text-align:center;">
 			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12">
 				<div class="center-heading en1">
-					<h2 class="font-weight-bold" style="color:#696969;">남원윤수민언어심리상담센터</h2>
+					<h2 class="font-weight-bold" style="color:#696969;">남원아동발달센터</h2>
 					<span class="center-line"></span>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Tel. 063-636-4875</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
 				</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.8712817288642!2d127.6344159516823!3d37.298184379750005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635d8af4a6c211%3A0x9b0b7257a5a5a5cc!2z7Jes7KO87Iuc7LKt!5e0!3m2!1sko!2skr!4v1654254206256!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.430858410807!2d127.39172170580684!3d35.41935541904724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2f48801d4c51%3A0xb5a7afbf5d59974f!2z64Ko7JuQ7JWE64-Z67Cc64us7IS87YSw!5e0!3m2!1sko!2skr!4v1667371520989!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
 			</div>
 			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12">
 				<div class="center-heading en1">
 					<h2 class="font-weight-bold" style="color:#696969;">남원시 발달장애인 주간활동서비스</h2>
 					<span class="center-line"></span>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전라북도 남원시 시청북로 9</p>
 				</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.8712817288642!2d127.6344159516823!3d37.298184379750005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635d8af4a6c211%3A0x9b0b7257a5a5a5cc!2z7Jes7KO87Iuc7LKt!5e0!3m2!1sko!2skr!4v1654254206256!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6503.069807237711!2d127.38122552633288!3d35.41677726091071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2eb1b9b5e20f%3A0x2516be92368e140b!2z7KCE652867aB64-EIOuCqOybkOyLnCDsi5zssq3rtoHroZwgOQ!5e0!3m2!1sko!2skr!4v1667371790075!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12">
 				<div class="center-heading en1">
 					<h2 class="font-weight-bold" style="color:#696969;">산내지부</h2>
 					<span class="center-line"></span>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전라북도 남원시 산내면 백일리 375-5</p>
 				</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.8712817288642!2d127.6344159516823!3d37.298184379750005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35635d8af4a6c211%3A0x9b0b7257a5a5a5cc!2z7Jes7KO87Iuc7LKt!5e0!3m2!1sko!2skr!4v1654254206256!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.2425596104895!2d127.6379431!3d35.424020899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356fcaa7921bac27%3A0x36d373fb1f07cce7!2z7KCE652867aB64-EIOuCqOybkOyLnCDsgrDrgrTrqbQg67Cx7J2866asIDM3Mg!5e0!3m2!1sko!2skr!4v1667523100405!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</article>		
 	</div>

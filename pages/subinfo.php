@@ -17,6 +17,9 @@ include_once(G5_THEME_PATH.'/head.php');
 		.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:400px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
 	}
 
+	.ks3 {
+		padding-left:30px;
+	}
 	.ks5 {
 		font-size: 20px;
 		line-height: 40px;
@@ -128,19 +131,43 @@ include_once(G5_THEME_PATH.'/head.php');
 				<div class="media-body">
 					<!-- <h4 class="center-heading font-weight-bold">아동청소년심리지원바우처</h4> -->
 
-					<h5 class="font-weight-bold">지원대상</h5>
+					<h5 class="font-weight-bold" style="display:flex;">
+					<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#87B0E6">
+						<g>
+							<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+							<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+						</g>
+					</svg>
+					</div></div>
+					지원대상</h5>
 					<p class="ks3">
 					문제행동아동의 조기 발견과 개입을 통하여 문제행동을
 					감소시키고, 정서행동장애로의 발전을 막아 정상적 성장 지원</p>
 					
-					<h5 class="font-weight-bold">서비스 대상</h5>
+					<h5 class="font-weight-bold" style="display:flex;">
+					<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#87B0E6">
+						<g>
+							<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+							<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+						</g>
+					</svg>
+					</div></div>
+					서비스 대상</h5>
 					<p class="ks3">
 					만 18세 이상 ~ 만 65세 미만의 「장애인복지법」상 등록된 지적 및 자폐성 장애인</p>
 					<p class="ks3">
 					※ 장애인 당사자 및 가구의 소득수준과 무관하게 신청 가능</p>
 
 					
-					<h5 class="font-weight-bold">지원제외</h5>
+					<h5 class="font-weight-bold" style="display:flex;">
+					<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#87B0E6">
+						<g>
+							<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+							<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+						</g>
+					</svg>
+					</div></div>
+					지원제외</h5>
 					<p class="ks3">
 					> 노인장기요양보험법」제2조제1호에 따른 노인 등에 해당하는 자</p>
 					<p class="ks3">
@@ -150,15 +177,39 @@ include_once(G5_THEME_PATH.'/head.php');
 					<p class="ks3">
 					※ 장애인 당사자 및 가구의 소득수준과 무관하게 신청 가능</p>
 					
-					<h5 class="font-weight-bold">우선순위</h5>
+					<h5 class="font-weight-bold" style="display:flex;">
+					<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#87B0E6">
+						<g>
+							<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+							<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+						</g>
+					</svg>
+					</div></div>
+					우선순위</h5>
 					<p class="ks3">
 					도전적 행동 등 최중증 발달장애인을 우선 선정 (전체 인원의 20%)</p>
 					
-					<h5 class="font-weight-bold">신청장소</h5>
+					<h5 class="font-weight-bold" style="display:flex;">
+					<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#87B0E6">
+						<g>
+							<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+							<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+						</g>
+					</svg>
+					</div></div>
+					신청장소</h5>
 					<p class="ks3">
 					급여 대상 발달장애인의 주민등록상 주소지 읍·면·동</p>
 					
-					<h5 class="font-weight-bold">제출방법</h5>
+					<h5 class="font-weight-bold" style="display:flex;">
+					<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="20" width="20" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#87B0E6">
+						<g>
+							<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+							<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+						</g>
+					</svg>
+					</div></div>
+					제출방법</h5>
 					<p class="ks3">
 					방문에 의한 신청, 우편, 팩스에 의한 신청 가능</p>
 					

@@ -59,9 +59,19 @@ if(defined('_INDEX_')) {
 @media (min-width: 1090px) {
 	.ety-main{margin-bottom:130px;}
 }
+@media (min-width: 992px) {
+	.center-heading, #bo_list {
+		margin-top:235px !important;
+	}
+}
+.about-bg {
+	display:none;
+}
+.center-heading, #bo_list {
+	margin-top:150px;
+}
 </style>
 <div class="ety-main"></div>
-
 
 
 <!-------------------------- 게시판 상단 배경 수정하는 곳 -------------------------->

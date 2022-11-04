@@ -65,35 +65,35 @@ http://ety.kr/board/qa
 	  <!-- Slide One - Set the background image for this slide in the line below -->
 	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/img/main1.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
 		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
 		</div>
 	  </div>
 	  <!-- Slide Two - Set the background image for this slide in the line below -->
 	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main2.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
 		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
 		</div>
 	  </div>
 	  <!-- Slide Three - Set the background image for this slide in the line below -->
 	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main3.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
 		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
 		</div>
 	  </div>
 	  <!-- Slide Three - Set the background image for this slide in the line below -->
 	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main4.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
 		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
 		</div>
 	  </div>
 	  <!-- Slide Three - Set the background image for this slide in the line below -->
 	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main5.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원온 말자람마음자람</h3>
+		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
 		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
 		</div>
 	  </div>
@@ -119,7 +119,7 @@ http://ety.kr/board/qa
 				<a href="#none">
 					<div class="cbox text-center">
 						<span class="material-icons">alarm</span>
-						<p class="text-center ks4">바로가기</p>
+						<p class="text-center ks4">여기에</p>
 					</div><!-- /cbox -->
 				</a>
 			</div><!-- /col -->
@@ -127,7 +127,7 @@ http://ety.kr/board/qa
 				<a href="#none">
 					<div class="cbox text-center">
 						<span class="material-icons">hourglass_empty</span>
-						<p class="text-center ks4">바로가기</p>
+						<p class="text-center ks4">들어갈</p>
 					</div><!-- /cbox -->
 				</a>
 			</div><!-- /col -->
@@ -135,7 +135,7 @@ http://ety.kr/board/qa
 				<a href="#none">
 					<div class="cbox text-center">
 						<span class="material-icons">trending_down</span>
-						<p class="text-center ks4">바로가기</p>
+						<p class="text-center ks4">메뉴를</p>
 					</div><!-- /cbox -->
 				</a>
 			</div><!-- /col -->
@@ -143,7 +143,7 @@ http://ety.kr/board/qa
 				<a href="#none">
 					<div class="cbox text-center">
 						<span class="material-icons">system_update_alt</span>
-						<p class="text-center ks4">바로가기</p>
+						<p class="text-center ks4">알려주세요</p>
 					</div><!-- /cbox -->
 				</a>
 			</div><!-- /col -->
@@ -167,7 +167,7 @@ http://ety.kr/board/qa
 						<dd style="color: #6D6D6D;font-size: 12px;font-weight: 600;">전화상담 가능시간 : 오전 09시 ~ 오후 06시</dd>
 						<dd>
 							<i class="fa fa-phone fa-2x"></i>
-							<span class="phone_no" style="font-size: 29px;color: #525252;font-weight: 700;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">070-000-0000</span>
+							<span class="phone_no" style="font-size: 29px;color: #525252;font-weight: 700;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">063-636-4875</span>
 						</dd>
 						<dd>
 							<span class="bank_no" style="font-size: 16px;font-weight: 500;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">농협 000-0000-00000-00 000</span>
@@ -275,14 +275,28 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 지도 : 구글지도로 주소를 검색하신 다음에 공유버튼을 클릭하여 iframe 형식으로 가져오시면 됩니다.
 
 -------------------------->
-<div class="container-fluid">
+<div class="container">
 	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
 	<div class="row" style="justify-content: center;">
-		<div class="col-md-4" style="padding:0px;">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.430858410807!2d127.39172170580684!3d35.41935541904724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2f48801d4c51%3A0xb5a7afbf5d59974f!2z64Ko7JuQ7JWE64-Z67Cc64us7IS87YSw!5e0!3m2!1sko!2skr!4v1667371520989!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6" style="padding:1.5%;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.430858410807!2d127.39172170580684!3d35.41935541904724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2f48801d4c51%3A0xb5a7afbf5d59974f!2z64Ko7JuQ7JWE64-Z67Cc64us7IS87YSw!5e0!3m2!1sko!2skr!4v1667371520989!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+		</div>		
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6" style="padding: 3.5%;">
+			<p style="font-size: 20px;font-weight: bold;margin-bottom: 10px;color: #525252;">남원온 말자람 마음자람</p>
+			<p style="font-size: 18px;margin-bottom: 10px;color: #525252;">Tel. 063. 636. 4875</p>
+			<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
+		</div>		
+	</div>
+</div>
+<div class="container">
+	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
+	<div class="row" style="justify-content: center;">
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6" style="padding:1.5%;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6503.069807237711!2d127.38122552633288!3d35.41677726091071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2eb1b9b5e20f%3A0x2516be92368e140b!2z7KCE652867aB64-EIOuCqOybkOyLnCDsi5zssq3rtoHroZwgOQ!5e0!3m2!1sko!2skr!4v1667371790075!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
-		<div class="col-md-4" style="padding:0px;">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6503.069807237711!2d127.38122552633288!3d35.41677726091071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2eb1b9b5e20f%3A0x2516be92368e140b!2z7KCE652867aB64-EIOuCqOybkOyLnCDsi5zssq3rtoHroZwgOQ!5e0!3m2!1sko!2skr!4v1667371790075!5m2!1sko!2skr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6" style="padding: 3.5%;">
+			<p style="font-size: 18px;font-weight: bold;margin-bottom: 10px;color: #525252;">남원시 발달장애인 주간 활동 서비스</p>
+			<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
 		</div>
 	</div>
 </div>

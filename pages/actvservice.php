@@ -143,8 +143,8 @@ include_once(G5_THEME_PATH.'/head.php');
 		<h2 class="font-weight-bold" style="color:#696969;">주간활동 서비스 안내</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80">
-		<article id="sub_contents" class="cont s_body" style="text-align:center; line-height:2.5;">
+	<div class="container margin-top-80 margin-bottom-80" style="text-align:center;">
+		<article id="sub_contents" class="cont s_body" style="text-align:center; line-height:2.5;margin-bottom: 50px;">
 		<b>발달장애인 주간활동서비스</b>는<br>
 
 발달장애인에게 낮 시간에 자신의 욕구를 반영한 지역사회 기반 활동에 참여함으로써<br>
@@ -153,7 +153,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 사회참여를 증진시켜 삶의 질을 향상하기 위한 서비스입니다.<br>
 		</article>		
-		<button style="background-color:#87B0E6;" value="신청하기"/>
+		<a href="/pages/subinfo.php" style="margin-top:50px; padding: 10px 20px 10px 20px;background-color: #007bff;color: white;">신청하기</a>
 	</div>
 
     

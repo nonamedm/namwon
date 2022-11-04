@@ -32,11 +32,12 @@ include_once(G5_THEME_PATH.'/head.php');
 	.eval-li {
 		display: flex;
     	flex-direction: column;
+		padding-left:20px;
 	}
 	.eval-category {
 		font-weight: 900;
 		color: grey;
-		font-size: 2rem;
+		font-size: 1.5rem;
 		margin-bottom:25px;
 	}
 	.eval-no {
@@ -47,7 +48,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	}
 	.eval-title {
 		line-height: 2;
-		border-bottom: 1px dashed grey;
+		/* border-bottom: 1px dashed grey; */
     	margin-bottom: 10px;
 		font-size:1rem !important;
 	}
@@ -141,7 +142,16 @@ include_once(G5_THEME_PATH.'/head.php');
 	</div>
 	<div class="container margin-top-80 margin-bottom-80">
 		<ul class="list-unstyled">
-			<h5 class="eval-category">제공 서비스</h5>
+			<h5 class="eval-category" style="display:flex;">
+			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="30" width="30" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="orange">
+				<g>
+					<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+					<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+				</g>
+			</svg>
+			</div></div>
+				제공 서비스
+			</h5>
 			<li class="eval-li">
 				<!-- <h5 class="eval-no">01</h5> -->
 				<h5 class="eval-title">> 이용자는 수급자격(제공시간)을 받아 원하는 지역내 주간활동 제공기관에 등록하여 소그룹을 구성하고, 제공기관 및
@@ -152,7 +162,15 @@ include_once(G5_THEME_PATH.'/head.php');
 		</ul>
 
 		<ul class="list-unstyled">
-			<h5 class="eval-category">참여형</h5>
+		<h5 class="eval-category" style="display:flex;">
+			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="30" width="30" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="orange">
+				<g>
+					<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+					<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+				</g>
+			</svg>
+			</div></div>
+			참여형</h5>
 			<li class="eval-li">
 				<h5 class="eval-title">• 자조모임 : 티타임, 동아리, 독서모임 등</h5>
 				<h5 class="eval-title">• 건강증진활동 : 슐런, 에어하키, 헬스, 점핑점핑, 배드민턴, 보치아, 산책, 수영, 볼링, 탁구, 태권도, 줌바댄스 등</h5>
@@ -163,7 +181,15 @@ include_once(G5_THEME_PATH.'/head.php');
 		</ul>
 
 		<ul class="list-unstyled">
-			<h5 class="eval-category">창의형</h5>
+		<h5 class="eval-category" style="display:flex;">
+			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="30" width="30" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="orange">
+				<g>
+					<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+					<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+				</g>
+			</svg>
+			</div></div>
+			창의형</h5>
 			<li class="eval-li">
 				<h5 class="eval-title">• 자조모임 : 목적이 있는 특정 활동의 기획회의, 계획, 수행 등 제반활동</h5>
 				<h5 class="eval-title">• 음악활동 : 우쿨렐레, 난타, 장구, 노래부르기</h5>
