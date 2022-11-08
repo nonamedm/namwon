@@ -170,7 +170,7 @@ http://ety.kr/board/qa
 							<span class="phone_no" style="font-size: 29px;color: #525252;font-weight: 700;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">063-636-4875</span>
 						</dd>
 						<dd>
-							<span class="bank_no" style="font-size: 16px;font-weight: 500;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">농협 000-0000-00000-00 000</span>
+							<!-- <span class="bank_no" style="font-size: 16px;font-weight: 500;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">농협 000-0000-00000-00 000</span> -->
 						</dd>
 					</dl>
 				</div>
@@ -278,10 +278,10 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 <div class="container">
 	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
 	<div class="row" style="justify-content: center;">
-		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6" style="padding:1.5%;">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding:1.5%;">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.430858410807!2d127.39172170580684!3d35.41935541904724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2f48801d4c51%3A0xb5a7afbf5d59974f!2z64Ko7JuQ7JWE64-Z67Cc64us7IS87YSw!5e0!3m2!1sko!2skr!4v1667371520989!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
 		</div>		
-		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6" style="padding: 3.5%;">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding: 3.5%;">
 			<p style="font-size: 20px;font-weight: bold;margin-bottom: 10px;color: #525252;">남원온 말자람 마음자람</p>
 			<p style="font-size: 18px;margin-bottom: 10px;color: #525252;">Tel. 063. 636. 4875</p>
 			<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
@@ -291,10 +291,10 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 <div class="container">
 	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
 	<div class="row" style="justify-content: center;">
-		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6" style="padding:1.5%;">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding:1.5%;">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6503.069807237711!2d127.38122552633288!3d35.41677726091071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2eb1b9b5e20f%3A0x2516be92368e140b!2z7KCE652867aB64-EIOuCqOybkOyLnCDsi5zssq3rtoHroZwgOQ!5e0!3m2!1sko!2skr!4v1667371790075!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
-		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6" style="padding: 3.5%;">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding: 3.5%;">
 			<p style="font-size: 18px;font-weight: bold;margin-bottom: 10px;color: #525252;">남원시 발달장애인 주간 활동 서비스</p>
 			<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
 		</div>
@@ -308,7 +308,7 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 <div class="container-fluid">
 	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
 	<div class="row" style="justify-content: center;">
-		<div class="col-md-6 text-left" style="padding:30px; background:#f5f5f5;">
+		<div class="col-md-12 text-left" style="padding:30px; background:#f5f5f5;">
 			<!-- 타이틀 -->
 			<div class="margin-bottom-40">
 				<h2 class="en1">Contact US</h2>
