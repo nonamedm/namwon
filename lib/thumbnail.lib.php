@@ -66,10 +66,13 @@ function get_list_thumbnail($bo_table, $wr_id, $thumb_width, $thumb_height, $is_
             // 오리지날 이미지
             $ori = G5_URL.$data_path;
             // 썸네일 이미지
-            $src = G5_URL.str_replace($filename, $tname, $data_path);
+            // 갤러리 리스트에서 썸네일 이미지 아닌 본문 이미지를 표출
+            $src = G5_URL.$data_path;
+            // $src = G5_URL.str_replace($filename, $tname, $data_path);
         } else {
             $ori = G5_DATA_URL.'/file/'.$bo_table.'/'.$filename;
-            $src = G5_DATA_URL.'/file/'.$bo_table.'/'.$tname;
+            $src = G5_DATA_URL.'/file/'.$bo_table.'/'.$filename;
+            // $src = G5_DATA_URL.'/file/'.$bo_table.'/'.$tname;
         }
     } else {
         return $empty_array;

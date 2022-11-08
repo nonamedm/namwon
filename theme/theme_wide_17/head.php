@@ -60,14 +60,14 @@ if(defined('_INDEX_')) {
 	.ety-main{margin-bottom:130px;}
 }
 @media (min-width: 992px) {
-	.center-heading, #bo_list {
+	.center-heading, #bo_list, #bo_w, #bo_v, #bo_gall {
 		margin-top:235px !important;
 	}
 }
 .about-bg {
 	display:none;
 }
-.center-heading, #bo_list {
+.center-heading, #bo_list, #bo_w, #bo_v, #bo_gall {
 	margin-top:150px;
 }
 </style>

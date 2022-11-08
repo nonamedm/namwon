@@ -98,77 +98,90 @@ include_once(G5_THEME_PATH.'/head.php');
 	}
 	</style>
 
-	<!-- Page Content -->
+
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="background-color: #006ba3;color: white;">
-						<h5 class="card-title ks5">부모교육</h5>
-						<img src="/pages/img/play.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">자녀에 대한 이해와 지식을 증진시켜<br>사고, 감정, 행동에서의<br>습관적인 방법을 검토하여<br>
-						자녀를 양육하는 새로운 방법을<br>습득할 수 있도록 돕는 프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/parents.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">부모교육</h5>
+					<p class="card-text ks3 f14">자녀에 대한 이해와 지식을 증진시켜<br>
+												사고, 감정, 행동에서의<br>
+												습관적인 방법을 검토하여<br>
+												자녀를 양육하는 새로운 방법을<br>
+												습득할 수 있도록 돕는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="color: #006ba3;">
-						<h5 class="card-title ks5">인지재활</h5>
-						<img src="/pages/img/sand.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">인지 및 학습에 문제를 보이는<br>아동을 대상으로 기초적인 학습능력을<br>배양하고 아동의 잠재력을 충분히<br>
-						발휘하여 학교생활 및 또래 사회에서의<br>적응력을 향상시키는 프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/recog.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">인지재활</h5>
+					<p class="card-text ks3 f14">인지 및 학습에 문제를 보이는<br>
+												아동을 대상으로 기초적인 학습능력을<br>
+												배양하고 아동의 잠재력을 충분히<br>
+												발휘하여 학교생활 및 또래 사회에서의<br>
+												적응력을 향상시키는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="background-color: #41cc93;color: white;">
-						<h5 class="card-title ks5">청능재활</h5>
-						<img src="/pages/img/art.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">청력에 어려움이 있는 이에게<br>청능훈련과 의사소통 훈련을 실시하여<br>의사소통 기능을 향상시키는<br>
-						프로그램<br>　</p>
+				<div class="card2">
+					<img src="/pages/img/audit.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">청능재활</h5>
+					<p class="card-text ks3 f14">청력에 어려움이 있는 이에게<br>
+												청능훈련과 의사소통 훈련을 실시하여<br>
+												의사소통 기능을 향상시키는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="color: #ed8774;">
-						<h5 class="card-title ks5">난독증치료</h5>
-						<img src="/pages/img/music.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">읽기나 읽기이해에 어려움을 보이는<br>아동을 대상으로 음운인식훈련,<br>체계적인 파닉스 교육, 해독 훈련,<br>
-						유창성 및 절차훈련 등을 통해<br>난독증을 개선하는 프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/dyslexia.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">난독증치료</h5>
+					<p class="card-text ks3 f14">읽기나 읽기이해에 어려움을 보이는<br>
+												아동을 대상으로 음운인식훈련,<br>
+												체계적인 파닉스 교육, 해독 훈련,<br>
+												유창성 및 절차훈련 등을 통해<br>
+												난독증을 개선하는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="background-color: #ed8774;color: white;">
-						<h5 class="card-title ks5">사회적기술</h5>
-						<img src="/pages/img/counsel.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">개인이 지역사회 및 학교에서<br>유연하게 적응하는데 필요한<br>대인관계와 관련된 다양한 행동을<br>
-						익힐 수 있도록 하는<br>프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/society.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">사회적기술</h5>
+					<p class="card-text ks3 f14">개인이 지역사회 및 학교에서<br>
+												유연하게 적응하는데 필요한<br>
+												대인관계와 관련된 다양한 행동을<br>
+												익힐 수 있도록 하는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			
-			
 		</div>
-
-		<div class="margin-top-50"></div>
 	</div>
-	<!-- /.container -->
-
 
 
 <?php

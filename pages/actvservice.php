@@ -153,7 +153,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 사회참여를 증진시켜 삶의 질을 향상하기 위한 서비스입니다.<br>
 		</article>		
-		<a href="/pages/subinfo.php" style="margin-top:50px; padding: 10px 20px 10px 20px;background-color: #007bff;color: white;">신청하기</a>
+		<a href="/pages/subinfo.php" style="margin-top:50px; padding: 10px 20px 10px 20px;background-color: #007bff;color: white;">신청안내</a>
 	</div>
 
     

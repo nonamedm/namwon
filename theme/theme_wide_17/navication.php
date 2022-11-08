@@ -7,13 +7,13 @@
 				<div id="tnb_index_left">
 					<!-- social -->
 					<div class="sns_icon">
-					<a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					<!-- <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a> -->
 					</div>
 					<div class="sns_icon">
-					<a href="#"><i class="fab fa-twitter"></i></a>
+					<!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
 					</div>
 					<div class="sns_icon">
-					<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+					<!-- <a href="#" target="_blank"><i class="fab fa-instagram"></i></a> -->
 					</div>
 				</div>
 				<div id="tnb_index">

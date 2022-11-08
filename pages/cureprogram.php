@@ -97,78 +97,208 @@ include_once(G5_THEME_PATH.'/head.php');
 		font-size: 15px;
 	}
 	</style>
-
-	<!-- Page Content -->
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="background-color: #006ba3;color: white;">
-						<h5 class="card-title ks5">놀이재활</h5>
-						<img src="/pages/img/play.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">발달단계나 적응에서<br>어려움을 나타내는 아동들의<br>정서 및 행동을 다루고<br>
-						성장을 돕기 위하여<br>놀이를 활용하는 프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/lang.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">언어재활</h5>
+					<p class="card-text ks3 f14">말과 언어에 어려움이 있는<br>
+												성인 또는 아동을 대상으로 진단을<br>
+												실시하고 개별/그룹치료를 통해<br>
+												전반적인 의사소통 능력을<br>
+												향상시키는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="color: #006ba3;">
-						<h5 class="card-title ks5">모래놀이</h5>
-						<img src="/pages/img/sand.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">모래상자라는 안정된 공간에서<br>내면의 문제들을 찾아내도록 돕고<br>본질적인 문제를 인식해<br>
-						스스로 치유할 수 있도록 돕는<br>프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/play.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">놀이재활</h5>
+					<p class="card-text ks3 f14">발달단계나 적응에서<br>
+												어려움을 나타내는 아동들의<br>
+												정서 및 행동을 다루고<br>
+												성장을 돕기 위하여<br>
+												놀이를 활용하는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="background-color: #41cc93;color: white;">
-						<h5 class="card-title ks5">미술재활</h5>
-						<img src="/pages/img/art.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">다양한 매체를 활용하여<br>억압된 무의식, 불안, 스트레스 등을<br>표현하고 감정의 정화를 경험하여<br>
-						자아 성장을 촉진하도록 돕는<br>프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/sand.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">모래놀이</h5>
+					<p class="card-text ks3 f14">모래상자라는 안정된 공간에서<br>
+												내면의 문제들을 찾아내도록 돕고<br>
+												본질적인 문제를 인식해<br>
+												스스로 치유할 수 있도록 돕는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="color: #ed8774;">
-						<h5 class="card-title ks5">음악재활</h5>
-						<img src="/pages/img/music.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">다양한 음악을 듣게 하거나<br>적절한 연주를 하게 하여<br>대상자의 신체적, 심리적, 정서적<br>
-						통합과 바람직한 행동 변화를<br>가져오도록 하는 프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/art.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">미술재활</h5>
+					<p class="card-text ks3 f14">다양한 매체를 활용하여<br>
+												억압된 무의식, 불안, 스트레스 등을<br>
+												표현하고 감정의 정화를 경험하여<br>
+												자아 성장을 촉진하도록 돕는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-4 col-sm-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
-				<div class="card">
-					<div class="card-body" style="background-color: #ed8774;color: white;">
-						<h5 class="card-title ks5">심리상담</h5>
-						<img src="/pages/img/counsel.png" class="card-img-care" alt="...">
-						<p class="card-text ks3 f14">다양한 생활환경에서<br>어려움을 겪는 이들의<br>대인관계 문제와 심리적 어려움<br>
-						등에 관해 전문가가 도움을 주는<br>프로그램</p>
+				<div class="card2">
+					<img src="/pages/img/music.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">음악재활</h5>
+					<p class="card-text ks3 f14">다양한 음악을 듣게 하거나<br>
+												적절한 연주를 하게 하여<br>
+												대상자의 신체적, 심리적, 정서적<br>
+												통합과 바람직한 행동 변화를<br>
+												가져오도록 하는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			
-			
+			<div class="col-lg-6 margin-bottom-20">
+				<!--card-->
+				<div class="card2">
+					<img src="/pages/img/counsel.png" class="card2-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">심리상담</h5>
+					<p class="card-text ks3 f14">다양한 생활환경에서<br>
+												어려움을 겪는 이들의<br>
+												대인관계 문제와 심리적 어려움<br>
+												등에 관해 전문가가 도움을 주는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
 		</div>
-
-		<div class="margin-top-50"></div>
 	</div>
-	<!-- /.container -->
 
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 margin-bottom-20">
+				<!--card-->
+				<div class="card">
+					<img src="/pages/img/lang.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">언어재활</h5>
+					<p class="card-text ks3 f14">말과 언어에 어려움이 있는<br>
+												성인 또는 아동을 대상으로 진단을<br>
+												실시하고 개별/그룹치료를 통해<br>
+												전반적인 의사소통 능력을<br>
+												향상시키는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-4 col-md-6 margin-bottom-20">
+				<!--card-->
+				<div class="card">
+					<img src="/pages/img/play.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">놀이재활</h5>
+					<p class="card-text ks3 f14">발달단계나 적응에서<br>
+												어려움을 나타내는 아동들의<br>
+												정서 및 행동을 다루고<br>
+												성장을 돕기 위하여<br>
+												놀이를 활용하는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-4 col-md-6 margin-bottom-20">
+				<!--card-->
+				<div class="card">
+					<img src="/pages/img/sand.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">모래놀이</h5>
+					<p class="card-text ks3 f14">모래상자라는 안정된 공간에서<br>
+												내면의 문제들을 찾아내도록 돕고<br>
+												본질적인 문제를 인식해<br>
+												스스로 치유할 수 있도록 돕는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-4 col-md-6 margin-bottom-20">
+				<!--card-->
+				<div class="card">
+					<img src="/pages/img/art.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">미술재활</h5>
+					<p class="card-text ks3 f14">다양한 매체를 활용하여<br>
+												억압된 무의식, 불안, 스트레스 등을<br>
+												표현하고 감정의 정화를 경험하여<br>
+												자아 성장을 촉진하도록 돕는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-4 col-md-6 margin-bottom-20">
+				<!--card-->
+				<div class="card">
+					<img src="/pages/img/music.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">음악재활</h5>
+					<p class="card-text ks3 f14">다양한 음악을 듣게 하거나<br>
+												적절한 연주를 하게 하여<br>
+												대상자의 신체적, 심리적, 정서적<br>
+												통합과 바람직한 행동 변화를<br>
+												가져오도록 하는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-4 col-md-6 margin-bottom-20">
+				<!--card-->
+				<div class="card">
+					<img src="/pages/img/counsel.png" class="card-img-top" alt="...">
+					<div class="card-body">
+					<h5 class="card-title ks5">심리상담</h5>
+					<p class="card-text ks3 f14">다양한 생활환경에서<br>
+												어려움을 겪는 이들의<br>
+												대인관계 문제와 심리적 어려움<br>
+												등에 관해 전문가가 도움을 주는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+		</div>
+	</div>
 
 
 <?php

@@ -167,7 +167,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<ul class="list-unstyle">
 			<li class="media">
 				<div class="media-body">
-					<h4 class="center-heading font-weight-bold">아동청소년심리지원바우처</h4>
+					<h4 class="margin-top-20 margin-bottom-20 font-weight-bold" style="text-align:center;">아동청소년심리지원바우처</h4>
 
 					<h5 class="font-weight-bold" style="display:flex;">
 						<div id="comp-l76zs02v" style="margin-right: 10px;">
@@ -251,7 +251,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<ul class="list-unstyle">
 			<li class="media">
 				<div class="media-body">
-					<h4 class="center-heading font-weight-bold">보완대체의사소통(AAC)기기 활용 중재서비스</h4>
+					<h4 class="margin-top-20 margin-bottom-20 font-weight-bold" style="text-align:center;">보완대체의사소통(AAC)기기 활용 중재서비스</h4>
 
 					<h5 class="font-weight-bold" style="display:flex;">
 						<div id="comp-l76zs02v" style="margin-right: 10px;">
@@ -346,7 +346,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<ul class="list-unstyle">
 			<li class="media">
 				<div class="media-body">
-					<h4 class="center-heading font-weight-bold">발달재활서비스</h4>
+					<h4 class="margin-top-20 margin-bottom-20 font-weight-bold" style="text-align:center;">발달재활서비스</h4>
 
 					<h5 class="font-weight-bold" style="display:flex;">
 						<div id="comp-l76zs02v" style="margin-right: 10px;">
@@ -432,7 +432,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<ul class="list-unstyle">
 			<li class="media">
 				<div class="media-body">
-					<h4 class="center-heading font-weight-bold">언어발달지원</h4>
+					<h4 class="margin-top-20 margin-bottom-20 font-weight-bold" style="text-align:center;">언어발달지원</h4>
 
 					<h5 class="font-weight-bold" style="display:flex;">
 						<div id="comp-l76zs02v" style="margin-right: 10px;">
@@ -524,7 +524,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<ul class="list-unstyle">
 			<li class="media">
 				<div class="media-body">
-					<h4 class="center-heading font-weight-bold">성인심리지원서비스</h4>
+					<h4 class="margin-top-20 margin-bottom-20 font-weight-bold" style="text-align:center;">성인심리지원서비스</h4>
 
 					<h5 class="font-weight-bold" style="display:flex;">
 						<div id="comp-l76zs02v" style="margin-right: 10px;">
@@ -622,7 +622,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<ul class="list-unstyle">
 			<li class="media">
 				<div class="media-body">
-					<h4 class="center-heading font-weight-bold">청년마음건강</h4>
+					<h4 class="margin-top-20 margin-bottom-20 font-weight-bold" style="text-align:center;">청년마음건강</h4>
 
 					<h5 class="font-weight-bold" style="display:flex;">
 						<div id="comp-l76zs02v" style="margin-right: 10px;">

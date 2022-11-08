@@ -143,17 +143,17 @@ include_once(G5_THEME_PATH.'/head.php');
 		<h2 class="font-weight-bold" style="color:#696969;">방과후활동 서비스 안내</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80">
-		<article id="sub_contents" class="cont s_body" style="text-align:center; line-height:2.5;">
-		<b>발달장애학생(청소년) 방과후활동 서비스</b>는<br>
+	<div class="container margin-top-80 margin-bottom-80" style="text-align:center;">
+		<article id="sub_contents" class="cont s_body" style="text-align:center; line-height:2.5; margin-bottom:50px;">
+			<b>발달장애학생(청소년) 방과후활동 서비스</b>는<br>
 
-		발달장애학생에게 그룹형 활동서비스를 제공하여 의미 있는 여가활동 및 <br>
+			발달장애학생에게 그룹형 활동서비스를 제공하여 의미 있는 여가활동 및 <br>
 
-		성인기 자립준비 지원 다양한 참여 프로그램으로 방과후 돌봄 사각지대를<br>
+			성인기 자립준비 지원 다양한 참여 프로그램으로 방과후 돌봄 사각지대를<br>
 
-		해소하고 부모의 원활한 사회·경제적 활동 지원하기 위한 서비스입니다.<br>
+			해소하고 부모의 원활한 사회·경제적 활동 지원하기 위한 서비스입니다.<br>
 		</article>		
-		<button style="background-color:#87B0E6;" value="신청하기"/>
+		<a href="/pages/subinfo2.php" style="margin-top:50px; padding: 10px 20px 10px 20px;background-color: #007bff;color: white;">신청안내</a>
 	</div>
 
     

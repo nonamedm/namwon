@@ -93,7 +93,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 										}elseif($bo_gallery_cols == "2"){
 											$cols = "col-md-6";
 										}elseif($bo_gallery_cols == "3"){
-											$cols = "col-md-4";
+											// $cols = "col-md-4";
+											$cols = "col-md-6";
 										}elseif($bo_gallery_cols == "4"){
 											$cols = "col-md-3";
 										}elseif($bo_gallery_cols == "6"){
@@ -103,7 +104,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 										}
 
 									 ?>
-										<div class="col-xs-12 col-sm-6 <?php echo $cols;?> card-position">
+										<div class="col-xs-12 col-sm-12 <?php echo $cols;?> card-position">
 											<!-- 체크박스 -->
 											<!--<div class="gall_chk">
 											<?php if ($is_checkbox) { ?>
@@ -120,8 +121,8 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 											</span>
 											</div>-->
 											<!-- /체크박스 -->
-											<div class="card">
-												<a class='img-card' href="<?php echo $list[$i]['href'] ?>"   style="background-color:#b7c1bc;">
+											<div class="card" style="flex-direction: row;">
+												<a class='img-card' href="<?php if ($admin_href) {echo $list[$i]['href'];} ?>" >
 												<?php
 												if ($list[$i]['is_notice']) { // 공지사항  ?>
 													<!--span class="is_notice">공지</span-->
@@ -157,7 +158,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 														 ?>
 														<a href="<?php echo $list[$i]['ca_name_href'] ?>" class="bo_cate_link ks3">[<?php echo $list[$i]['ca_name'] ?>]</a>
 														<?php } ?>
-														<a href="<?php echo $list[$i]['href'] ?>" class="bo_tit">
+														<a href="<?php if ($admin_href) {echo $list[$i]['href'];} ?>" class="bo_tit">
 															<span class="ks4" style="font-size:20px;"><?php echo $list[$i]['subject'] ?></span>
 															<?php if ($list[$i]['comment_cnt']) { ?><span class="sound_only">댓글</span><span class="cnt_cmt">+ <?php echo $list[$i]['wr_comment']; ?></span><span class="sound_only">개</span><?php } ?>
 															<?php
