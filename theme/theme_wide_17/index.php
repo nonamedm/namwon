@@ -167,7 +167,7 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 지도 : 구글지도로 주소를 검색하신 다음에 공유버튼을 클릭하여 iframe 형식으로 가져오시면 됩니다.
 
 -------------------------->
-<div class="container">
+<!-- <div class="container">
 	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
 	<div class="row" style="justify-content: center;">
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding:1.5%;">
@@ -179,7 +179,7 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 			<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
 		</div>		
 	</div>
-</div>
+</div> -->
 <!-------------------------- 
 
 지도 : 구글지도로 주소를 검색하신 다음에 공유버튼을 클릭하여 iframe 형식으로 가져오시면 됩니다.

@@ -4891,7 +4891,8 @@ input[type=submit].btn-block {
     border-top-right-radius: calc(.25rem - 1px)
 }
 .card2-img-top {
-    width: 50%;
+    width: 35%;
+    height: 200px;
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px)
 }
@@ -4912,6 +4913,33 @@ input[type=submit].btn-block {
 .card-deck .card {
     margin-bottom: 15px
 }
+.submitBtn {
+    background: #E5CDBB;
+    background-image: -webkit-linear-gradient(top, #E5CDBB, #d4ae96);
+    background-image: -moz-linear-gradient(top, #E5CDBB, #d4ae96);
+    background-image: -ms-linear-gradient(top, #E5CDBB, #d4ae96);
+    background-image: -o-linear-gradient(top, #E5CDBB, #d4ae96);
+    background-image: linear-gradient(to bottom, #E5CDBB, #d4ae96);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .submitBtn:hover {
+    background: #d4ae96;
+    background-image: -webkit-linear-gradient(top, #d4ae96, #d4ae96);
+    background-image: -moz-linear-gradient(top, #d4ae96, #d4ae96);
+    background-image: -ms-linear-gradient(top, #d4ae96, #d4ae96);
+    background-image: -o-linear-gradient(top, #d4ae96, #d4ae96);
+    background-image: linear-gradient(to bottom, #d4ae96, #d4ae96);
+    text-decoration: none;
+    color:#ffffff;
+  }
 
 @media (min-width:576px) {
     .card-deck {

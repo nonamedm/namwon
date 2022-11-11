@@ -153,7 +153,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 			해소하고 부모의 원활한 사회·경제적 활동 지원하기 위한 서비스입니다.<br>
 		</article>		
-		<a href="/pages/subinfo2.php" style="margin-top:50px; padding: 10px 20px 10px 20px;background-color: #ddbcac;color: white;">신청안내</a>
+		<a href="/pages/subinfo2.php" class="submitBtn">신청안내</a>
 	</div>
 
     

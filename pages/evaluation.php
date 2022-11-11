@@ -16,7 +16,28 @@ include_once(G5_THEME_PATH.'/head.php');
 	@media (min-width: 1090px) {
 		.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:400px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
 	}
-
+	.category {
+		width: 23%;
+		text-align: center;
+		height: 50px;
+		border-bottom: 3px solid #E5CDBB;
+    	background-color: #efefef;
+		font-family: "Roboto", Sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		color:#7A7A7A;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.category:hover {
+		cursor:pointer;
+		background-color: #E5CDBB;
+	}
+	.category-active {
+		background-color: #E5CDBB;
+		color:white;
+	}
 	.ks5 {
 		font-size: 20px;
 		line-height: 40px;
@@ -59,7 +80,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	.list-unstyled {
 		margin-bottom: 100px;
 	}
-	@media (min-width:1201px) {
+	@media (min-width:993px) {
 		.list-unstyled {
 			padding-left:5%;
 		}
@@ -69,13 +90,16 @@ include_once(G5_THEME_PATH.'/head.php');
 		.card-img-care {
 			width:15%;
 		}
-	}
-	@media (max-width:1200px) {
-		.eval-title {
+		.category {
 			width:100% !important;
 		}
-		.list-unstyled {
-			padding-left:20%;
+		.categoryContainer {
+			flex-direction: column !important;
+		}
+	}
+	@media (max-width:992px) {
+		.eval-title {
+			width:100% !important;
 		}
 		.eval-cont {
 			padding-left: 0 !important;
@@ -135,22 +159,28 @@ include_once(G5_THEME_PATH.'/head.php');
 		
 	</style>
 
-
+	
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">검사 및 평가</h2>
 		<span class="center-line"></span>
 	</div>
+	<div class="container margin-bottom-40 categoryContainer" style="display:flex;justify-content: center;flex-direction: row;">
+		<div class="category category-active" data="lang">언어 발달 검사</div>
+		<div class="category" data="counsel">아동 심리검사 및 평가</div>
+		<div class="category" data="parents">부모 양육태도 검사</div>
+		<div class="category" data="recog">인지 및 학습검사</div>
+	</div>
 	<div class="container margin-top-80 margin-bottom-80">
-		<ul class="list-unstyled">
-		<h5 class="eval-category" style="display:flex;">
-			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="orange">
-				<g>
-					<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
-					<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
-				</g>
-			</svg>
-			</div></div>
-			언어 발달 검사</h5>
+		<ul id="lang" class="list-unstyled">
+				<h5 class="eval-category" style="display:flex;">
+					<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#E5CDBB">
+						<g>
+							<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
+							<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
+						</g>
+					</svg>
+					</div></div>
+				언어 발달 검사</h5>
 			<li class="eval-li">
 				<h5 class="eval-no">01</h5>
 				<h5 class="eval-title">SELSI(Sequenced Language Scale for Infants)</h5>
@@ -223,9 +253,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			</li>
 		</ul>
 
-		<ul class="list-unstyled">
-		<h5 class="eval-category" style="display:flex;">
-			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="orange">
+		<ul id="counsel" class="list-unstyled" style="display:none;">
+			<h5 class="eval-category" style="display:flex;">
+			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#E5CDBB">
 				<g>
 					<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
 					<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
@@ -275,9 +305,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			</li>
 		</ul>
 
-		<ul class="list-unstyled">
-		<h5 class="eval-category" style="display:flex;">
-			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="orange">
+		<ul id="parents" class="list-unstyled" style="display:none;">
+			<h5 class="eval-category" style="display:flex;">
+			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#E5CDBB">
 				<g>
 					<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
 					<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
@@ -297,9 +327,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			</li>
 		</ul>
 
-		<ul class="list-unstyled">
-		<h5 class="eval-category" style="display:flex;">
-			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="orange">
+		<ul id="recog" class="list-unstyled" style="display:none;">
+			<h5 class="eval-category" style="display:flex;">
+			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#E5CDBB">
 				<g>
 					<path d="M159.621 121.057L109.217 38.8c-4.726-7.737-16.025-7.732-20.745.009L26.236 140.885c-7.475 12.26 5.093 26.906 18.453 21.504l100.386-40.592c9.257-3.675 14.546-.74 14.546-.74z"></path>
 					<path d="M173.822 144.873l-4.835-7.931c-3.723-6.107-11.357-8.624-18.015-5.94l-43.744 17.637 49.153 17.467c12.971 4.609 24.58-9.524 17.441-21.233z"></path>
@@ -318,7 +348,17 @@ include_once(G5_THEME_PATH.'/head.php');
        
 
 
+<script>
+	$(".category").on("click", function (e) {
+		var targetValue = e.target.attributes[1].value;
+		
+		$(".category").removeClass("category-active");
+		$(this).addClass("category-active");
+		$(".list-unstyled").css("display","none");
+		$("#"+targetValue).css("display","block");
+	})
 
+</script>
 
 
 <?php

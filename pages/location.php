@@ -152,8 +152,10 @@ include_once(G5_THEME_PATH.'/head.php');
 				<div style="width:100%;">
 					<h2 class="font-weight-bold" style="color:#696969;">남원아동발달센터</h2>
 					<span class="center-line"></span>
-					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Tel. 063-636-4875</p>
-					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">A. 전라북도 남원시 농고길 56 용성고 옆</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">T. 063-636-4875</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">F. 063-635-4875</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">E. namwonyuncenter@naver.com</p>
 				</div>
 			</div>
 			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12" style="display:flex;">
@@ -161,7 +163,10 @@ include_once(G5_THEME_PATH.'/head.php');
 				<div style="width:100%;">
 					<h2 class="font-weight-bold" style="color:#696969;">남원시 발달장애인 주간활동서비스</h2>
 					<span class="center-line"></span>
-					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전라북도 남원시 시청북로 9</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">A. 전라북도 남원시 시청북로 9</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">T. 063-626-4875</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">F. 063-634-4875</p>
+					<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">E. nwdaycenter@naver.com</p>
 				</div>
 			</div>
 			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12" style="display:flex;">
