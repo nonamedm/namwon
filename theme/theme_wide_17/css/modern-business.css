@@ -705,7 +705,7 @@ footer
 
 	/* 모바일 2 슬라이드 크기 조절 */
 	.carousel-item {
-	  height: 200px;;
+	  height: 350px;
 	  min-height: 200px;
 	  background: no-repeat center center scroll;
 	  -webkit-background-size: cover;

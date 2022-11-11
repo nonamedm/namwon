@@ -45,6 +45,16 @@ include_once(G5_THEME_PATH.'/head.php');
 				overflow-x: auto;white-space: nowrap;
 			}
 		}
+		@media (max-width: 992px) {
+			#sub_contents1 {
+				display:none !important;
+			}
+			#sub_contents2 {
+				display:block !important;
+				width: 70%;
+				margin: 0 auto;
+			}
+		}
 
 		/* 페이지 selec 박스 */
 		/* mobile */
@@ -135,9 +145,10 @@ include_once(G5_THEME_PATH.'/head.php');
 		<h2 class="font-weight-bold" style="color:#696969;">이용절차</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80">
+	<div class="container margin-bottom-80">
 		<article id="sub_contents" class="cont s_body" style="text-align:center;">
-			<img src="<?php echo G5_URL?>/pages/img/process.png" class="img-fluid">
+			<img id="sub_contents1" src="<?php echo G5_URL?>/pages/img/process1.png" class="img-fluid" style="display:block;">
+			<img id="sub_contents2" src="<?php echo G5_URL?>/pages/img/process2.png" class="img-fluid" style="display:none;">
 		</article>		
 	</div>
 

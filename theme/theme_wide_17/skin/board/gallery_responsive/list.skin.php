@@ -28,12 +28,20 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 			border:none !important;
 		}
 
+		.card-title {
+			margin-bottom : 0 !important;
+		}
+
 	</style>
 
 
 
 
-        <div class="container margin-top-60 margin-bottom-60">
+		<div class="center-heading">
+			<h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">재활사 소개</h2>
+			<span class="center-line"></span>
+		</div>
+        <div class="container margin-bottom-60">
             <div class="row">
                 <div class="col-sm-12">
 					<!-- 게시판 목록 시작 { -->
@@ -174,9 +182,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 
 
 													</h4>
-													<p class=""  style="text-align:center;">
-														<!-- <strong><span class="sound_only">작성자 </span><?php echo $list[$i]['name'] ?></strong> -->
-													</p>
+													<!-- <p class=""  style="text-align:center;">
+														<strong><span class="sound_only">작성자 </span><?php echo $list[$i]['name'] ?></strong>
+													</p> -->
 													<div class="">
 														<?php echo $list[$i]['wr_content'] ?>
 													</div>

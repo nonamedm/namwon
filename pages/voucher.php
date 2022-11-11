@@ -158,7 +158,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		<span class="center-line"></span>
 	</div>
 
-	<div class="container margin-top-80 margin-bottom-80">
+	<div class="container margin-top-80 margin-bottom-80" style="padding: 0 5% 0 5%;">
       <div class="row voucher1-row">
         <div class="col-lg-6 voucher1">
 			<img class="img-fluid disp-img" src="<?php echo G5_URL?>/pages/img/voucher1.jpg" style="width:100%;">

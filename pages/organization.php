@@ -114,6 +114,14 @@ include_once(G5_THEME_PATH.'/head.php');
 			letter-spacing:-0.05em; 
 			margin-right:10px;
 		}
+		@media screen and (max-width:991px) {
+			.sub_contents1 {
+				display:none !important;
+			}
+			.sub_contents2 {
+				display:block !important;
+			}
+		}
 		@media screen and (max-width:600px) {
 			article#sub_contents .year{  
 				background:none;   
@@ -136,8 +144,11 @@ include_once(G5_THEME_PATH.'/head.php');
 		<span class="center-line"></span>
 	</div>
 	<div class="container margin-top-80 margin-bottom-80">
-		<article id="sub_contents" class="cont s_body" style="text-align:center;">
-			<img src="<?php echo G5_URL?>/pages/img/organization.png" class="img-fluid">
+		<article id="sub_contents" class="cont sub_contents1 s_body" style="text-align:center; display:block;">
+			<img src="<?php echo G5_URL?>/pages/img/organization2.png" class="img-fluid">
+		</article>		
+		<article id="sub_contents" class="cont sub_contents2 s_body" style="text-align:center; display:none;">
+			<img src="<?php echo G5_URL?>/pages/img/organization3.png" class="img-fluid">
 		</article>		
 	</div>
 

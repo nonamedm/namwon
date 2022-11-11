@@ -293,7 +293,7 @@ $(document).ready(function(){
 	var wrContent =$("#wr_content");
 	console.log(wrContent);
 	if(wrContent[0].textContent==''){
-		$("#wr_content").text("==============아래의 내용을 입력하세요==============\n<ul>\n<li class=\"li-title\"><strong>선생님(ex:음악재활사)</strong></li><br>\n<div style=\"height:120px;\">\n<li class=\"li-title\"><strong>학력</strong></li><br>\n<li class=\"li-content\">학력내용 입력(ex:서울불교대학원 상담심리 석사)</li>\n<li class=\"li-content\">추가 필요 시 해당 행을 복사 후 내용 입력</li>\n<br>\n</div>\n<div style=\"height:120px;\">\n<li class=\"li-title\"><strong>자격</strong></li><br>\n<li class=\"li-content\">자격내용 입력(ex:음악심리상담사 1급)</li>\n<li class=\"li-content\">추가 필요 시 해당 행을 복사 후 내용 입력</li>\n<br>\n</div>\n<div style=\"height:120px;\">\n<li class=\"li-title\"><strong>경력</strong></li><br>\n<li class=\"li-content\">경력내용 입력(ex:한국문화예술교육진흥원 예술강사)</li>\n<li class=\"li-content\">추가 필요 시 해당 행을 복사 후 내용 입력</li>\n<br>\n</div>\n</ul>");
+		$("#wr_content").text("==============아래의 내용을 입력하세요==============\n<ul>\n<li class=\"li-title\"><strong>담당(ex:음악재활사)</strong></li><br>\n<div>\n<li class=\"li-title\"><strong>학력</strong></li>\n<li class=\"li-content\">학력내용 입력(ex:서울불교대학원 상담심리 석사)</li>\n<li class=\"li-content\">추가 필요 시 해당 행을 복사 후 내용 입력</li>\n<br>\n</div>\n<div>\n<li class=\"li-title\"><strong>자격</strong></li>\n<li class=\"li-content\">자격내용 입력(ex:음악심리상담사 1급)</li>\n<li class=\"li-content\">추가 필요 시 해당 행을 복사 후 내용 입력</li>\n<br>\n</div>\n<div>\n<li class=\"li-title\"><strong>경력</strong></li>\n<li class=\"li-content\">경력내용 입력(ex:한국문화예술교육진흥원 예술강사)</li>\n<li class=\"li-content\">추가 필요 시 해당 행을 복사 후 내용 입력</li>\n<br>\n</div>\n</ul>");
 	}
 });
 </script>

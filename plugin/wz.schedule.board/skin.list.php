@@ -168,4 +168,4 @@ jQuery(document).ready(function () {
 
     </div>
 </div>
-<div id="calendar" style="width:50%; margin:0 auto;"></div>
+<div id="calendar" style="width:80%; margin:0 auto;"></div>

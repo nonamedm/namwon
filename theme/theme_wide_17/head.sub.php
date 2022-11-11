@@ -53,7 +53,7 @@ if (G5_IS_MOBILE) {
 if($config['cf_add_meta'])
 echo $config['cf_add_meta'].PHP_EOL;
 ?>
-<title>남원온말자람마음자람</title>
+<title>남원윤수민언어심리상담센터</title>
 <?php
 $shop_css = '';
 if (defined('_SHOP_')) $shop_css = '_shop';

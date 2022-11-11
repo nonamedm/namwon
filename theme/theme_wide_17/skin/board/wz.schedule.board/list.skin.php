@@ -13,6 +13,21 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
 
     }
 </style>
+<div class="center-heading">
+    <h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">
+        <?php 
+        if($bo_table=="counsel") {
+            echo "상담문의";
+        } else if ($bo_table=="notice") {
+            echo "공지사항";
+        } else if ($bo_table=="schedule") {
+            echo "월간계획 · 이달의식단";
+        }
+        
+        ?>
+    </h2>
+    <span class="center-line"></span>
+</div>
 <div id="bo_list" style="width:<?php echo $width; ?>">
 
     <div id="bo_btn_top">

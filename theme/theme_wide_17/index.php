@@ -18,139 +18,31 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-<?php 
-/**************************************************************************
-
-GNUBOARD 5.4
-
-테마메뉴얼주소 입니다. 아래 주소에 설치 및 셋팅법이 포함되어 있습니다.
-http://ety.kr/board/free_theme_manual
-
-오류내용은 질문게시판을 이용해주세요 (오픈카톡이나 유선상 문의를 받지 않습니다.)
-http://ety.kr/board/qa
-
-팁영상 요청 주소 : softzonecokr@naver.com 
-팁영상 요청을 해주시면 중복되지 않는 선에서 팁영상을 제작해드고 있습니다.
-
-[라이선스]
-자주 하는 질문이 있어서 문서내 포함시켰습니다.
-해당 내용은 읽어 보시고 삭제하셔도 됩니다.
-
-1. 배포, 재배포는 에티테마만 가능하므로 사용만 하시고 다른쪽에 배포나 재배포 하지 말아주세요.
-(라이선스 위반을 하시게 되면 그에 따른 책임이 따르게 됩니다.)
-
-2. 돈을 받고 유상으로 작업하셔도 되지만 그에 대한 책임은 돈을 받는 제작자에게 있으며 에티테마와는 무관합니다.
-
-
-**************************************************************************/ 
-?>
-
-
-
-
-
-
-
 <!-------------------------- 슬라이드 -------------------------->
 <header>
   <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-	<ol class="carousel-indicators">
+	<!-- <ol class="carousel-indicators">
 	  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-	  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-	</ol>
+	</ol> -->
 	<div class="carousel-inner" role="listbox">
 	  <!-- Slide One - Set the background image for this slide in the line below -->
 	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/img/main1.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
-		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
-		</div>
-	  </div>
-	  <!-- Slide Two - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main2.jpg')">
-		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
-		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
-		</div>
-	  </div>
-	  <!-- Slide Three - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main3.jpg')">
-		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
-		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
-		</div>
-	  </div>
-	  <!-- Slide Three - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main4.jpg')">
-		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
-		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
-		</div>
-	  </div>
-	  <!-- Slide Three - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('<?php echo G5_THEME_URL?>/img/main5.jpg')">
-		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">남원윤수민언어심리상담센터</h3>
-		  <p class="ks4 f20">발달장애인의 행복한 변화</p>
+		  <h3 class="ks4" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">남원윤수민언어심리상담센터</h3>
 		</div>
 	  </div>
 	</div>
-	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	<!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 	  <span class="sr-only">Previous</span>
 	</a>
 	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
 	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 	  <span class="sr-only">Next</span>
-	</a>
+	</a> -->
   </div>
 </header>
 <!-------------------------- ./슬라이드 -------------------------->
-
-
-<!-------------------------- parallax 박스 및 countdown -------------------------->
-<div class="parallax-window" data-parallax="scroll" style="background: #979B0B;">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-6 margin-top-20 margin-bottom-20">
-				<a href="#none">
-					<div class="cbox text-center">
-						<span class="material-icons">alarm</span>
-						<p class="text-center ks4">여기에</p>
-					</div><!-- /cbox -->
-				</a>
-			</div><!-- /col -->
-			<div class="col-md-3 col-6 margin-top-20 margin-bottom-20">
-				<a href="#none">
-					<div class="cbox text-center">
-						<span class="material-icons">hourglass_empty</span>
-						<p class="text-center ks4">들어갈</p>
-					</div><!-- /cbox -->
-				</a>
-			</div><!-- /col -->
-			<div class="col-md-3 col-6 margin-top-20 margin-bottom-20">
-				<a href="#none">
-					<div class="cbox text-center">
-						<span class="material-icons">trending_down</span>
-						<p class="text-center ks4">메뉴를</p>
-					</div><!-- /cbox -->
-				</a>
-			</div><!-- /col -->
-			<div class="col-md-3 col-6 margin-top-20 margin-bottom-20">
-				<a href="#none">
-					<div class="cbox text-center">
-						<span class="material-icons">system_update_alt</span>
-						<p class="text-center ks4">알려주세요</p>
-					</div><!-- /cbox -->
-				</a>
-			</div><!-- /col -->
-		</div><!-- /row -->
-	</div><!-- /container -->
-</div><!-- /parallax -->
-
 
 
 <!-------------------------- 게시판 -------------------------->
@@ -159,6 +51,9 @@ http://ety.kr/board/qa
 		<div class="row">
 			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 				<?php echo latest('theme/basic_main_one', 'notice', 5, 40);?>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+				<?php echo latest('theme/basic_main_one', 'qa', 5, 40);?>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 center_contact" style="float: left;text-align: left;margin-top: 10px;">
 				<div style="display: flex;justify-content: center;">
@@ -174,9 +69,6 @@ http://ety.kr/board/qa
 						</dd>
 					</dl>
 				</div>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-				<?php echo latest('theme/basic_main_one', 'qa', 5, 40);?>
 			</div>
 		</div>
 	</div>
@@ -282,22 +174,10 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.430858410807!2d127.39172170580684!3d35.41935541904724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2f48801d4c51%3A0xb5a7afbf5d59974f!2z64Ko7JuQ7JWE64-Z67Cc64us7IS87YSw!5e0!3m2!1sko!2skr!4v1667371520989!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
 		</div>		
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding: 3.5%;">
-			<p style="font-size: 20px;font-weight: bold;margin-bottom: 10px;color: #525252;">남원온 말자람 마음자람</p>
+			<p style="font-size: 20px;font-weight: bold;margin-bottom: 10px;color: #525252;">남원윤수민언어심리상담센터</p>
 			<p style="font-size: 18px;margin-bottom: 10px;color: #525252;">Tel. 063. 636. 4875</p>
 			<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
 		</div>		
-	</div>
-</div>
-<div class="container">
-	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
-	<div class="row" style="justify-content: center;">
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding:1.5%;">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6503.069807237711!2d127.38122552633288!3d35.41677726091071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2eb1b9b5e20f%3A0x2516be92368e140b!2z7KCE652867aB64-EIOuCqOybkOyLnCDsi5zssq3rtoHroZwgOQ!5e0!3m2!1sko!2skr!4v1667371790075!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding: 3.5%;">
-			<p style="font-size: 18px;font-weight: bold;margin-bottom: 10px;color: #525252;">남원시 발달장애인 주간 활동 서비스</p>
-			<p style="font-size: 15px;margin-bottom: 10px;color: #525252;">Address. 전북 남원시 농고길 56 용성고 옆</p>
-		</div>
 	</div>
 </div>
 <!-------------------------- 
@@ -305,45 +185,6 @@ owlcarousel 시간조정, 개수조정, 오토플레이 조정
 지도 : 구글지도로 주소를 검색하신 다음에 공유버튼을 클릭하여 iframe 형식으로 가져오시면 됩니다.
 
 -------------------------->
-<div class="container-fluid">
-	<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
-	<div class="row" style="justify-content: center;">
-		<div class="col-md-12 text-left" style="padding:30px; background:#f5f5f5;">
-			<!-- 타이틀 -->
-			<div class="margin-bottom-40">
-				<h2 class="en1">Contact US</h2>
-			</div>
-			<div class="row">
-				<div class="col-md-12 margin-bottom-20">
-					<input class="form-control" type="text" name="ety_name" value="" placeholder="담당자">
-				</div><!-- /col -->
-				<div class="col-md-12 margin-bottom-20">
-					<input class="form-control" type="text" name="ety_phone" value="" placeholder="연락처">
-				</div><!-- /col -->
-				<div class="col-md-12 margin-bottom-20">
-					<input class="form-control" type="text" name="ety_email" value="" placeholder="이메일">
-				</div><!-- /col -->
-			</div><!-- /row -->
-			<div class="row">
-				<div class="col-md-12">
-					  <div class="form-group">
-						<textarea class="form-control" name="ety_content" value="" id="ety_content" rows="3"></textarea>
-					  </div>
-				</div>
-				<div class="col-md-12 margin-bottom-20">
-					  <div class="form-check">
-						<input type="checkbox" name="agree" class="form-check-input" id="exampleCheck1">
-						<label class="form-check-label" for="exampleCheck1">약관동의</label>
-					  </div>
-				</div>
-				<div class="col-md-12">
-					<button type="submit" class="btn btn-dark ks4 sendmail">문의하기</button>
-				</div>
-			</div><!-- /row -->					
-		</div>
-	</div>
-</div>
-
 
 
 

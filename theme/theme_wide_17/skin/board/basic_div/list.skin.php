@@ -56,8 +56,22 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 	</style>
 
 
-
-        <div class="container margin-top-60 margin-bottom-60">
+        <div class="center-heading">
+			<h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">
+                <?php 
+                if($bo_table=="counsel") {
+                    echo "상담문의";
+                } else if ($bo_table=="notice") {
+                    echo "공지사항";
+                } else if ($bo_table=="schedule") {
+                    echo "월간계획 · 이달의식단";
+                }
+                
+                ?>
+            </h2>
+			<span class="center-line"></span>
+		</div>
+        <div class="container margin-bottom-60">
             <div class="row" style="overflow: hidden;">
                 <div class="col-sm-12">
 

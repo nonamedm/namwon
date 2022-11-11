@@ -102,7 +102,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/lang.png" class="card2-img-top" alt="...">
+					<img src="/pages/img/lang2.png" class="card2-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">언어재활</h5>
 					<p class="card-text ks3 f14">말과 언어에 어려움이 있는<br>
@@ -118,7 +118,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/play.png" class="card2-img-top" alt="...">
+					<img src="/pages/img/play2.png" class="card2-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">놀이재활</h5>
 					<p class="card-text ks3 f14">발달단계나 적응에서<br>
@@ -134,7 +134,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/sand.png" class="card2-img-top" alt="...">
+					<img src="/pages/img/sand2.png" class="card2-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">모래놀이</h5>
 					<p class="card-text ks3 f14">모래상자라는 안정된 공간에서<br>
@@ -150,7 +150,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/art.png" class="card2-img-top" alt="...">
+					<img src="/pages/img/art2.png" class="card2-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">미술재활</h5>
 					<p class="card-text ks3 f14">다양한 매체를 활용하여<br>
@@ -166,7 +166,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/music.png" class="card2-img-top" alt="...">
+					<img src="/pages/img/music2.png" class="card2-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">음악재활</h5>
 					<p class="card-text ks3 f14">다양한 음악을 듣게 하거나<br>
@@ -182,7 +182,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/counsel.png" class="card2-img-top" alt="...">
+					<img src="/pages/img/counsel2.png" class="card2-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">심리상담</h5>
 					<p class="card-text ks3 f14">다양한 생활환경에서<br>
@@ -204,7 +204,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-4 col-md-6 margin-bottom-20">
 				<!--card-->
 				<div class="card">
-					<img src="/pages/img/lang.png" class="card-img-top" alt="...">
+					<img src="/pages/img/lang2.png" class="card-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">언어재활</h5>
 					<p class="card-text ks3 f14">말과 언어에 어려움이 있는<br>
@@ -220,7 +220,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-4 col-md-6 margin-bottom-20">
 				<!--card-->
 				<div class="card">
-					<img src="/pages/img/play.png" class="card-img-top" alt="...">
+					<img src="/pages/img/play2.png" class="card-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">놀이재활</h5>
 					<p class="card-text ks3 f14">발달단계나 적응에서<br>
@@ -236,7 +236,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-4 col-md-6 margin-bottom-20">
 				<!--card-->
 				<div class="card">
-					<img src="/pages/img/sand.png" class="card-img-top" alt="...">
+					<img src="/pages/img/sand2.png" class="card-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">모래놀이</h5>
 					<p class="card-text ks3 f14">모래상자라는 안정된 공간에서<br>
@@ -252,7 +252,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-4 col-md-6 margin-bottom-20">
 				<!--card-->
 				<div class="card">
-					<img src="/pages/img/art.png" class="card-img-top" alt="...">
+					<img src="/pages/img/art2.png" class="card-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">미술재활</h5>
 					<p class="card-text ks3 f14">다양한 매체를 활용하여<br>
@@ -268,7 +268,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-4 col-md-6 margin-bottom-20">
 				<!--card-->
 				<div class="card">
-					<img src="/pages/img/music.png" class="card-img-top" alt="...">
+					<img src="/pages/img/music2.png" class="card-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">음악재활</h5>
 					<p class="card-text ks3 f14">다양한 음악을 듣게 하거나<br>
@@ -284,7 +284,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-4 col-md-6 margin-bottom-20">
 				<!--card-->
 				<div class="card">
-					<img src="/pages/img/counsel.png" class="card-img-top" alt="...">
+					<img src="/pages/img/counsel2.png" class="card-img-top" alt="...">
 					<div class="card-body">
 					<h5 class="card-title ks5">심리상담</h5>
 					<p class="card-text ks3 f14">다양한 생활환경에서<br>
