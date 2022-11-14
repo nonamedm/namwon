@@ -5,7 +5,7 @@
 					<img src="<?php echo G5_IMG_URL ?>/footer-logo.png" alt="<?php echo $config['cf_title']; ?>">
 				</div>
 				<div class="" style="color:#FFF">
-					<h2 style="font-family: 'NanumSquareRound'; font-size:1.5rem; font-weight: 600;">남원윤수민언어심리상담센터</h2><!-- image or text  -->
+					<h2 style="font-family: 'Godo'; font-size:1.5rem; font-weight: 400;">남원윤수민언어심리상담센터</h2><!-- image or text  -->
 					<p class="ks2 f12">
 					
 					</p>
