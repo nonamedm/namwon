@@ -2,10 +2,11 @@
 		<div class="container footer">
 			<div class="row" style="justify-content: center;">
 				<div style="margin-right: 20px;">
-					<img src="<?php echo G5_IMG_URL ?>/footer-logo.png" alt="<?php echo $config['cf_title']; ?>">
+					<img src="<?php echo G5_IMG_URL ?>/footer-logo.png" style="width:90px; height:110px;" alt="<?php echo $config['cf_title']; ?>">
 				</div>
 				<div class="" style="color:#FFF">
-					<h2 style="font-family: 'Godo'; font-size:1.5rem; font-weight: 400;">남원윤수민언어심리상담센터</h2><!-- image or text  -->
+					<img src="<?php echo G5_IMG_URL ?>/footer-logo2.png" style="width:250px;" alt="<?php echo $config['cf_title']; ?>"><!-- image or text  -->
+					<!-- <h2 style="font-family: 'Godo'; font-size:1.5rem; font-weight: 400;">남원윤수민언어심리상담센터</h2>image or text  -->
 					<p class="ks2 f12">
 					
 					</p>

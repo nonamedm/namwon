@@ -29,9 +29,41 @@ include_once(G5_THEME_PATH.'/head.php');
 	.card-img-care {
 		width:25%;
 	}
+	.category {
+		height: 50px;
+		text-align: center;
+		width: 100%;
+		border-bottom: 3px solid #E5CDBB;
+		background-color: #efefef;
+		font-family: "Roboto", Sans-serif;
+		font-size: 16px;
+		font-weight: 600;
+		color: #7A7A7A;
+		display: flex;
+		align-content: flex-end;
+		justify-content: center;
+		align-items: center;
+	}
+	.category:hover {
+		cursor:pointer;
+		background-color: #E5CDBB;
+	}
+	.category-active {
+		background-color: #E5CDBB;
+		color:white;
+	}
+	.program {
+		padding: 0 4% 0 4%;
+	}
 	@media (max-width:992px) {
 		.card-img-care {
 			width:15%;
+		}
+		.category {
+			width:100% !important;
+		}
+		.categoryContainer {
+			flex-direction: column !important;
 		}
 	}
 	</style>
@@ -97,12 +129,19 @@ include_once(G5_THEME_PATH.'/head.php');
 		font-size: 15px;
 	}
 	</style>
-	<div class="container">
+
+	<div class="container margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
+		<div class="category category-active" data="cure">치료프로그램</div>
+		<div class="category" data="counsel">상담/교육프로그램</div>
+	</div>
+	<div class="container program" id="cure">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/lang2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/lang2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">언어재활</h5>
 					<p class="card-text ks3 f14">말과 언어에 어려움이 있는<br>
@@ -118,7 +157,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/play2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/play2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">놀이재활</h5>
 					<p class="card-text ks3 f14">발달단계나 적응에서<br>
@@ -134,7 +175,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/sand2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/sand2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">모래놀이</h5>
 					<p class="card-text ks3 f14">모래상자라는 안정된 공간에서<br>
@@ -150,7 +193,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/art2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/art2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">미술재활</h5>
 					<p class="card-text ks3 f14">다양한 매체를 활용하여<br>
@@ -166,7 +211,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/music2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/music2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">음악재활</h5>
 					<p class="card-text ks3 f14">다양한 음악을 듣게 하거나<br>
@@ -182,7 +229,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/counsel2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/counsel2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">심리상담</h5>
 					<p class="card-text ks3 f14">다양한 생활환경에서<br>
@@ -197,7 +246,109 @@ include_once(G5_THEME_PATH.'/head.php');
 			</div><!-- /col -->
 		</div>
 	</div>
-
+	<div class="container program" id="counsel" style="display:none;">
+		<div class="row">
+			<div class="col-lg-6 margin-bottom-20">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/parents2.png" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">부모교육</h5>
+					<p class="card-text ks3 f14">자녀에 대한 이해와 지식을 증진시켜<br>
+												사고, 감정, 행동에서의<br>
+												습관적인 방법을 검토하여<br>
+												자녀를 양육하는 새로운 방법을<br>
+												습득할 수 있도록 돕는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-6 margin-bottom-20">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/recog2.png" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">인지재활</h5>
+					<p class="card-text ks3 f14">인지 및 학습에 문제를 보이는<br>
+												아동을 대상으로 기초적인 학습능력을<br>
+												배양하고 아동의 잠재력을 충분히<br>
+												발휘하여 학교생활 및 또래 사회에서의<br>
+												적응력을 향상시키는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-6 margin-bottom-20">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/audit2.png" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">청능재활</h5>
+					<p class="card-text ks3 f14">청력에 어려움이 있는 이에게<br>
+												청능훈련과 의사소통 훈련을 실시하여<br>
+												의사소통 기능을 향상시키는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-6 margin-bottom-20">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/dyslexia2.png" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">난독증치료</h5>
+					<p class="card-text ks3 f14">읽기나 읽기이해에 어려움을 보이는<br>
+												아동을 대상으로 음운인식훈련,<br>
+												체계적인 파닉스 교육, 해독 훈련,<br>
+												유창성 및 절차훈련 등을 통해<br>
+												난독증을 개선하는 프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-6 margin-bottom-20">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/society2.png" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">사회적기술</h5>
+					<p class="card-text ks3 f14">개인이 지역사회 및 학교에서<br>
+												유연하게 적응하는데 필요한<br>
+												대인관계와 관련된 다양한 행동을<br>
+												익힐 수 있도록 하는<br>
+												프로그램</p>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+		</div>
+	</div>
+	<script>
+		$(".category").on("click", function (e) {
+			var targetValue = e.target.attributes[1].value;
+			
+			$(".category").removeClass("category-active");
+			$(this).addClass("category-active");
+			$(".program").css("display","none");
+			$("#"+targetValue).css("display","flex");
+		})
+	</script>
 
 <?php
 include_once(G5_THEME_PATH.'/tail.php');

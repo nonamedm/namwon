@@ -104,7 +104,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/parents2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/parents2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">부모교육</h5>
 					<p class="card-text ks3 f14">자녀에 대한 이해와 지식을 증진시켜<br>
@@ -120,7 +122,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/recog2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/recog2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">인지재활</h5>
 					<p class="card-text ks3 f14">인지 및 학습에 문제를 보이는<br>
@@ -136,7 +140,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/audit2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/audit2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">청능재활</h5>
 					<p class="card-text ks3 f14">청력에 어려움이 있는 이에게<br>
@@ -151,7 +157,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/dyslexia2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/dyslexia2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">난독증치료</h5>
 					<p class="card-text ks3 f14">읽기나 읽기이해에 어려움을 보이는<br>
@@ -167,7 +175,9 @@ include_once(G5_THEME_PATH.'/head.php');
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
-					<img src="/pages/img/society2.png" class="card2-img-top" alt="...">
+					<div class="card-title">
+						<img src="/pages/img/society2.png" class="card2-img-top" alt="...">
+					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">사회적기술</h5>
 					<p class="card-text ks3 f14">개인이 지역사회 및 학교에서<br>
