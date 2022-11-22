@@ -18,6 +18,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	}
 	.card2-img-top {
 		width: 200px;
+		height: 330px;
 	}
 	.li-content {
 		text-align:left;
@@ -154,7 +155,7 @@ include_once(G5_THEME_PATH.'/head.php');
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
-						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
+						<img src="/pages/img/employee/leejihyun.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">이지현</h5>

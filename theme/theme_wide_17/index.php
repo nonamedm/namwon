@@ -28,7 +28,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	  <!-- Slide One - Set the background image for this slide in the line below -->
 	  <div class="carousel-item active" style="background-image: url('<?php echo G5_THEME_URL?>/img/main1.jpg')">
 		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">남원윤수민언어심리상담센터</h3>
+		  <!-- <h3 class="ks4" style="text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;">남원윤수민언어심리상담센터</h3> -->
 		</div>
 	  </div>
 	</div>
@@ -49,11 +49,12 @@ include_once(G5_THEME_PATH.'/head.php');
 <div class="padding-top-60">
 	<div class="container">
 		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" style="text-align: left;margin-top: 10px;">
+				<iframe width="350" height="150" src="https://www.youtube.com/embed/0BIaDVnYp2A" title="광고영상" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<!-- <?php echo latest('theme/basic_main_one', 'qa', 5, 40);?> -->
+			</div>
 			<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
 				<?php echo latest('theme/basic_main_one', 'notice', 5, 40);?>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-				<?php echo latest('theme/basic_main_one', 'qa', 5, 40);?>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 center_contact" style="float: left;text-align: left;margin-top: 10px;">
 				<div style="display: flex;justify-content: center;">
