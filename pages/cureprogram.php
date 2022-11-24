@@ -53,7 +53,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		color:white;
 	}
 	.program {
-		padding: 0 4% 0 4%;
+		padding: 0 5% 0 5%;
 	}
 	@media (max-width:992px) {
 		.card-img-care {
@@ -132,7 +132,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 	}
 	</style>
 
-	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
+	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 5% 0 5%; display:flex;justify-content: center;flex-direction: row;">
 		<div class="category category-active" data="cure">재활프로그램</div>
 		<div class="category" data="counsel">상담/교육프로그램</div>
 	</div>

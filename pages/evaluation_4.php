@@ -167,13 +167,13 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 		<span class="center-line"></span>
 	</div>
 	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 5% 0 5%;display:flex;justify-content: center;flex-direction: row;">
-		<div class="category category-active" data="lang">언어 발달 검사</div>
+		<div class="category" data="lang">언어 발달 검사</div>
 		<div class="category" data="counsel">아동 심리검사 및 평가</div>
 		<div class="category" data="parents">부모 양육태도 검사</div>
-		<div class="category" data="recog">인지 및 학습검사</div>
+		<div class="category category-active" data="recog">인지 및 학습검사</div>
 	</div>
 	<div class="container-body margin-top-80 margin-bottom-80" style="padding: 0 5% 0 5%;">
-		<ul id="lang" class="list-unstyled">
+		<ul id="lang" class="list-unstyled" style="display:none;">
 				<h5 class="eval-category" style="display:flex;">
 					<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#E5CDBB">
 						<g>
@@ -329,7 +329,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 			</li>
 		</ul>
 
-		<ul id="recog" class="list-unstyled" style="display:none;">
+		<ul id="recog" class="list-unstyled">
 			<h5 class="eval-category" style="display:flex;">
 			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="25" width="25" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#E5CDBB">
 				<g>

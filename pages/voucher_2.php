@@ -188,16 +188,16 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 		<h2 class="font-weight-bold" style="color:#696969;">바우처 안내</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container-body margin-bottom-40 categoryContainer" style="display:flex;justify-content: center;flex-direction: row;">
-		<div class="category category-active" data="child">아동청소년심리지원바우처</div>
-		<div class="category" data="AAC">보완대체의사소통(AAC)<br>기기 활용 중재서비스</div>
+	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 5% 0 5%;display:flex;justify-content: center;flex-direction: row;">
+		<div class="category" data="child">아동청소년심리지원바우처</div>
+		<div class="category category-active" data="AAC">보완대체의사소통(AAC)<br>기기 활용 중재서비스</div>
 		<div class="category" data="developmental">발달재활서비스</div>
 		<div class="category" data="lang">언어발달지원</div>
 		<div class="category" data="counsel">성인심리지원서비스</div>
 		<div class="category" data="young">청년마음건강</div>
 	</div>
 	<div class="container-body margin-top-80 margin-bottom-80" style="padding: 0 5% 0 5%;">
-      <div id="child" class="row voucher voucher1-row">
+      <div id="child" class="row voucher voucher1-row" style="display:none;">
         <div class="col-lg-6 voucher1">
 			<img class="img-fluid disp-img" src="<?php echo G5_URL?>/pages/img/voucher1.jpg" style="width:100%;">
         </div>
@@ -284,7 +284,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 			</ul>
         </div>
       </div>
-      <div id="AAC" class="row voucher voucher2-row" style="display:none;">
+      <div id="AAC" class="row voucher voucher2-row">
         <div class="col-lg-6 ks4 voucher2">
 			<ul class="list-unstyle">
 			<li class="media">

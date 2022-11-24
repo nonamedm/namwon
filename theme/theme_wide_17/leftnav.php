@@ -26,10 +26,10 @@
 </style>
 <script>
 	var group = [['about','history','organization','process','location','cooperation'],
-				 ['cureprogram'],
-				 ['evaluation'],
-				 ['voucher'],
-				 ['employee'],
+				 ['cureprogram','counselprogram'],
+				 ['evaluation_1','evaluation_2','evaluation_3','evaluation_4'],
+				 ['voucher_1','voucher_2','voucher_3','voucher_4','voucher_5','voucher_6'],
+				 ['employee_1','employee_2','employee_3'],
 				 ['notice','counsel','faq'],
 				 ['actvservice','subinfo','serviceinfo','schedule','afterschoolservice','subinfo2']];
 	var link = document.location.href.split("/");
@@ -115,7 +115,8 @@
 		</h2>
 		<span class="center-line-left" style="width:70%;"></span><span class="center-line-right" style="width:30%;"></span>
 		<ul class="" aria-labelledby="navbarDropdownPortfolio">
-			<a class="dropdown-item ks4 fw4" href="/pages/cureprogram.php" target="_self">프로그램소개</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/cureprogram.php" target="_self">재활프로그램</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/counselprogram.php" target="_self">상담/교육프로그램</a>
 		</ul>
 	</div>
 	<div id="group3" >
@@ -124,7 +125,10 @@
 		</h2>
 		<span class="center-line-left" style="width:60%;"></span><span class="center-line-right" style="width:40%;"></span>
 		<ul class="" aria-labelledby="navbarDropdownPortfolio">
-			<a class="dropdown-item ks4 fw4" href="/pages/evaluation.php" target="_self">검사/평가</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/evaluation_1.php" target="_self">언어발달검사</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/evaluation_2.php" target="_self">아동심리검사 및 평가</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/evaluation_3.php" target="_self">부모 양육태도 검사</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/evaluation_4.php" target="_self">인지 및 학습검사</a>
 		</ul>
 	</div>
 	<div id="group4" >
@@ -133,7 +137,12 @@
 		</h2>
 		<span class="center-line-left" style="width:65%;"></span><span class="center-line-right" style="width:35%;"></span>
 		<ul class="" aria-labelledby="navbarDropdownPortfolio">
-			<a class="dropdown-item ks4 fw4" href="/pages/voucher.php" target="_self">바우처 안내</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/voucher_1.php" target="_self">아동청소년심리지원바우처</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/voucher_2.php" target="_self">보완대체의사소통(AAC)<br>기기 활용 중재서비스</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/voucher_3.php" target="_self">발달재활서비스</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/voucher_4.php" target="_self">언어발달지원</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/voucher_5.php" target="_self">성인심리지원서비스</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/voucher_6.php" target="_self">청년마음건강</a>
 		</ul>
 	</div>
 	<div id="group5" >
@@ -142,7 +151,9 @@
 		</h2>
 		<span class="center-line-left" style="width:65%;"></span><span class="center-line-right" style="width:35%;"></span>
 		<ul class="" aria-labelledby="navbarDropdownPortfolio">
-			<a class="dropdown-item ks4 fw4" href="/pages/employee.php" target="_self">재활사소개</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/employee_1.php" target="_self">말자람팀</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/employee_2.php" target="_self">마음자람팀</a>
+			<a class="dropdown-item ks4 fw4" href="/pages/employee_3.php" target="_self">운영지원팀</a>
 		</ul>
 	</div>
 	<div id="group6" >

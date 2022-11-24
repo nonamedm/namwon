@@ -244,17 +244,18 @@ h3 {
 헤딩
 **********/
 .center-heading {
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
+	padding-left: 5%;
 }
 .center-heading p {
     margin-top: 10px;
 }
 .center-line {
     display: inline-block;
-    width: 70px;
+    width: 93%;
     height: 1px;
-    border-top: 1px solid #bbb;
+    border-top: 4px solid #bbb;
     margin: auto;
 }
 

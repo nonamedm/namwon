@@ -147,9 +147,9 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 	</style>
 
 	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
-		<div class="category" data="lang">말자람팀</div>
+		<div class="category category-active" data="lang">말자람팀</div>
 		<div class="category" data="heart">마음자람팀</div>
-		<div class="category category-active" data="manage">운영지원팀</div>
+		<div class="category" data="manage">운영지원팀</div>
 	</div>
 	<div class="container-body employee" id="lang">
 		<div class="row">

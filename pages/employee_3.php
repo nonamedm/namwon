@@ -151,7 +151,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 		<div class="category" data="heart">마음자람팀</div>
 		<div class="category category-active" data="manage">운영지원팀</div>
 	</div>
-	<div class="container-body employee" id="lang">
+	<div class="container-body employee" id="lang" style="display:none;">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
@@ -549,7 +549,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 			</div><!-- /col -->
 		</div>
 	</div>
-	<div class="container-body employee" id="manage" style="display:none;">
+	<div class="container-body employee" id="manage">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->

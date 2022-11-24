@@ -188,7 +188,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 		<h2 class="font-weight-bold" style="color:#696969;">바우처 안내</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container-body margin-bottom-40 categoryContainer" style="display:flex;justify-content: center;flex-direction: row;">
+	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 5% 0 5%;display:flex;justify-content: center;flex-direction: row;">
 		<div class="category category-active" data="child">아동청소년심리지원바우처</div>
 		<div class="category" data="AAC">보완대체의사소통(AAC)<br>기기 활용 중재서비스</div>
 		<div class="category" data="developmental">발달재활서비스</div>
