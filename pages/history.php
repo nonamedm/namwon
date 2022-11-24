@@ -136,13 +136,15 @@ include_once(G5_THEME_PATH.'/head.php');
 	</style>
 
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">사업소개</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80">
+	<div class="container-body margin-top-80 margin-bottom-80">
 		<article id="sub_contents" class="cont s_body">
 			<ul>
 				

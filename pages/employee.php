@@ -17,7 +17,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:400px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
 	}
 	.card2-img-top {
-		width: 200px;
+		width: 210px;
 		height: 330px;
 	}
 	.li-content {
@@ -129,9 +129,11 @@ include_once(G5_THEME_PATH.'/head.php');
 	</style>
 
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 	<div class="center-heading en1 margin-top-40">
-		<h2 class="font-weight-bold" style="color:#696969;">치료사 소개</h2>
+		<h2 class="font-weight-bold" style="color:#696969;">재활사 소개</h2>
 		<span class="center-line"></span>
 	</div>
 
@@ -144,12 +146,12 @@ include_once(G5_THEME_PATH.'/head.php');
 	}
 	</style>
 
-	<div class="container margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
+	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
 		<div class="category category-active" data="manage">운영지원팀</div>
 		<div class="category" data="lang">말자람팀</div>
 		<div class="category" data="heart">마음자람팀</div>
 	</div>
-	<div class="container employee" id="manage">
+	<div class="container-body employee" id="manage">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
@@ -181,7 +183,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			</div><!-- /col -->
 		</div>
 	</div>
-	<div class="container employee" id="lang" style="display:none;">
+	<div class="container-body employee" id="lang" style="display:none;">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
@@ -325,7 +327,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			</div><!-- /col -->
 		</div>
 	</div>
-	<div class="container employee" id="heart" style="display:none;">
+	<div class="container-body employee" id="heart" style="display:none;">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->

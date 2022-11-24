@@ -60,11 +60,15 @@ include_once(G5_THEME_PATH.'/head.php');
 				<div style="display: flex;justify-content: center;">
 					<dl style="padding-top: 10px;padding-right: 30px;">
 						<dt style="font-size: 20px;font-weight: bold;margin-bottom: 10px;color: #525252;">고객센터</dt>
-						<dd style="color: #6D6D6D;font-size: 12px;font-weight: 600;">전화상담 가능시간 : 오전 09시 ~ 오후 06시</dd>
+						<dd style="color: #6D6D6D;font-size: 12px;font-weight: 600;"><i class="far fa-building"></i> 전라북도 남원시 농고길 56<br/></dd>
+						<dd style="color: #6D6D6D;font-size: 12px;font-weight: 600;"><i class="fas fa-phone"></i> 063-636-4875<br /></dd>
+						<dd style="color: #6D6D6D;font-size: 12px;font-weight: 600;"><i class="fas fa-fax"></i> 063-635-4875<br /></dd>
+						<dd style="color: #6D6D6D;font-size: 12px;font-weight: 600;"><i class="far fa-envelope-open"></i> <a href="mailto:namwonyuncenter@naver.com">Email : namwonyuncenter@naver.com</a><br /></dd>
+<!-- 											
 						<dd>
 							<i class="fa fa-phone fa-2x"></i>
 							<span class="phone_no" style="font-size: 29px;color: #525252;font-weight: 700;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">063-636-4875</span>
-						</dd>
+						</dd> -->
 						<dd>
 							<!-- <span class="bank_no" style="font-size: 16px;font-weight: 500;margin-top: 10px;margin-bottom: 5px;letter-spacing: -0.025em;">농협 000-0000-00000-00 000</span> -->
 						</dd>

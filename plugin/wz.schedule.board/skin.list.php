@@ -134,14 +134,22 @@ jQuery(document).ready(function () {
     });
     $(document).on('click', '.fc-event-container .fc-h-event', function(e) {
         e.preventDefault();
-        console.log(e);
+        //console.log(e);
         var href = $(this).attr('href');
         var pageX = $(window).width();
         var pageY = $(window).height();
         var divTop = e.pageY/4;
         var divLeft = e.pageX;
-        if(divLeft+280>pageX) {
-            divLeft = pageX-280;
+        // console.log("window크기",pageX);
+        // console.log("클릭위치",divLeft);
+        if(pageX>=992) {
+            if(divLeft+580>pageX) {
+                divLeft = pageX-580;
+            }
+        } else {
+            if(divLeft+280>pageX) {
+                divLeft = pageX-280;
+            }
         }
         $("#tool-popup").css({"display":'block', "position":"absolute","top": divTop, "left": divLeft, "z-index":"10000"});
         // $.magnificPopup.open({

@@ -139,13 +139,15 @@ include_once(G5_THEME_PATH.'/head.php');
 	</style>
 
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">이용절차</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-bottom-80">
+	<div class="container-body margin-bottom-80">
 		<article id="sub_contents" class="cont s_body" style="text-align:center;">
 			<img id="sub_contents1" src="<?php echo G5_URL?>/pages/img/process1.png" class="img-fluid" style="display:block;">
 			<img id="sub_contents2" src="<?php echo G5_URL?>/pages/img/process2.png" class="img-fluid" style="display:none;">

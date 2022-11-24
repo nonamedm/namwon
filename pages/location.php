@@ -140,12 +140,14 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">오시는길</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-bottom-80">
+	<div class="container-body margin-bottom-80">
 		<article id="sub_contents" class="cont s_body" style="text-align:center;">
 			<div class="location margin-top-60 col-lg-8 col-md-12 col-sm-12" style="display:flex;">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.430858410807!2d127.39172170580684!3d35.41935541904724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356e2f48801d4c51%3A0xb5a7afbf5d59974f!2z64Ko7JuQ7JWE64-Z67Cc64us7IS87YSw!5e0!3m2!1sko!2skr!4v1667371520989!5m2!1sko!2skr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	

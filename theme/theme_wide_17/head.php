@@ -57,18 +57,19 @@ if(defined('_INDEX_')) {
 
 /* desktop */
 @media (min-width: 1090px) {
-	.ety-main{margin-bottom:130px;}
+	.ety-main{margin-bottom:125px;}
 }
 @media (min-width: 992px) {
 	.center-heading, #bo_w, #bo_v {
-		margin-top:235px !important;
+		margin-top:150px !important;
+		margin-left:20%;
 	}
 }
 .about-bg {
 	display:none;
 }
 .center-heading, #bo_w, #bo_v {
-	margin-top:150px;
+	/* margin-top:150px; */
 }
 </style>
 <div class="ety-main"></div>

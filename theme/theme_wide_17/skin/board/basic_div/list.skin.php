@@ -55,7 +55,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
 		}
 	</style>
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
         <div class="center-heading">
 			<h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">
                 <?php 
@@ -71,7 +73,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css">', 0
             </h2>
 			<span class="center-line"></span>
 		</div>
-        <div class="container margin-bottom-60">
+        <div class="container-body margin-bottom-60">
             <div class="row" style="overflow: hidden;">
                 <div class="col-sm-12">
 

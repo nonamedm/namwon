@@ -83,7 +83,9 @@ include_once(G5_THEME_PATH.'/head.php');
 	</style>
 
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">상담/교육 프로그램</h2>
 		<span class="center-line"></span>
@@ -99,7 +101,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	</style>
 
 
-	<div class="container">
+	<div class="container-body">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->

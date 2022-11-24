@@ -137,13 +137,15 @@ include_once(G5_THEME_PATH.'/head.php');
 	</style>
 
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">주간활동 서비스 안내</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80" style="text-align:center;">
+	<div class="container-body margin-top-80 margin-bottom-80" style="text-align:center;">
 		<article id="sub_contents" class="cont s_body" style="text-align:center; line-height:2.5;margin-bottom: 50px;">
 		<b>발달장애인 주간활동서비스</b>는<br>
 

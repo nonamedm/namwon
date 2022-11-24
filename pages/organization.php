@@ -137,13 +137,15 @@ include_once(G5_THEME_PATH.'/head.php');
 	</style>
 
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">조직도</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80">
+	<div class="container-body margin-top-80 margin-bottom-80">
 		<article id="sub_contents" class="cont sub_contents1 s_body" style="text-align:center; display:block;">
 			<img src="<?php echo G5_URL?>/pages/img/organization2.png" class="img-fluid">
 		</article>		

@@ -27,7 +27,7 @@
 	.top-line { background:#fff; }
 	.fixed-top {
 		position: fixed;
-		top: 34px;
+		/* top: 34px; */
 		right: 0;
 		left: 0;
 		z-index: 1030;

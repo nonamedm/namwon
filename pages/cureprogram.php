@@ -115,9 +115,11 @@ include_once(G5_THEME_PATH.'/head.php');
 	</style>
 
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 	<div class="center-heading en1 margin-top-40">
-		<h2 class="font-weight-bold" style="color:#696969;">치료 프로그램</h2>
+		<h2 class="font-weight-bold" style="color:#696969;">프로그램소개</h2>
 		<span class="center-line"></span>
 	</div>
 
@@ -130,11 +132,11 @@ include_once(G5_THEME_PATH.'/head.php');
 	}
 	</style>
 
-	<div class="container margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
-		<div class="category category-active" data="cure">치료프로그램</div>
+	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
+		<div class="category category-active" data="cure">재활프로그램</div>
 		<div class="category" data="counsel">상담/교육프로그램</div>
 	</div>
-	<div class="container program" id="cure">
+	<div class="container-body program" id="cure">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
@@ -216,11 +218,11 @@ include_once(G5_THEME_PATH.'/head.php');
 					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">음악재활</h5>
-					<p class="card-text ks3 f14">다양한 음악을 듣게 하거나<br>
-												적절한 연주를 하게 하여<br>
-												대상자의 신체적, 심리적, 정서적<br>
-												통합과 바람직한 행동 변화를<br>
-												가져오도록 하는 프로그램</p>
+					<p class="card-text ks3 f14">재창조연주, 즉흥연주, 송라이팅,<br>
+												감상기법 등을 통해<br>
+												세상과 상호작용하고 <br>
+												신체, 정서 및 인지적 필요를 인식하고<br>
+												성장을 돕는 프로그램</p>
 					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
 					</div>
 				</div>
@@ -246,7 +248,7 @@ include_once(G5_THEME_PATH.'/head.php');
 			</div><!-- /col -->
 		</div>
 	</div>
-	<div class="container program" id="counsel" style="display:none;">
+	<div class="container-body program" id="counsel" style="display:none;">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
@@ -308,8 +310,8 @@ include_once(G5_THEME_PATH.'/head.php');
 						<img src="/pages/img/dyslexia2.png" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">난독증치료</h5>
-					<p class="card-text ks3 f14">읽기나 읽기이해에 어려움을 보이는<br>
+					<h5 class="card-title ks5">난독증치료(읽기,쓰기 중재)</h5>
+					<p class="card-text ks3 f14">읽기나 읽기이해에 어려움이 있는<br>
 												아동을 대상으로 음운인식훈련,<br>
 												체계적인 파닉스 교육, 해독 훈련,<br>
 												유창성 및 절차훈련 등을 통해<br>

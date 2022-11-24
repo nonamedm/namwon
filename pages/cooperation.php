@@ -71,13 +71,15 @@ include_once(G5_THEME_PATH.'/head.php');
 		}
 	</style>
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">협력기관 및 업체</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container">
+	<div class="container-body">
 		<div class="row content-boxes-v2 margin-bottom-30" style="text-align:center;">
 			<div class="col-md-3 margin-bottom-30">
 				<h2 class="heading">

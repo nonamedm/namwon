@@ -68,13 +68,15 @@ include_once(G5_THEME_PATH.'/head.php');
 			.menu{display:inline;}
 		}
 	</style>
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">센터장 인사말</h2>
 		<span class="center-line"></span>
 	</div>
 
-	<div class="container margin-top-80 margin-bottom-80">
+	<div class="container-body margin-top-80 margin-bottom-80">
       <div class="row">
         <div class="col-lg-6">
 			<img src="<?php echo G5_URL?>/pages/img/about_01.png" class="img-fluid">
@@ -101,7 +103,7 @@ include_once(G5_THEME_PATH.'/head.php');
 					<p class="ks3">일상에 지쳐 힘드시다면,</p>
 					<p class="ks3">따뜻한 마음과 감동이 흐르는 곳,  남원윤수민언어심리상담센터에 다녀가시지 않겠어요? </p>
 					<p class="ks3">이곳에서 새로운 인연을 기다리겠습니다. </p>
-					<h5 class="mt-0 mb-1" style="font-weight:600;">남원윤수민언어심리상담센터 대표 윤수민</h5>
+					<h5 class="mt-0 mb-1" style="font-weight:600;"><br><br>남원윤수민언어심리상담센터 대표 윤수민</h5>
 				</div>
 			</li>
 			</ul>

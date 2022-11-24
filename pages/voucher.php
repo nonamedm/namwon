@@ -181,12 +181,14 @@ include_once(G5_THEME_PATH.'/head.php');
 	}
 	</style>
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">바우처 안내</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
+	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
 		<div class="category category-active" data="child">아동청소년심리지원바우처</div>
 		<div class="category" data="AAC">보완대체의사소통(AAC)<br>기기 활용 중재서비스</div>
 		<div class="category" data="developmental">발달재활서비스</div>
@@ -194,7 +196,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		<div class="category" data="counsel">성인심리지원서비스</div>
 		<div class="category" data="young">청년마음건강</div>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80" style="padding: 0 5% 0 5%;">
+	<div class="container-body margin-top-80 margin-bottom-80" style="padding: 0 5% 0 5%;">
       <div id="child" class="row voucher voucher1-row">
         <div class="col-lg-6 voucher1">
 			<img class="img-fluid disp-img" src="<?php echo G5_URL?>/pages/img/voucher1.jpg" style="width:100%;">
@@ -753,7 +755,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	지도 : 구글지도로 주소를 검색하신 다음에 공유버튼을 클릭하여 iframe 형식으로 가져오시면 됩니다.
 
 	-------------------------->
-	<div class="container-fluid">
+	<div class="container-body-fluid">
 		<input type="hidden" value="<?php echo G5_THEME_URL?>" id="send_url">
 		<div class="row" id="submitAct">
 			<div class="col-md-6 text-center" style="padding:30px; background:#f5f5f5; margin:0 auto;">

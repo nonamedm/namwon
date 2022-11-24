@@ -113,14 +113,16 @@ include_once(G5_THEME_PATH.'/head.php');
 		font-size: 15px;
 	}
 	</style>
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">지원대상 / 신청안내</h2>
 		<span class="center-line"></span>
 	</div>
 
-	<div class="container margin-top-80 margin-bottom-80" style="padding: 0 5% 0 5%;">
+	<div class="container-body margin-top-80 margin-bottom-80" style="padding: 0 5% 0 5%;">
       <div class="row voucher1-row">
         <div class="col-lg-6 voucher1">
 			<img class="img-fluid disp-img" src="<?php echo G5_URL?>/pages/img/subinfo1.jpg" style="width:100%;">

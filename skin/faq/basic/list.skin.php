@@ -80,7 +80,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$faq_skin_url.'/style.css">', 0);
 
 
 <!-- FAQ 시작 { -->
-<div class="container ety-mt margin-bottom-80 ks4">
+<div class="container-body ety-mt margin-bottom-80 ks4">
 
 
 <?php
@@ -95,11 +95,13 @@ if ($himg_src)
 // 상단 HTML
 echo '<div id="faq_hhtml">'.conv_content($fm['fm_head_html'], 1).'</div>';
 ?>
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 
 <div class="row">
 		<div class="col-md-12">
-			<div class="center-heading">
+			<div class="center-heading" style="margin-left:0px !important;">
 				<h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">자주하는 질문</h2>
 				<span class="center-line"></span>
 			</div><!--center-heading-->

@@ -13,6 +13,9 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
 
     }
 </style>
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 <div class="center-heading">
     <h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">
         <?php 
@@ -28,7 +31,7 @@ add_stylesheet('<link rel="stylesheet" href="'.$board_skin_url.'/style.css?v=191
     </h2>
     <span class="center-line"></span>
 </div>
-<div id="bo_list" style="width:<?php echo $width; ?>">
+<div class="container-body" id="bo_list" style="width:<?php echo $width; ?>">
 
     <div id="bo_btn_top">
         <?php if ($rss_href || $write_href) { ?>

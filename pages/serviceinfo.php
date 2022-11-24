@@ -135,12 +135,14 @@ include_once(G5_THEME_PATH.'/head.php');
 		
 	</style>
 
-
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">제공서비스 안내</h2>
 		<span class="center-line"></span>
 	</div>
-	<div class="container margin-top-80 margin-bottom-80">
+	<div class="container-body margin-top-80 margin-bottom-80">
 		<ul class="list-unstyled">
 			<h5 class="eval-category" style="display:flex;">
 			<div id="comp-l7il1lhs" style="margin-right:10px;transform: rotate( 95deg );"><div data-testid="svgRoot-comp-l7il1lhs" class="_3bLYT _2OIRR"><svg preserveAspectRatio="none" data-bbox="24 33 152.001 134" viewBox="24 33 152.001 134" height="30" width="30" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true" fill="#E5CDBB">
