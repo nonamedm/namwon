@@ -51,16 +51,22 @@ if(defined('_INDEX_')) {
 
 <style>
 /* mobile */
-@media (min-width: 1px) and (max-width: 1089px) {
+@media (min-width: 1px) and (max-width: 992px) {
 	.ety-main{margin-bottom:63px;}
 }
 
 /* desktop */
-@media (min-width: 1090px) {
-	.ety-main{margin-bottom:125px;}
+@media (min-width: 993px) {
+	.ety-main{margin-bottom:15px;}
 }
-@media (min-width: 992px) {
+@media (min-width: 993px) and (max-width:1089px) {
 	.center-heading, #bo_w, #bo_v {
+		margin-top:15px !important;
+		margin-left:20%;
+	}
+}
+@media (min-width: 1090px) {
+	.center-heading, #bo_w, #bo_v {	
 		margin-top:150px !important;
 		margin-left:20%;
 	}
@@ -73,7 +79,7 @@ if(defined('_INDEX_')) {
 }
 </style>
 <div class="ety-main"></div>
-
+<div style="min-height:100%;">
 
 <!-------------------------- 게시판 상단 배경 수정하는 곳 -------------------------->
 <?php 

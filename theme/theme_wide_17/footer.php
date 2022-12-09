@@ -1,3 +1,4 @@
+	</div>
 	<footer class="" style="background-color:#D9ADA0;">
 		<div class="container footer">
 			<div class="row" style="justify-content: center; padding: 10px 0 10px 0;">

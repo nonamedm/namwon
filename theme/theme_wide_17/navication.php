@@ -111,7 +111,7 @@
 				</li>
 			<?php }?>
 		</li>
-
+				
 		<?php
 		$i++;
 		}   //end foreach $row
@@ -136,6 +136,11 @@
 			<a class="dropdown-item" href="<?php echo G5_BBS_URL; ?>/register.php">회원가입</a>
 			<?php } ?>
 		  </div>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link ks4 f16" href="https://blog.naver.com/namwonyun" target="_self">
+				<img src="/img/blog-1.png" style="width: 25px;">
+			</a>
 		</li>
 	  </ul>
 	</div>

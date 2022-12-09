@@ -93,7 +93,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		.category {
 			width:100% !important;
 		}
-		.categoryContainer {
+		.category-container {
 			flex-direction: column !important;
 		}
 	}
@@ -164,9 +164,9 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 ?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">검사 및 평가</h2>
-		<span class="center-line"></span>
+		
 	</div>
-	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 5% 0 5%;display:flex;justify-content: center;flex-direction: row;">
+	<div class="container-body margin-bottom-40 category-container" style="padding: 0 5% 0 5%;display:flex;justify-content: center;flex-direction: row;">
 		<div class="category" data="lang">언어 발달 검사</div>
 		<div class="category category-active" data="counsel">아동 심리검사 및 평가</div>
 		<div class="category" data="parents">부모 양육태도 검사</div>

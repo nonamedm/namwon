@@ -16,6 +16,12 @@ include_once(G5_THEME_PATH.'/head.php');
 	@media (min-width: 1090px) {
 		.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:400px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
 	}
+	@media (min-width: 992px) and (max-width: 1200px) {
+		.card2-img-top {
+			width: 110px !important;
+			height: 250px !important;
+		}	
+	}
 	.card2-img-top {
 		width: 210px;
 		height: 330px;
@@ -29,7 +35,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		font-size: 12px;
 	}
 	.li-title {
-		text-align: center;
+		text-align: left;
 	}
 	.ks5 {
 		font-size: 20px;
@@ -73,7 +79,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		.category {
 			width:100% !important;
 		}
-		.categoryContainer {
+		.category-container {
 			flex-direction: column !important;
 		}
 	}
@@ -134,9 +140,13 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 ?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">재활사 소개</h2>
-		<span class="center-line"></span>
+		
 	</div>
-
+	<div class="container-body margin-bottom-40 category-container" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
+		<div class="category category-active" data="lang">말자람팀</div>
+		<div class="category" data="heart">마음자람팀</div>
+		<div class="category" data="manage">운영지원팀</div>
+	</div>
 
     <!-- Page Content -->
 	<style>
@@ -146,24 +156,19 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 	}
 	</style>
 
-	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
-		<div class="category category-active" data="lang">말자람팀</div>
-		<div class="category" data="heart">마음자람팀</div>
-		<div class="category" data="manage">운영지원팀</div>
-	</div>
+	
 	<div class="container-body employee" id="lang">
 		<div class="row">
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/hwangsejin.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">황세진 선생님</h5>
+					<h5 class="card-title ks5">황세진 선생님<strong style="font-size:15px;">(언어재활사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title"><strong>(언어재활사)</strong></li><br>
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">호남대학교 언어치료학과 졸업</li>
@@ -187,17 +192,17 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/wangnamjin.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">왕남진 선생님</h5>
+					<h5 class="card-title ks5">왕남진 선생님<strong style="font-size:15px;">(언어재활사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title"><strong>(언어재활사)</strong></li><br>
+						
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">남부대학교 산업정책대학원 언어치료청강학과 석사 (언어치료전공)</li>
@@ -223,17 +228,17 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/leehyerin.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">이혜린 선생님</h5>
+					<h5 class="card-title ks5">이혜린 선생님<strong style="font-size:15px;">(언어재활사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title"><strong>(언어재활사)</strong></li><br>
+						
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">남부대학교 언어치료청각학과 졸업</li>
@@ -257,17 +262,17 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/limnayoung.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">임나영 선생님</h5>
+					<h5 class="card-title ks5">임나영 선생님<strong style="font-size:15px;">(언어재활사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title"><strong>(언어재활사)</strong></li><br>
+						
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">​남부대학교 언어자료청각학과 졸업</li>
@@ -297,17 +302,17 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 	</div>
 	<div class="container-body employee" id="heart" style="display:none;">
 		<div class="row">
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/kimbomi.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">김보미 선생님</h5>
+					<h5 class="card-title ks5">김보미 선생님<strong style="font-size:15px;">(놀이재활사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title"><strong>(놀이재활사)</strong></li><br>
+						
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">조선대학교 대학원 상담심리학과 석사 졸업 ​  (아동상담 전공)</li>
@@ -333,17 +338,53 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
+			
+			<div class="col-lg-6 margin-bottom-20 employee-card">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">최유림 선생님<strong style="font-size:15px;">(놀이재활사)</strong></h5>
+					<p class="card-text ks3 f14">
+					<ul>
+						
+						<div>
+							<li class="li-title"><strong>학력</strong></li>
+							<li class="li-content">조선대학교 대학원 상담심리학과 석사 졸업 (아동상담전공)</li>
+							<br>
+						</div>
+						<div>
+							<li class="li-title"><strong>자격</strong></li>
+							<li class="li-content">놀이심리상담사 2급</li>
+							<li class="li-content">미술심리상담사 1급</li>
+							<br>
+						</div>
+						<div>
+							<li class="li-title"><strong>경력</strong></li>
+							<li class="li-content">광주 드림정신과의원 부설 센터 놀이재활사</li>
+							<li class="li-content">참사랑언어심리상담센터 놀이재활사</li>
+							<li class="li-content">남원아동발달센터 놀이재활사</li>
+							<br>
+						</div>
+					</ul>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/kimsara.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">김사라 선생님</h5>
+					<h5 class="card-title ks5">김사라 선생님<strong style="font-size:15px;">(음악재활사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title"><strong>(음악재활사)</strong></li><br>
+						
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">숙명여자대학교 음악치료대학원 졸업 (임상음악치료)</li>
@@ -371,52 +412,17 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
-				<!--card-->
-				<div class="card2">
-					<div class="card-title">
-						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
-					</div>
-					<div class="card-body">
-					<h5 class="card-title ks5">최유림 선생님</h5>
-					<p class="card-text ks3 f14">
-					<ul>
-						<li class="li-title"><strong>(놀이재활사)</strong></li><br>
-						<div>
-							<li class="li-title"><strong>학력</strong></li>
-							<li class="li-content">조선대학교 대학원 상담심리학과 석사 졸업 (아동상담전공)</li>
-							<br>
-						</div>
-						<div>
-							<li class="li-title"><strong>자격</strong></li>
-							<li class="li-content">놀이심리상담사 2급</li>
-							<li class="li-content">미술심리상담사 1급</li>
-							<br>
-						</div>
-						<div>
-							<li class="li-title"><strong>경력</strong></li>
-							<li class="li-content">광주 드림정신과의원 부설 센터 놀이재활사</li>
-							<li class="li-content">참사랑언어심리상담센터 놀이재활사</li>
-							<li class="li-content">남원아동발달센터 놀이재활사</li>
-							<br>
-						</div>
-					</ul>
-					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
-					</div>
-				</div>
-				<!--/card-->
-			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/kangsora.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">강소라 선생님</h5>
+					<h5 class="card-title ks5">강소라 선생님<strong style="font-size:15px;">(음악재활사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title li-position"><strong>(음악재활사)</strong></li><br>
+						
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">우석대학교 국악과 졸업</li>
@@ -437,17 +443,17 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/choiyunseon.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">최윤선 선생님</h5>
+					<h5 class="card-title ks5">최윤선 선생님<strong style="font-size:15px;">(미술재활사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title"><strong>(미술재활사)</strong></li><br>
+						
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">계명대학교 교육대학원 석사 (미술교육전공)</li>
@@ -476,17 +482,52 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div>
-			<div class="col-lg-6 margin-bottom-20">
+			
+			<div class="col-lg-6 margin-bottom-20 employee-card">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/employee/eomsuwon.jpg" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">엄수원 선생님<strong style="font-size:15px;">(미술재활사)</strong></h5>
+					<p class="card-text ks3 f14">
+					<ul>
+						
+						<div>
+							<li class="li-title"><strong>학력</strong></li>
+							<li class="li-content">홍익대학교 미술대학 졸업(동양화/시각디자인 전공)</li>
+							<br>
+						</div>
+						<div>
+							<li class="li-title"><strong>자격</strong></li>
+							<li class="li-content">한국어교원 2급</li>
+							<li class="li-content">​미술심리상담사 1급</li>
+							<br>
+						</div>
+						<div>
+							<li class="li-title"><strong>경력</strong></li>
+							<li class="li-content">(주)한화 화약부문 불꽃프로모션팀 쇼디자이너</li>
+							<li class="li-content">칠레 한글학교 교사</li>
+							<br>
+						</div>
+					</ul>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
 						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
-					<h5 class="card-title ks5">오선아 선생님</h5>
+					<h5 class="card-title ks5">오선아 선생님<strong style="font-size:15px;">(심리상담사)</strong></h5>
 					<p class="card-text ks3 f14">
 					<ul>
-						<li class="li-title"><strong>(심리상담사)</strong></li><br>
+						
 						<div>
 							<li class="li-title"><strong>학력</strong></li>
 							<li class="li-content">광주대학교 대학원 석사 졸업(임상심리전공)</li>
@@ -513,45 +554,11 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
-				<!--card-->
-				<div class="card2">
-					<div class="card-title">
-						<img src="/pages/img/employee/eomsuwon.jpg" class="card2-img-top" alt="...">
-					</div>
-					<div class="card-body">
-					<h5 class="card-title ks5">엄수원 선생님</h5>
-					<p class="card-text ks3 f14">
-					<ul>
-						<li class="li-title"><strong>(미술재활사)</strong></li><br>
-						<div>
-							<li class="li-title"><strong>학력</strong></li>
-							<li class="li-content">홍익대학교 미술대학 졸업(동양화/시각디자인 전공)</li>
-							<br>
-						</div>
-						<div>
-							<li class="li-title"><strong>자격</strong></li>
-							<li class="li-content">한국어교원 2급</li>
-							<li class="li-content">​미술심리상담사 1급</li>
-							<br>
-						</div>
-						<div>
-							<li class="li-title"><strong>경력</strong></li>
-							<li class="li-content">(주)한화 화약부문 불꽃프로모션팀 쇼디자이너</li>
-							<li class="li-content">칠레 한글학교 교사</li>
-							<br>
-						</div>
-					</ul>
-					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
-					</div>
-				</div>
-				<!--/card-->
-			</div><!-- /col -->
 		</div>
 	</div>
 	<div class="container-body employee" id="manage" style="display:none;">
 		<div class="row">
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
@@ -565,7 +572,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
+			<div class="col-lg-6 margin-bottom-20 employee-card">
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">

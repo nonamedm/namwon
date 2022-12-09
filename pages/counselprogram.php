@@ -62,7 +62,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		.category {
 			width:100% !important;
 		}
-		.categoryContainer {
+		.category-container {
 			flex-direction: column !important;
 		}
 	}
@@ -120,9 +120,12 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 ?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">프로그램소개</h2>
-		<span class="center-line"></span>
+		
 	</div>
-
+	<div class="container-body margin-bottom-40 category-container" style="padding: 0 5% 0 5%; display:flex;justify-content: center;flex-direction: row;">
+		<div class="category" data="cure">재활프로그램</div>
+		<div class="category category-active" data="counsel">상담/교육프로그램</div>
+	</div>
 
     <!-- Page Content -->
 	<style>
@@ -132,10 +135,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 	}
 	</style>
 
-	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 5% 0 5%; display:flex;justify-content: center;flex-direction: row;">
-		<div class="category" data="cure">재활프로그램</div>
-		<div class="category category-active" data="counsel">상담/교육프로그램</div>
-	</div>
+	
 	<div class="container-body program" id="cure" style="display:none;">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">

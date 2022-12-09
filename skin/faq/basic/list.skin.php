@@ -68,20 +68,24 @@ add_stylesheet('<link rel="stylesheet" href="'.$faq_skin_url.'/style.css">', 0);
 			.select-menu{width:190px; height:58px; padding:17px 70px 17px 5px; border-top:none; border-bottom:1px solid #fff; border-left: 1px solid #e1e1e1;border-right: 1px solid #f2f2f2;}
 			.home{display:inline; width:140px; padding:17px 45px 17px 15px; border-left:1px solid #e1e1e1;}
 			.menu{display:inline;}
-            .center-heading {
-                margin-top:110px !important;
-            }
+            
 		}
         .center-heading {
-            margin-top:70px !important;
+            margin-top:150px;
         }
 	</style>
 
 
+<?php
+include_once(G5_THEME_PATH.'/leftnav.php');
+?>
 
+<div class="center-heading" style="">
+    <h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">자주하는 질문</h2>
+    <span class="center-line"></span>
+</div><!--center-heading-->
 <!-- FAQ 시작 { -->
 <div class="container-body ety-mt margin-bottom-80 ks4">
-
 
 <?php
 
@@ -95,18 +99,6 @@ if ($himg_src)
 // 상단 HTML
 echo '<div id="faq_hhtml">'.conv_content($fm['fm_head_html'], 1).'</div>';
 ?>
-<?php
-include_once(G5_THEME_PATH.'/leftnav.php');
-?>
-
-<div class="row">
-		<div class="col-md-12">
-			<div class="center-heading" style="margin-left:0px !important;">
-				<h2 style="color:#696969; font-weight: 700; font-family: 'Roboto Sans-serif';">자주하는 질문</h2>
-				<span class="center-line"></span>
-			</div><!--center-heading-->
-		</div>
-	</div>
 
 <fieldset id="faq_sch" style="display:none;">
     <form name="faq_search_form" method="get">
@@ -141,7 +133,7 @@ if( count($faq_master_list) ){
 </nav> -->
 <?php } ?>
 
-<div id="faq_wrap" class="faq_<?php echo $fm_id; ?>">
+<div id="faq_wrap" class="faq_<?php echo $fm_id; ?>" style="padding:0 5% 0 0;">
     <?php // FAQ 내용
     if( count($faq_list) ){
     ?>

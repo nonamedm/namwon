@@ -16,6 +16,12 @@ include_once(G5_THEME_PATH.'/head.php');
 	@media (min-width: 1090px) {
 		.about-bg{background-image:url('<?php echo $background_images?>');background-position:center center;background-repeat:no-repeat;color:#fff;height:400px}.lead{font-size:1.25rem;font-weight:300}.display-4{font-size:2.5rem;font-weight:300;line-height:1.2}
 	}
+	@media (min-width: 992px) and (max-width: 1200px) {
+		.card2-img-top {
+			width: 110px !important;
+			height: 250px !important;
+		}	
+	}
 	.card2-img-top {
 		width: 210px;
 		height: 330px;
@@ -73,7 +79,7 @@ include_once(G5_THEME_PATH.'/head.php');
 		.category {
 			width:100% !important;
 		}
-		.categoryContainer {
+		.category-container {
 			flex-direction: column !important;
 		}
 	}
@@ -134,9 +140,13 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 ?>
 	<div class="center-heading en1 margin-top-40">
 		<h2 class="font-weight-bold" style="color:#696969;">재활사 소개</h2>
-		<span class="center-line"></span>
+		
 	</div>
-
+	<div class="container-body margin-bottom-40 category-container" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
+		<div class="category" data="lang">말자람팀</div>
+		<div class="category" data="heart">마음자람팀</div>
+		<div class="category category-active" data="manage">운영지원팀</div>
+	</div>
 
     <!-- Page Content -->
 	<style>
@@ -146,11 +156,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 	}
 	</style>
 
-	<div class="container-body margin-bottom-40 categoryContainer" style="padding: 0 4% 0 4%; display:flex;justify-content: center;flex-direction: row;">
-		<div class="category" data="lang">말자람팀</div>
-		<div class="category" data="heart">마음자람팀</div>
-		<div class="category category-active" data="manage">운영지원팀</div>
-	</div>
+	
 	<div class="container-body employee" id="lang">
 		<div class="row">
 			<div class="col-lg-6 margin-bottom-20">
@@ -333,6 +339,42 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div><!-- /col -->
+			
+			<div class="col-lg-6 margin-bottom-20">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">최유림 선생님</h5>
+					<p class="card-text ks3 f14">
+					<ul>
+						<li class="li-title"><strong>(놀이재활사)</strong></li><br>
+						<div>
+							<li class="li-title"><strong>학력</strong></li>
+							<li class="li-content">조선대학교 대학원 상담심리학과 석사 졸업 (아동상담전공)</li>
+							<br>
+						</div>
+						<div>
+							<li class="li-title"><strong>자격</strong></li>
+							<li class="li-content">놀이심리상담사 2급</li>
+							<li class="li-content">미술심리상담사 1급</li>
+							<br>
+						</div>
+						<div>
+							<li class="li-title"><strong>경력</strong></li>
+							<li class="li-content">광주 드림정신과의원 부설 센터 놀이재활사</li>
+							<li class="li-content">참사랑언어심리상담센터 놀이재활사</li>
+							<li class="li-content">남원아동발달센터 놀이재활사</li>
+							<br>
+						</div>
+					</ul>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
@@ -363,41 +405,6 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 							<li class="li-content">익산시 아동보호전문기관 심리치료사</li>
 							<li class="li-content">전라북도 아동보호전문기관 심리치료사</li>
 							<li class="li-content">​부안 장애인종합복지관 음악치료사</li>
-							<br>
-						</div>
-					</ul>
-					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
-					</div>
-				</div>
-				<!--/card-->
-			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
-				<!--card-->
-				<div class="card2">
-					<div class="card-title">
-						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
-					</div>
-					<div class="card-body">
-					<h5 class="card-title ks5">최유림 선생님</h5>
-					<p class="card-text ks3 f14">
-					<ul>
-						<li class="li-title"><strong>(놀이재활사)</strong></li><br>
-						<div>
-							<li class="li-title"><strong>학력</strong></li>
-							<li class="li-content">조선대학교 대학원 상담심리학과 석사 졸업 (아동상담전공)</li>
-							<br>
-						</div>
-						<div>
-							<li class="li-title"><strong>자격</strong></li>
-							<li class="li-content">놀이심리상담사 2급</li>
-							<li class="li-content">미술심리상담사 1급</li>
-							<br>
-						</div>
-						<div>
-							<li class="li-title"><strong>경력</strong></li>
-							<li class="li-content">광주 드림정신과의원 부설 센터 놀이재활사</li>
-							<li class="li-content">참사랑언어심리상담센터 놀이재활사</li>
-							<li class="li-content">남원아동발달센터 놀이재활사</li>
 							<br>
 						</div>
 					</ul>
@@ -476,6 +483,41 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				</div>
 				<!--/card-->
 			</div>
+			
+			<div class="col-lg-6 margin-bottom-20">
+				<!--card-->
+				<div class="card2">
+					<div class="card-title">
+						<img src="/pages/img/employee/eomsuwon.jpg" class="card2-img-top" alt="...">
+					</div>
+					<div class="card-body">
+					<h5 class="card-title ks5">엄수원 선생님</h5>
+					<p class="card-text ks3 f14">
+					<ul>
+						<li class="li-title"><strong>(미술재활사)</strong></li><br>
+						<div>
+							<li class="li-title"><strong>학력</strong></li>
+							<li class="li-content">홍익대학교 미술대학 졸업(동양화/시각디자인 전공)</li>
+							<br>
+						</div>
+						<div>
+							<li class="li-title"><strong>자격</strong></li>
+							<li class="li-content">한국어교원 2급</li>
+							<li class="li-content">​미술심리상담사 1급</li>
+							<br>
+						</div>
+						<div>
+							<li class="li-title"><strong>경력</strong></li>
+							<li class="li-content">(주)한화 화약부문 불꽃프로모션팀 쇼디자이너</li>
+							<li class="li-content">칠레 한글학교 교사</li>
+							<br>
+						</div>
+					</ul>
+					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
+					</div>
+				</div>
+				<!--/card-->
+			</div><!-- /col -->
 			<div class="col-lg-6 margin-bottom-20">
 				<!--card-->
 				<div class="card2">
@@ -505,40 +547,6 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 							<li class="li-title"><strong>경력</strong></li>
 							<li class="li-content">광주 화목한정신건강의학과 의원 정신건강임상심리리사</li>
 							<li class="li-content">​남원아동발달센터 미술재활사</li>
-							<br>
-						</div>
-					</ul>
-					<!--<a href="#" target="_blank" class="btn btn-danger ks4">바로가기</a>-->
-					</div>
-				</div>
-				<!--/card-->
-			</div><!-- /col -->
-			<div class="col-lg-6 margin-bottom-20">
-				<!--card-->
-				<div class="card2">
-					<div class="card-title">
-						<img src="/pages/img/employee/eomsuwon.jpg" class="card2-img-top" alt="...">
-					</div>
-					<div class="card-body">
-					<h5 class="card-title ks5">엄수원 선생님</h5>
-					<p class="card-text ks3 f14">
-					<ul>
-						<li class="li-title"><strong>(미술재활사)</strong></li><br>
-						<div>
-							<li class="li-title"><strong>학력</strong></li>
-							<li class="li-content">홍익대학교 미술대학 졸업(동양화/시각디자인 전공)</li>
-							<br>
-						</div>
-						<div>
-							<li class="li-title"><strong>자격</strong></li>
-							<li class="li-content">한국어교원 2급</li>
-							<li class="li-content">​미술심리상담사 1급</li>
-							<br>
-						</div>
-						<div>
-							<li class="li-title"><strong>경력</strong></li>
-							<li class="li-content">(주)한화 화약부문 불꽃프로모션팀 쇼디자이너</li>
-							<li class="li-content">칠레 한글학교 교사</li>
 							<br>
 						</div>
 					</ul>

@@ -1,12 +1,12 @@
 <style>
-	@media (max-width:991px) {
+	@media (max-width:992px) {
 		.leftnav {
 			display:none !important;
 		}
 	}
 	#group1, #group2, #group3, #group4, #group5, #group6, #group7 {
 		/* margin-top: 110px; */
-		margin-left: 100px;
+		margin-left: 50px;
 		background-color: white;
 		display:none;
 	}
