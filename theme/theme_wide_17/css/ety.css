@@ -5,14 +5,21 @@
 	.login{display:block}
 	.mpage{display:block;}
 	.spage{overflow-x:auto;white-space: nowrap;}
-	
+	.register {
+		width:80%;
+	}
+
 }
 
 /* desktop */
 @media (min-width: 1090px) {
 
 	.fixed-header {display:block;}
-	.login{display:none}
+	.login{display:block}
+	.register {
+		width:50%;
+		margin-top:150px;
+	}
 	.mpage{display:none;}
 
 

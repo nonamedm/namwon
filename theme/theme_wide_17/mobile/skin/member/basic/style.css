@@ -84,7 +84,7 @@
 #fregister_chkall {position:relative;font-size:bold;text-align:left;background:#fff;padding:15px;border-top:1px solid #e5e9f0;border-bottom:1px solid #e5e9f0;border-radius:3px}
 #fregister h2 {text-align:left;padding-bottom:15px;line-height:1.7em;font-size:1.4em}
 #fregister textarea {display:block;width:100%;height:180px;padding:10px;background:#fbfbfb;border:1px solid #d1d7d8;line-height:1.5em;color:#555}
-#fregister p {position:relative;text-align:left;color:#fff;line-height:18px;padding:15px;font-size:1.1em;background:#f2838f;margin:15px;border-radius:5px}
+#fregister p {position:relative;text-align:left;color:#fff;line-height:18px;padding:15px;font-size:0.8em;background:#f2838f;margin:15px;border-radius:5px}
 #fregister p:before {content:"";position:absolute;top:0;left:0;width:5px;height:100%;border-radius:5px 0 0 5px;background:#da4453}
 #fregister p i {font-size:1.2em;vertical-align:middle}
 #fregister .btn_confirm {margin:15px 10px}

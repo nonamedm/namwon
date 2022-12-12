@@ -121,7 +121,7 @@
 		<?php } ?>
 		<li class="nav-item dropdown login">
 		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			LOGIN
+			회원서비스
 		  </a>
 		  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
 			
