@@ -35,10 +35,10 @@ header("Pragma: no-cache"); // HTTP/1.0
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta property="og:url" content="http://nonamedm16.cafe24.com">
+<meta property="og:url" content="http://namwonyun.dothome.co.kr/">
 <meta property="og:title" content="남원윤수민언어심리상담센터">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://nonamedm16.cafe24.com/theme/theme_wide_17/img/logo.png">
+<meta property="og:image" content="http://namwonyun.dothome.co.kr//theme/theme_wide_17/img/logo.png">
 <meta property="og:description" content="남원윤수민언어심리상담센터는 행복한 변화를 지원합니다">
 <?php
 if (G5_IS_MOBILE) {

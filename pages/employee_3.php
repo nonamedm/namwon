@@ -576,7 +576,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
-						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
+						<img src="/pages/img/employee/parkseona.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">박선아</h5>
