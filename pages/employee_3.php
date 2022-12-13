@@ -343,7 +343,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
-						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
+						<img src="/pages/img/employee/choiyurim.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">최유림 선생님<strong style="font-size:15px;">(놀이재활사)</strong></h5>
@@ -521,7 +521,7 @@ include_once(G5_THEME_PATH.'/leftnav.php');
 				<!--card-->
 				<div class="card2">
 					<div class="card-title">
-						<img src="/pages/img/employee/profile.png" class="card2-img-top" alt="...">
+						<img src="/pages/img/employee/ohseona.jpg" class="card2-img-top" alt="...">
 					</div>
 					<div class="card-body">
 					<h5 class="card-title ks5">오선아 선생님<strong style="font-size:15px;">(심리상담사)</strong></h5>
